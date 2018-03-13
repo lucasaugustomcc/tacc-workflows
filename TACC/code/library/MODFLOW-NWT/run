@@ -1,0 +1,17 @@
+#!/bin/bash
+
+checkExitCode() {
+if [ $? -ne 0 ]; then
+    echo "Error"
+    exit 1;
+fi
+}
+
+BASEDIR=`dirname $0`
+
+. $BASEDIR/io.sh 3 0 1 "$@"
+
+cd $BASEDIR
+sh mfnwt $INPUTS1 $INPUTS2 $INPUTS3 $OUTPUTS1
+
+checkExitCode

@@ -1,0 +1,2665 @@
+         0         0        51        52
+         1         1         1         1   PERIOD: 1    TIME STEP: 1 
+         0         0         1         1   LAYER: 1 
+         0         0         0         0   PERIOD: 1    TIME STEP: 2    Output deactivated
+         0         0         0         0
+         0         0         0         0   PERIOD: 1    TIME STEP: 3    Output deactivated
+         0         0         0         0
+         0         0         0         0   PERIOD: 1    TIME STEP: 4    Output deactivated
+         0         0         0         0
+         0         0         0         0   PERIOD: 1    TIME STEP: 5    Output deactivated
+         0         0         0         0
+         0         0         0         0   PERIOD: 1    TIME STEP: 6    Output deactivated
+         0         0         0         0
+         0         0         0         0   PERIOD: 1    TIME STEP: 7    Output deactivated
+         0         0         0         0
+         0         0         0         0   PERIOD: 1    TIME STEP: 8    Output deactivated
+         0         0         0         0
+         0         0         0         0   PERIOD: 1    TIME STEP: 9    Output deactivated
+         0         0         0         0
+         0         0         0         0   PERIOD: 1    TIME STEP: 10    Output deactivated
+         0         0         0         0
+         0         0         0         0   PERIOD: 1    TIME STEP: 11    Output deactivated
+         0         0         0         0
+         1         1         1         1   PERIOD: 1    TIME STEP: 12 
+         0         0         1         1   LAYER: 1 
+         1         1         1         1   PERIOD: 2    TIME STEP: 1 
+         0         0         1         1   LAYER: 1 
+         0         0         0         0   PERIOD: 2    TIME STEP: 2    Output deactivated
+         0         0         0         0
+         0         0         0         0   PERIOD: 2    TIME STEP: 3    Output deactivated
+         0         0         0         0
+         0         0         0         0   PERIOD: 2    TIME STEP: 4    Output deactivated
+         0         0         0         0
+         0         0         0         0   PERIOD: 2    TIME STEP: 5    Output deactivated
+         0         0         0         0
+         0         0         0         0   PERIOD: 2    TIME STEP: 6    Output deactivated
+         0         0         0         0
+         0         0         0         0   PERIOD: 2    TIME STEP: 7    Output deactivated
+         0         0         0         0
+         0         0         0         0   PERIOD: 2    TIME STEP: 8    Output deactivated
+         0         0         0         0
+         0         0         0         0   PERIOD: 2    TIME STEP: 9    Output deactivated
+         0         0         0         0
+         0         0         0         0   PERIOD: 2    TIME STEP: 10    Output deactivated
+         0         0         0         0
+         0         0         0         0   PERIOD: 2    TIME STEP: 11    Output deactivated
+         0         0         0         0
+         1         1         1         1   PERIOD: 2    TIME STEP: 12 
+         0         0         1         1   LAYER: 1 
+         1         1         1         1   PERIOD: 3    TIME STEP: 1 
+         0         0         1         1   LAYER: 1 
+         0         0         0         0   PERIOD: 3    TIME STEP: 2    Output deactivated
+         0         0         0         0
+         0         0         0         0   PERIOD: 3    TIME STEP: 3    Output deactivated
+         0         0         0         0
+         0         0         0         0   PERIOD: 3    TIME STEP: 4    Output deactivated
+         0         0         0         0
+         0         0         0         0   PERIOD: 3    TIME STEP: 5    Output deactivated
+         0         0         0         0
+         0         0         0         0   PERIOD: 3    TIME STEP: 6    Output deactivated
+         0         0         0         0
+         0         0         0         0   PERIOD: 3    TIME STEP: 7    Output deactivated
+         0         0         0         0
+         0         0         0         0   PERIOD: 3    TIME STEP: 8    Output deactivated
+         0         0         0         0
+         0         0         0         0   PERIOD: 3    TIME STEP: 9    Output deactivated
+         0         0         0         0
+         0         0         0         0   PERIOD: 3    TIME STEP: 10    Output deactivated
+         0         0         0         0
+         0         0         0         0   PERIOD: 3    TIME STEP: 11    Output deactivated
+         0         0         0         0
+         1         1         1         1   PERIOD: 3    TIME STEP: 12 
+         0         0         1         1   LAYER: 1 
+         1         1         1         1   PERIOD: 4    TIME STEP: 1 
+         0         0         1         1   LAYER: 1 
+         0         0         0         0   PERIOD: 4    TIME STEP: 2    Output deactivated
+         0         0         0         0
+         0         0         0         0   PERIOD: 4    TIME STEP: 3    Output deactivated
+         0         0         0         0
+         0         0         0         0   PERIOD: 4    TIME STEP: 4    Output deactivated
+         0         0         0         0
+         0         0         0         0   PERIOD: 4    TIME STEP: 5    Output deactivated
+         0         0         0         0
+         0         0         0         0   PERIOD: 4    TIME STEP: 6    Output deactivated
+         0         0         0         0
+         0         0         0         0   PERIOD: 4    TIME STEP: 7    Output deactivated
+         0         0         0         0
+         0         0         0         0   PERIOD: 4    TIME STEP: 8    Output deactivated
+         0         0         0         0
+         0         0         0         0   PERIOD: 4    TIME STEP: 9    Output deactivated
+         0         0         0         0
+         0         0         0         0   PERIOD: 4    TIME STEP: 10    Output deactivated
+         0         0         0         0
+         0         0         0         0   PERIOD: 4    TIME STEP: 11    Output deactivated
+         0         0         0         0
+         1         1         1         1   PERIOD: 4    TIME STEP: 12 
+         0         0         1         1   LAYER: 1 
+         1         1         1         1   PERIOD: 5    TIME STEP: 1 
+         0         0         1         1   LAYER: 1 
+         0         0         0         0   PERIOD: 5    TIME STEP: 2    Output deactivated
+         0         0         0         0
+         0         0         0         0   PERIOD: 5    TIME STEP: 3    Output deactivated
+         0         0         0         0
+         0         0         0         0   PERIOD: 5    TIME STEP: 4    Output deactivated
+         0         0         0         0
+         0         0         0         0   PERIOD: 5    TIME STEP: 5    Output deactivated
+         0         0         0         0
+         0         0         0         0   PERIOD: 5    TIME STEP: 6    Output deactivated
+         0         0         0         0
+         0         0         0         0   PERIOD: 5    TIME STEP: 7    Output deactivated
+         0         0         0         0
+         0         0         0         0   PERIOD: 5    TIME STEP: 8    Output deactivated
+         0         0         0         0
+         0         0         0         0   PERIOD: 5    TIME STEP: 9    Output deactivated
+         0         0         0         0
+         0         0         0         0   PERIOD: 5    TIME STEP: 10    Output deactivated
+         0         0         0         0
+         0         0         0         0   PERIOD: 5    TIME STEP: 11    Output deactivated
+         0         0         0         0
+         1         1         1         1   PERIOD: 5    TIME STEP: 12 
+         0         0         1         1   LAYER: 1 
+         1         1         1         1   PERIOD: 6    TIME STEP: 1 
+         0         0         1         1   LAYER: 1 
+         0         0         0         0   PERIOD: 6    TIME STEP: 2    Output deactivated
+         0         0         0         0
+         0         0         0         0   PERIOD: 6    TIME STEP: 3    Output deactivated
+         0         0         0         0
+         0         0         0         0   PERIOD: 6    TIME STEP: 4    Output deactivated
+         0         0         0         0
+         0         0         0         0   PERIOD: 6    TIME STEP: 5    Output deactivated
+         0         0         0         0
+         0         0         0         0   PERIOD: 6    TIME STEP: 6    Output deactivated
+         0         0         0         0
+         0         0         0         0   PERIOD: 6    TIME STEP: 7    Output deactivated
+         0         0         0         0
+         0         0         0         0   PERIOD: 6    TIME STEP: 8    Output deactivated
+         0         0         0         0
+         0         0         0         0   PERIOD: 6    TIME STEP: 9    Output deactivated
+         0         0         0         0
+         0         0         0         0   PERIOD: 6    TIME STEP: 10    Output deactivated
+         0         0         0         0
+         0         0         0         0   PERIOD: 6    TIME STEP: 11    Output deactivated
+         0         0         0         0
+         1         1         1         1   PERIOD: 6    TIME STEP: 12 
+         0         0         1         1   LAYER: 1 
+         1         1         1         1   PERIOD: 7    TIME STEP: 1 
+         0         0         1         1   LAYER: 1 
+         0         0         0         0   PERIOD: 7    TIME STEP: 2    Output deactivated
+         0         0         0         0
+         0         0         0         0   PERIOD: 7    TIME STEP: 3    Output deactivated
+         0         0         0         0
+         0         0         0         0   PERIOD: 7    TIME STEP: 4    Output deactivated
+         0         0         0         0
+         0         0         0         0   PERIOD: 7    TIME STEP: 5    Output deactivated
+         0         0         0         0
+         0         0         0         0   PERIOD: 7    TIME STEP: 6    Output deactivated
+         0         0         0         0
+         0         0         0         0   PERIOD: 7    TIME STEP: 7    Output deactivated
+         0         0         0         0
+         0         0         0         0   PERIOD: 7    TIME STEP: 8    Output deactivated
+         0         0         0         0
+         0         0         0         0   PERIOD: 7    TIME STEP: 9    Output deactivated
+         0         0         0         0
+         0         0         0         0   PERIOD: 7    TIME STEP: 10    Output deactivated
+         0         0         0         0
+         0         0         0         0   PERIOD: 7    TIME STEP: 11    Output deactivated
+         0         0         0         0
+         1         1         1         1   PERIOD: 7    TIME STEP: 12 
+         0         0         1         1   LAYER: 1 
+         1         1         1         1   PERIOD: 8    TIME STEP: 1 
+         0         0         1         1   LAYER: 1 
+         0         0         0         0   PERIOD: 8    TIME STEP: 2    Output deactivated
+         0         0         0         0
+         0         0         0         0   PERIOD: 8    TIME STEP: 3    Output deactivated
+         0         0         0         0
+         0         0         0         0   PERIOD: 8    TIME STEP: 4    Output deactivated
+         0         0         0         0
+         0         0         0         0   PERIOD: 8    TIME STEP: 5    Output deactivated
+         0         0         0         0
+         0         0         0         0   PERIOD: 8    TIME STEP: 6    Output deactivated
+         0         0         0         0
+         0         0         0         0   PERIOD: 8    TIME STEP: 7    Output deactivated
+         0         0         0         0
+         0         0         0         0   PERIOD: 8    TIME STEP: 8    Output deactivated
+         0         0         0         0
+         0         0         0         0   PERIOD: 8    TIME STEP: 9    Output deactivated
+         0         0         0         0
+         0         0         0         0   PERIOD: 8    TIME STEP: 10    Output deactivated
+         0         0         0         0
+         0         0         0         0   PERIOD: 8    TIME STEP: 11    Output deactivated
+         0         0         0         0
+         1         1         1         1   PERIOD: 8    TIME STEP: 12 
+         0         0         1         1   LAYER: 1 
+         1         1         1         1   PERIOD: 9    TIME STEP: 1 
+         0         0         1         1   LAYER: 1 
+         0         0         0         0   PERIOD: 9    TIME STEP: 2    Output deactivated
+         0         0         0         0
+         0         0         0         0   PERIOD: 9    TIME STEP: 3    Output deactivated
+         0         0         0         0
+         0         0         0         0   PERIOD: 9    TIME STEP: 4    Output deactivated
+         0         0         0         0
+         0         0         0         0   PERIOD: 9    TIME STEP: 5    Output deactivated
+         0         0         0         0
+         0         0         0         0   PERIOD: 9    TIME STEP: 6    Output deactivated
+         0         0         0         0
+         0         0         0         0   PERIOD: 9    TIME STEP: 7    Output deactivated
+         0         0         0         0
+         0         0         0         0   PERIOD: 9    TIME STEP: 8    Output deactivated
+         0         0         0         0
+         0         0         0         0   PERIOD: 9    TIME STEP: 9    Output deactivated
+         0         0         0         0
+         0         0         0         0   PERIOD: 9    TIME STEP: 10    Output deactivated
+         0         0         0         0
+         0         0         0         0   PERIOD: 9    TIME STEP: 11    Output deactivated
+         0         0         0         0
+         1         1         1         1   PERIOD: 9    TIME STEP: 12 
+         0         0         1         1   LAYER: 1 
+         1         1         1         1   PERIOD: 10    TIME STEP: 1 
+         0         0         1         1   LAYER: 1 
+         0         0         0         0   PERIOD: 10    TIME STEP: 2    Output deactivated
+         0         0         0         0
+         0         0         0         0   PERIOD: 10    TIME STEP: 3    Output deactivated
+         0         0         0         0
+         0         0         0         0   PERIOD: 10    TIME STEP: 4    Output deactivated
+         0         0         0         0
+         0         0         0         0   PERIOD: 10    TIME STEP: 5    Output deactivated
+         0         0         0         0
+         0         0         0         0   PERIOD: 10    TIME STEP: 6    Output deactivated
+         0         0         0         0
+         0         0         0         0   PERIOD: 10    TIME STEP: 7    Output deactivated
+         0         0         0         0
+         0         0         0         0   PERIOD: 10    TIME STEP: 8    Output deactivated
+         0         0         0         0
+         0         0         0         0   PERIOD: 10    TIME STEP: 9    Output deactivated
+         0         0         0         0
+         0         0         0         0   PERIOD: 10    TIME STEP: 10    Output deactivated
+         0         0         0         0
+         0         0         0         0   PERIOD: 10    TIME STEP: 11    Output deactivated
+         0         0         0         0
+         1         1         1         1   PERIOD: 10    TIME STEP: 12 
+         0         0         1         1   LAYER: 1 
+         1         1         1         1   PERIOD: 11    TIME STEP: 1 
+         0         0         1         1   LAYER: 1 
+         0         0         0         0   PERIOD: 11    TIME STEP: 2    Output deactivated
+         0         0         0         0
+         0         0         0         0   PERIOD: 11    TIME STEP: 3    Output deactivated
+         0         0         0         0
+         0         0         0         0   PERIOD: 11    TIME STEP: 4    Output deactivated
+         0         0         0         0
+         0         0         0         0   PERIOD: 11    TIME STEP: 5    Output deactivated
+         0         0         0         0
+         0         0         0         0   PERIOD: 11    TIME STEP: 6    Output deactivated
+         0         0         0         0
+         0         0         0         0   PERIOD: 11    TIME STEP: 7    Output deactivated
+         0         0         0         0
+         0         0         0         0   PERIOD: 11    TIME STEP: 8    Output deactivated
+         0         0         0         0
+         0         0         0         0   PERIOD: 11    TIME STEP: 9    Output deactivated
+         0         0         0         0
+         0         0         0         0   PERIOD: 11    TIME STEP: 10    Output deactivated
+         0         0         0         0
+         0         0         0         0   PERIOD: 11    TIME STEP: 11    Output deactivated
+         0         0         0         0
+         1         1         1         1   PERIOD: 11    TIME STEP: 12 
+         0         0         1         1   LAYER: 1 
+         1         1         1         1   PERIOD: 12    TIME STEP: 1 
+         0         0         1         1   LAYER: 1 
+         0         0         0         0   PERIOD: 12    TIME STEP: 2    Output deactivated
+         0         0         0         0
+         0         0         0         0   PERIOD: 12    TIME STEP: 3    Output deactivated
+         0         0         0         0
+         0         0         0         0   PERIOD: 12    TIME STEP: 4    Output deactivated
+         0         0         0         0
+         0         0         0         0   PERIOD: 12    TIME STEP: 5    Output deactivated
+         0         0         0         0
+         0         0         0         0   PERIOD: 12    TIME STEP: 6    Output deactivated
+         0         0         0         0
+         0         0         0         0   PERIOD: 12    TIME STEP: 7    Output deactivated
+         0         0         0         0
+         0         0         0         0   PERIOD: 12    TIME STEP: 8    Output deactivated
+         0         0         0         0
+         0         0         0         0   PERIOD: 12    TIME STEP: 9    Output deactivated
+         0         0         0         0
+         0         0         0         0   PERIOD: 12    TIME STEP: 10    Output deactivated
+         0         0         0         0
+         0         0         0         0   PERIOD: 12    TIME STEP: 11    Output deactivated
+         0         0         0         0
+         1         1         1         1   PERIOD: 12    TIME STEP: 12 
+         0         0         1         1   LAYER: 1 
+         1         1         1         1   PERIOD: 13    TIME STEP: 1 
+         0         0         1         1   LAYER: 1 
+         0         0         0         0   PERIOD: 13    TIME STEP: 2    Output deactivated
+         0         0         0         0
+         0         0         0         0   PERIOD: 13    TIME STEP: 3    Output deactivated
+         0         0         0         0
+         0         0         0         0   PERIOD: 13    TIME STEP: 4    Output deactivated
+         0         0         0         0
+         0         0         0         0   PERIOD: 13    TIME STEP: 5    Output deactivated
+         0         0         0         0
+         0         0         0         0   PERIOD: 13    TIME STEP: 6    Output deactivated
+         0         0         0         0
+         0         0         0         0   PERIOD: 13    TIME STEP: 7    Output deactivated
+         0         0         0         0
+         0         0         0         0   PERIOD: 13    TIME STEP: 8    Output deactivated
+         0         0         0         0
+         0         0         0         0   PERIOD: 13    TIME STEP: 9    Output deactivated
+         0         0         0         0
+         0         0         0         0   PERIOD: 13    TIME STEP: 10    Output deactivated
+         0         0         0         0
+         0         0         0         0   PERIOD: 13    TIME STEP: 11    Output deactivated
+         0         0         0         0
+         1         1         1         1   PERIOD: 13    TIME STEP: 12 
+         0         0         1         1   LAYER: 1 
+         1         1         1         1   PERIOD: 14    TIME STEP: 1 
+         0         0         1         1   LAYER: 1 
+         0         0         0         0   PERIOD: 14    TIME STEP: 2    Output deactivated
+         0         0         0         0
+         0         0         0         0   PERIOD: 14    TIME STEP: 3    Output deactivated
+         0         0         0         0
+         0         0         0         0   PERIOD: 14    TIME STEP: 4    Output deactivated
+         0         0         0         0
+         0         0         0         0   PERIOD: 14    TIME STEP: 5    Output deactivated
+         0         0         0         0
+         0         0         0         0   PERIOD: 14    TIME STEP: 6    Output deactivated
+         0         0         0         0
+         0         0         0         0   PERIOD: 14    TIME STEP: 7    Output deactivated
+         0         0         0         0
+         0         0         0         0   PERIOD: 14    TIME STEP: 8    Output deactivated
+         0         0         0         0
+         0         0         0         0   PERIOD: 14    TIME STEP: 9    Output deactivated
+         0         0         0         0
+         0         0         0         0   PERIOD: 14    TIME STEP: 10    Output deactivated
+         0         0         0         0
+         0         0         0         0   PERIOD: 14    TIME STEP: 11    Output deactivated
+         0         0         0         0
+         1         1         1         1   PERIOD: 14    TIME STEP: 12 
+         0         0         1         1   LAYER: 1 
+         1         1         1         1   PERIOD: 15    TIME STEP: 1 
+         0         0         1         1   LAYER: 1 
+         0         0         0         0   PERIOD: 15    TIME STEP: 2    Output deactivated
+         0         0         0         0
+         0         0         0         0   PERIOD: 15    TIME STEP: 3    Output deactivated
+         0         0         0         0
+         0         0         0         0   PERIOD: 15    TIME STEP: 4    Output deactivated
+         0         0         0         0
+         0         0         0         0   PERIOD: 15    TIME STEP: 5    Output deactivated
+         0         0         0         0
+         0         0         0         0   PERIOD: 15    TIME STEP: 6    Output deactivated
+         0         0         0         0
+         0         0         0         0   PERIOD: 15    TIME STEP: 7    Output deactivated
+         0         0         0         0
+         0         0         0         0   PERIOD: 15    TIME STEP: 8    Output deactivated
+         0         0         0         0
+         0         0         0         0   PERIOD: 15    TIME STEP: 9    Output deactivated
+         0         0         0         0
+         0         0         0         0   PERIOD: 15    TIME STEP: 10    Output deactivated
+         0         0         0         0
+         0         0         0         0   PERIOD: 15    TIME STEP: 11    Output deactivated
+         0         0         0         0
+         1         1         1         1   PERIOD: 15    TIME STEP: 12 
+         0         0         1         1   LAYER: 1 
+         1         1         1         1   PERIOD: 16    TIME STEP: 1 
+         0         0         1         1   LAYER: 1 
+         0         0         0         0   PERIOD: 16    TIME STEP: 2    Output deactivated
+         0         0         0         0
+         0         0         0         0   PERIOD: 16    TIME STEP: 3    Output deactivated
+         0         0         0         0
+         0         0         0         0   PERIOD: 16    TIME STEP: 4    Output deactivated
+         0         0         0         0
+         0         0         0         0   PERIOD: 16    TIME STEP: 5    Output deactivated
+         0         0         0         0
+         0         0         0         0   PERIOD: 16    TIME STEP: 6    Output deactivated
+         0         0         0         0
+         0         0         0         0   PERIOD: 16    TIME STEP: 7    Output deactivated
+         0         0         0         0
+         0         0         0         0   PERIOD: 16    TIME STEP: 8    Output deactivated
+         0         0         0         0
+         0         0         0         0   PERIOD: 16    TIME STEP: 9    Output deactivated
+         0         0         0         0
+         0         0         0         0   PERIOD: 16    TIME STEP: 10    Output deactivated
+         0         0         0         0
+         0         0         0         0   PERIOD: 16    TIME STEP: 11    Output deactivated
+         0         0         0         0
+         1         1         1         1   PERIOD: 16    TIME STEP: 12 
+         0         0         1         1   LAYER: 1 
+         1         1         1         1   PERIOD: 17    TIME STEP: 1 
+         0         0         1         1   LAYER: 1 
+         0         0         0         0   PERIOD: 17    TIME STEP: 2    Output deactivated
+         0         0         0         0
+         0         0         0         0   PERIOD: 17    TIME STEP: 3    Output deactivated
+         0         0         0         0
+         0         0         0         0   PERIOD: 17    TIME STEP: 4    Output deactivated
+         0         0         0         0
+         0         0         0         0   PERIOD: 17    TIME STEP: 5    Output deactivated
+         0         0         0         0
+         0         0         0         0   PERIOD: 17    TIME STEP: 6    Output deactivated
+         0         0         0         0
+         0         0         0         0   PERIOD: 17    TIME STEP: 7    Output deactivated
+         0         0         0         0
+         0         0         0         0   PERIOD: 17    TIME STEP: 8    Output deactivated
+         0         0         0         0
+         0         0         0         0   PERIOD: 17    TIME STEP: 9    Output deactivated
+         0         0         0         0
+         0         0         0         0   PERIOD: 17    TIME STEP: 10    Output deactivated
+         0         0         0         0
+         0         0         0         0   PERIOD: 17    TIME STEP: 11    Output deactivated
+         0         0         0         0
+         1         1         1         1   PERIOD: 17    TIME STEP: 12 
+         0         0         1         1   LAYER: 1 
+         1         1         1         1   PERIOD: 18    TIME STEP: 1 
+         0         0         1         1   LAYER: 1 
+         0         0         0         0   PERIOD: 18    TIME STEP: 2    Output deactivated
+         0         0         0         0
+         0         0         0         0   PERIOD: 18    TIME STEP: 3    Output deactivated
+         0         0         0         0
+         0         0         0         0   PERIOD: 18    TIME STEP: 4    Output deactivated
+         0         0         0         0
+         0         0         0         0   PERIOD: 18    TIME STEP: 5    Output deactivated
+         0         0         0         0
+         0         0         0         0   PERIOD: 18    TIME STEP: 6    Output deactivated
+         0         0         0         0
+         0         0         0         0   PERIOD: 18    TIME STEP: 7    Output deactivated
+         0         0         0         0
+         0         0         0         0   PERIOD: 18    TIME STEP: 8    Output deactivated
+         0         0         0         0
+         0         0         0         0   PERIOD: 18    TIME STEP: 9    Output deactivated
+         0         0         0         0
+         0         0         0         0   PERIOD: 18    TIME STEP: 10    Output deactivated
+         0         0         0         0
+         0         0         0         0   PERIOD: 18    TIME STEP: 11    Output deactivated
+         0         0         0         0
+         1         1         1         1   PERIOD: 18    TIME STEP: 12 
+         0         0         1         1   LAYER: 1 
+         1         1         1         1   PERIOD: 19    TIME STEP: 1 
+         0         0         1         1   LAYER: 1 
+         0         0         0         0   PERIOD: 19    TIME STEP: 2    Output deactivated
+         0         0         0         0
+         0         0         0         0   PERIOD: 19    TIME STEP: 3    Output deactivated
+         0         0         0         0
+         0         0         0         0   PERIOD: 19    TIME STEP: 4    Output deactivated
+         0         0         0         0
+         0         0         0         0   PERIOD: 19    TIME STEP: 5    Output deactivated
+         0         0         0         0
+         0         0         0         0   PERIOD: 19    TIME STEP: 6    Output deactivated
+         0         0         0         0
+         0         0         0         0   PERIOD: 19    TIME STEP: 7    Output deactivated
+         0         0         0         0
+         0         0         0         0   PERIOD: 19    TIME STEP: 8    Output deactivated
+         0         0         0         0
+         0         0         0         0   PERIOD: 19    TIME STEP: 9    Output deactivated
+         0         0         0         0
+         0         0         0         0   PERIOD: 19    TIME STEP: 10    Output deactivated
+         0         0         0         0
+         0         0         0         0   PERIOD: 19    TIME STEP: 11    Output deactivated
+         0         0         0         0
+         1         1         1         1   PERIOD: 19    TIME STEP: 12 
+         0         0         1         1   LAYER: 1 
+         1         1         1         1   PERIOD: 20    TIME STEP: 1 
+         0         0         1         1   LAYER: 1 
+         0         0         0         0   PERIOD: 20    TIME STEP: 2    Output deactivated
+         0         0         0         0
+         0         0         0         0   PERIOD: 20    TIME STEP: 3    Output deactivated
+         0         0         0         0
+         0         0         0         0   PERIOD: 20    TIME STEP: 4    Output deactivated
+         0         0         0         0
+         0         0         0         0   PERIOD: 20    TIME STEP: 5    Output deactivated
+         0         0         0         0
+         0         0         0         0   PERIOD: 20    TIME STEP: 6    Output deactivated
+         0         0         0         0
+         0         0         0         0   PERIOD: 20    TIME STEP: 7    Output deactivated
+         0         0         0         0
+         0         0         0         0   PERIOD: 20    TIME STEP: 8    Output deactivated
+         0         0         0         0
+         0         0         0         0   PERIOD: 20    TIME STEP: 9    Output deactivated
+         0         0         0         0
+         0         0         0         0   PERIOD: 20    TIME STEP: 10    Output deactivated
+         0         0         0         0
+         0         0         0         0   PERIOD: 20    TIME STEP: 11    Output deactivated
+         0         0         0         0
+         1         1         1         1   PERIOD: 20    TIME STEP: 12 
+         0         0         1         1   LAYER: 1 
+         1         1         1         1   PERIOD: 21    TIME STEP: 1 
+         0         0         1         1   LAYER: 1 
+         0         0         0         0   PERIOD: 21    TIME STEP: 2    Output deactivated
+         0         0         0         0
+         0         0         0         0   PERIOD: 21    TIME STEP: 3    Output deactivated
+         0         0         0         0
+         0         0         0         0   PERIOD: 21    TIME STEP: 4    Output deactivated
+         0         0         0         0
+         0         0         0         0   PERIOD: 21    TIME STEP: 5    Output deactivated
+         0         0         0         0
+         0         0         0         0   PERIOD: 21    TIME STEP: 6    Output deactivated
+         0         0         0         0
+         0         0         0         0   PERIOD: 21    TIME STEP: 7    Output deactivated
+         0         0         0         0
+         0         0         0         0   PERIOD: 21    TIME STEP: 8    Output deactivated
+         0         0         0         0
+         0         0         0         0   PERIOD: 21    TIME STEP: 9    Output deactivated
+         0         0         0         0
+         0         0         0         0   PERIOD: 21    TIME STEP: 10    Output deactivated
+         0         0         0         0
+         0         0         0         0   PERIOD: 21    TIME STEP: 11    Output deactivated
+         0         0         0         0
+         1         1         1         1   PERIOD: 21    TIME STEP: 12 
+         0         0         1         1   LAYER: 1 
+         1         1         1         1   PERIOD: 22    TIME STEP: 1 
+         0         0         1         1   LAYER: 1 
+         0         0         0         0   PERIOD: 22    TIME STEP: 2    Output deactivated
+         0         0         0         0
+         0         0         0         0   PERIOD: 22    TIME STEP: 3    Output deactivated
+         0         0         0         0
+         0         0         0         0   PERIOD: 22    TIME STEP: 4    Output deactivated
+         0         0         0         0
+         0         0         0         0   PERIOD: 22    TIME STEP: 5    Output deactivated
+         0         0         0         0
+         0         0         0         0   PERIOD: 22    TIME STEP: 6    Output deactivated
+         0         0         0         0
+         0         0         0         0   PERIOD: 22    TIME STEP: 7    Output deactivated
+         0         0         0         0
+         0         0         0         0   PERIOD: 22    TIME STEP: 8    Output deactivated
+         0         0         0         0
+         0         0         0         0   PERIOD: 22    TIME STEP: 9    Output deactivated
+         0         0         0         0
+         0         0         0         0   PERIOD: 22    TIME STEP: 10    Output deactivated
+         0         0         0         0
+         0         0         0         0   PERIOD: 22    TIME STEP: 11    Output deactivated
+         0         0         0         0
+         1         1         1         1   PERIOD: 22    TIME STEP: 12 
+         0         0         1         1   LAYER: 1 
+         1         1         1         1   PERIOD: 23    TIME STEP: 1 
+         0         0         1         1   LAYER: 1 
+         0         0         0         0   PERIOD: 23    TIME STEP: 2    Output deactivated
+         0         0         0         0
+         0         0         0         0   PERIOD: 23    TIME STEP: 3    Output deactivated
+         0         0         0         0
+         0         0         0         0   PERIOD: 23    TIME STEP: 4    Output deactivated
+         0         0         0         0
+         0         0         0         0   PERIOD: 23    TIME STEP: 5    Output deactivated
+         0         0         0         0
+         0         0         0         0   PERIOD: 23    TIME STEP: 6    Output deactivated
+         0         0         0         0
+         0         0         0         0   PERIOD: 23    TIME STEP: 7    Output deactivated
+         0         0         0         0
+         0         0         0         0   PERIOD: 23    TIME STEP: 8    Output deactivated
+         0         0         0         0
+         0         0         0         0   PERIOD: 23    TIME STEP: 9    Output deactivated
+         0         0         0         0
+         0         0         0         0   PERIOD: 23    TIME STEP: 10    Output deactivated
+         0         0         0         0
+         0         0         0         0   PERIOD: 23    TIME STEP: 11    Output deactivated
+         0         0         0         0
+         1         1         1         1   PERIOD: 23    TIME STEP: 12 
+         0         0         1         1   LAYER: 1 
+         1         1         1         1   PERIOD: 24    TIME STEP: 1 
+         0         0         1         1   LAYER: 1 
+         0         0         0         0   PERIOD: 24    TIME STEP: 2    Output deactivated
+         0         0         0         0
+         0         0         0         0   PERIOD: 24    TIME STEP: 3    Output deactivated
+         0         0         0         0
+         0         0         0         0   PERIOD: 24    TIME STEP: 4    Output deactivated
+         0         0         0         0
+         0         0         0         0   PERIOD: 24    TIME STEP: 5    Output deactivated
+         0         0         0         0
+         0         0         0         0   PERIOD: 24    TIME STEP: 6    Output deactivated
+         0         0         0         0
+         0         0         0         0   PERIOD: 24    TIME STEP: 7    Output deactivated
+         0         0         0         0
+         0         0         0         0   PERIOD: 24    TIME STEP: 8    Output deactivated
+         0         0         0         0
+         0         0         0         0   PERIOD: 24    TIME STEP: 9    Output deactivated
+         0         0         0         0
+         0         0         0         0   PERIOD: 24    TIME STEP: 10    Output deactivated
+         0         0         0         0
+         0         0         0         0   PERIOD: 24    TIME STEP: 11    Output deactivated
+         0         0         0         0
+         1         1         1         1   PERIOD: 24    TIME STEP: 12 
+         0         0         1         1   LAYER: 1 
+         1         1         1         1   PERIOD: 25    TIME STEP: 1 
+         0         0         1         1   LAYER: 1 
+         0         0         0         0   PERIOD: 25    TIME STEP: 2    Output deactivated
+         0         0         0         0
+         0         0         0         0   PERIOD: 25    TIME STEP: 3    Output deactivated
+         0         0         0         0
+         0         0         0         0   PERIOD: 25    TIME STEP: 4    Output deactivated
+         0         0         0         0
+         0         0         0         0   PERIOD: 25    TIME STEP: 5    Output deactivated
+         0         0         0         0
+         0         0         0         0   PERIOD: 25    TIME STEP: 6    Output deactivated
+         0         0         0         0
+         0         0         0         0   PERIOD: 25    TIME STEP: 7    Output deactivated
+         0         0         0         0
+         0         0         0         0   PERIOD: 25    TIME STEP: 8    Output deactivated
+         0         0         0         0
+         0         0         0         0   PERIOD: 25    TIME STEP: 9    Output deactivated
+         0         0         0         0
+         0         0         0         0   PERIOD: 25    TIME STEP: 10    Output deactivated
+         0         0         0         0
+         0         0         0         0   PERIOD: 25    TIME STEP: 11    Output deactivated
+         0         0         0         0
+         1         1         1         1   PERIOD: 25    TIME STEP: 12 
+         0         0         1         1   LAYER: 1 
+         1         1         1         1   PERIOD: 26    TIME STEP: 1 
+         0         0         1         1   LAYER: 1 
+         0         0         0         0   PERIOD: 26    TIME STEP: 2    Output deactivated
+         0         0         0         0
+         0         0         0         0   PERIOD: 26    TIME STEP: 3    Output deactivated
+         0         0         0         0
+         0         0         0         0   PERIOD: 26    TIME STEP: 4    Output deactivated
+         0         0         0         0
+         0         0         0         0   PERIOD: 26    TIME STEP: 5    Output deactivated
+         0         0         0         0
+         0         0         0         0   PERIOD: 26    TIME STEP: 6    Output deactivated
+         0         0         0         0
+         0         0         0         0   PERIOD: 26    TIME STEP: 7    Output deactivated
+         0         0         0         0
+         0         0         0         0   PERIOD: 26    TIME STEP: 8    Output deactivated
+         0         0         0         0
+         0         0         0         0   PERIOD: 26    TIME STEP: 9    Output deactivated
+         0         0         0         0
+         0         0         0         0   PERIOD: 26    TIME STEP: 10    Output deactivated
+         0         0         0         0
+         0         0         0         0   PERIOD: 26    TIME STEP: 11    Output deactivated
+         0         0         0         0
+         1         1         1         1   PERIOD: 26    TIME STEP: 12 
+         0         0         1         1   LAYER: 1 
+         1         1         1         1   PERIOD: 27    TIME STEP: 1 
+         0         0         1         1   LAYER: 1 
+         0         0         0         0   PERIOD: 27    TIME STEP: 2    Output deactivated
+         0         0         0         0
+         0         0         0         0   PERIOD: 27    TIME STEP: 3    Output deactivated
+         0         0         0         0
+         0         0         0         0   PERIOD: 27    TIME STEP: 4    Output deactivated
+         0         0         0         0
+         0         0         0         0   PERIOD: 27    TIME STEP: 5    Output deactivated
+         0         0         0         0
+         0         0         0         0   PERIOD: 27    TIME STEP: 6    Output deactivated
+         0         0         0         0
+         0         0         0         0   PERIOD: 27    TIME STEP: 7    Output deactivated
+         0         0         0         0
+         0         0         0         0   PERIOD: 27    TIME STEP: 8    Output deactivated
+         0         0         0         0
+         0         0         0         0   PERIOD: 27    TIME STEP: 9    Output deactivated
+         0         0         0         0
+         0         0         0         0   PERIOD: 27    TIME STEP: 10    Output deactivated
+         0         0         0         0
+         0         0         0         0   PERIOD: 27    TIME STEP: 11    Output deactivated
+         0         0         0         0
+         1         1         1         1   PERIOD: 27    TIME STEP: 12 
+         0         0         1         1   LAYER: 1 
+         1         1         1         1   PERIOD: 28    TIME STEP: 1 
+         0         0         1         1   LAYER: 1 
+         0         0         0         0   PERIOD: 28    TIME STEP: 2    Output deactivated
+         0         0         0         0
+         0         0         0         0   PERIOD: 28    TIME STEP: 3    Output deactivated
+         0         0         0         0
+         0         0         0         0   PERIOD: 28    TIME STEP: 4    Output deactivated
+         0         0         0         0
+         0         0         0         0   PERIOD: 28    TIME STEP: 5    Output deactivated
+         0         0         0         0
+         0         0         0         0   PERIOD: 28    TIME STEP: 6    Output deactivated
+         0         0         0         0
+         0         0         0         0   PERIOD: 28    TIME STEP: 7    Output deactivated
+         0         0         0         0
+         0         0         0         0   PERIOD: 28    TIME STEP: 8    Output deactivated
+         0         0         0         0
+         0         0         0         0   PERIOD: 28    TIME STEP: 9    Output deactivated
+         0         0         0         0
+         0         0         0         0   PERIOD: 28    TIME STEP: 10    Output deactivated
+         0         0         0         0
+         0         0         0         0   PERIOD: 28    TIME STEP: 11    Output deactivated
+         0         0         0         0
+         1         1         1         1   PERIOD: 28    TIME STEP: 12 
+         0         0         1         1   LAYER: 1 
+         1         1         1         1   PERIOD: 29    TIME STEP: 1 
+         0         0         1         1   LAYER: 1 
+         0         0         0         0   PERIOD: 29    TIME STEP: 2    Output deactivated
+         0         0         0         0
+         0         0         0         0   PERIOD: 29    TIME STEP: 3    Output deactivated
+         0         0         0         0
+         0         0         0         0   PERIOD: 29    TIME STEP: 4    Output deactivated
+         0         0         0         0
+         0         0         0         0   PERIOD: 29    TIME STEP: 5    Output deactivated
+         0         0         0         0
+         0         0         0         0   PERIOD: 29    TIME STEP: 6    Output deactivated
+         0         0         0         0
+         0         0         0         0   PERIOD: 29    TIME STEP: 7    Output deactivated
+         0         0         0         0
+         0         0         0         0   PERIOD: 29    TIME STEP: 8    Output deactivated
+         0         0         0         0
+         0         0         0         0   PERIOD: 29    TIME STEP: 9    Output deactivated
+         0         0         0         0
+         0         0         0         0   PERIOD: 29    TIME STEP: 10    Output deactivated
+         0         0         0         0
+         0         0         0         0   PERIOD: 29    TIME STEP: 11    Output deactivated
+         0         0         0         0
+         1         1         1         1   PERIOD: 29    TIME STEP: 12 
+         0         0         1         1   LAYER: 1 
+         1         1         1         1   PERIOD: 30    TIME STEP: 1 
+         0         0         1         1   LAYER: 1 
+         0         0         0         0   PERIOD: 30    TIME STEP: 2    Output deactivated
+         0         0         0         0
+         0         0         0         0   PERIOD: 30    TIME STEP: 3    Output deactivated
+         0         0         0         0
+         0         0         0         0   PERIOD: 30    TIME STEP: 4    Output deactivated
+         0         0         0         0
+         0         0         0         0   PERIOD: 30    TIME STEP: 5    Output deactivated
+         0         0         0         0
+         0         0         0         0   PERIOD: 30    TIME STEP: 6    Output deactivated
+         0         0         0         0
+         0         0         0         0   PERIOD: 30    TIME STEP: 7    Output deactivated
+         0         0         0         0
+         0         0         0         0   PERIOD: 30    TIME STEP: 8    Output deactivated
+         0         0         0         0
+         0         0         0         0   PERIOD: 30    TIME STEP: 9    Output deactivated
+         0         0         0         0
+         0         0         0         0   PERIOD: 30    TIME STEP: 10    Output deactivated
+         0         0         0         0
+         0         0         0         0   PERIOD: 30    TIME STEP: 11    Output deactivated
+         0         0         0         0
+         1         1         1         1   PERIOD: 30    TIME STEP: 12 
+         0         0         1         1   LAYER: 1 
+         1         1         1         1   PERIOD: 31    TIME STEP: 1 
+         0         0         1         1   LAYER: 1 
+         0         0         0         0   PERIOD: 31    TIME STEP: 2    Output deactivated
+         0         0         0         0
+         0         0         0         0   PERIOD: 31    TIME STEP: 3    Output deactivated
+         0         0         0         0
+         0         0         0         0   PERIOD: 31    TIME STEP: 4    Output deactivated
+         0         0         0         0
+         0         0         0         0   PERIOD: 31    TIME STEP: 5    Output deactivated
+         0         0         0         0
+         0         0         0         0   PERIOD: 31    TIME STEP: 6    Output deactivated
+         0         0         0         0
+         0         0         0         0   PERIOD: 31    TIME STEP: 7    Output deactivated
+         0         0         0         0
+         0         0         0         0   PERIOD: 31    TIME STEP: 8    Output deactivated
+         0         0         0         0
+         0         0         0         0   PERIOD: 31    TIME STEP: 9    Output deactivated
+         0         0         0         0
+         0         0         0         0   PERIOD: 31    TIME STEP: 10    Output deactivated
+         0         0         0         0
+         0         0         0         0   PERIOD: 31    TIME STEP: 11    Output deactivated
+         0         0         0         0
+         1         1         1         1   PERIOD: 31    TIME STEP: 12 
+         0         0         1         1   LAYER: 1 
+         1         1         1         1   PERIOD: 32    TIME STEP: 1 
+         0         0         1         1   LAYER: 1 
+         0         0         0         0   PERIOD: 32    TIME STEP: 2    Output deactivated
+         0         0         0         0
+         0         0         0         0   PERIOD: 32    TIME STEP: 3    Output deactivated
+         0         0         0         0
+         0         0         0         0   PERIOD: 32    TIME STEP: 4    Output deactivated
+         0         0         0         0
+         0         0         0         0   PERIOD: 32    TIME STEP: 5    Output deactivated
+         0         0         0         0
+         0         0         0         0   PERIOD: 32    TIME STEP: 6    Output deactivated
+         0         0         0         0
+         0         0         0         0   PERIOD: 32    TIME STEP: 7    Output deactivated
+         0         0         0         0
+         0         0         0         0   PERIOD: 32    TIME STEP: 8    Output deactivated
+         0         0         0         0
+         0         0         0         0   PERIOD: 32    TIME STEP: 9    Output deactivated
+         0         0         0         0
+         0         0         0         0   PERIOD: 32    TIME STEP: 10    Output deactivated
+         0         0         0         0
+         0         0         0         0   PERIOD: 32    TIME STEP: 11    Output deactivated
+         0         0         0         0
+         1         1         1         1   PERIOD: 32    TIME STEP: 12 
+         0         0         1         1   LAYER: 1 
+         1         1         1         1   PERIOD: 33    TIME STEP: 1 
+         0         0         1         1   LAYER: 1 
+         0         0         0         0   PERIOD: 33    TIME STEP: 2    Output deactivated
+         0         0         0         0
+         0         0         0         0   PERIOD: 33    TIME STEP: 3    Output deactivated
+         0         0         0         0
+         0         0         0         0   PERIOD: 33    TIME STEP: 4    Output deactivated
+         0         0         0         0
+         0         0         0         0   PERIOD: 33    TIME STEP: 5    Output deactivated
+         0         0         0         0
+         0         0         0         0   PERIOD: 33    TIME STEP: 6    Output deactivated
+         0         0         0         0
+         0         0         0         0   PERIOD: 33    TIME STEP: 7    Output deactivated
+         0         0         0         0
+         0         0         0         0   PERIOD: 33    TIME STEP: 8    Output deactivated
+         0         0         0         0
+         0         0         0         0   PERIOD: 33    TIME STEP: 9    Output deactivated
+         0         0         0         0
+         0         0         0         0   PERIOD: 33    TIME STEP: 10    Output deactivated
+         0         0         0         0
+         0         0         0         0   PERIOD: 33    TIME STEP: 11    Output deactivated
+         0         0         0         0
+         1         1         1         1   PERIOD: 33    TIME STEP: 12 
+         0         0         1         1   LAYER: 1 
+         1         1         1         1   PERIOD: 34    TIME STEP: 1 
+         0         0         1         1   LAYER: 1 
+         0         0         0         0   PERIOD: 34    TIME STEP: 2    Output deactivated
+         0         0         0         0
+         0         0         0         0   PERIOD: 34    TIME STEP: 3    Output deactivated
+         0         0         0         0
+         0         0         0         0   PERIOD: 34    TIME STEP: 4    Output deactivated
+         0         0         0         0
+         0         0         0         0   PERIOD: 34    TIME STEP: 5    Output deactivated
+         0         0         0         0
+         0         0         0         0   PERIOD: 34    TIME STEP: 6    Output deactivated
+         0         0         0         0
+         0         0         0         0   PERIOD: 34    TIME STEP: 7    Output deactivated
+         0         0         0         0
+         0         0         0         0   PERIOD: 34    TIME STEP: 8    Output deactivated
+         0         0         0         0
+         0         0         0         0   PERIOD: 34    TIME STEP: 9    Output deactivated
+         0         0         0         0
+         0         0         0         0   PERIOD: 34    TIME STEP: 10    Output deactivated
+         0         0         0         0
+         0         0         0         0   PERIOD: 34    TIME STEP: 11    Output deactivated
+         0         0         0         0
+         1         1         1         1   PERIOD: 34    TIME STEP: 12 
+         0         0         1         1   LAYER: 1 
+         1         1         1         1   PERIOD: 35    TIME STEP: 1 
+         0         0         1         1   LAYER: 1 
+         0         0         0         0   PERIOD: 35    TIME STEP: 2    Output deactivated
+         0         0         0         0
+         0         0         0         0   PERIOD: 35    TIME STEP: 3    Output deactivated
+         0         0         0         0
+         0         0         0         0   PERIOD: 35    TIME STEP: 4    Output deactivated
+         0         0         0         0
+         0         0         0         0   PERIOD: 35    TIME STEP: 5    Output deactivated
+         0         0         0         0
+         0         0         0         0   PERIOD: 35    TIME STEP: 6    Output deactivated
+         0         0         0         0
+         0         0         0         0   PERIOD: 35    TIME STEP: 7    Output deactivated
+         0         0         0         0
+         0         0         0         0   PERIOD: 35    TIME STEP: 8    Output deactivated
+         0         0         0         0
+         0         0         0         0   PERIOD: 35    TIME STEP: 9    Output deactivated
+         0         0         0         0
+         0         0         0         0   PERIOD: 35    TIME STEP: 10    Output deactivated
+         0         0         0         0
+         0         0         0         0   PERIOD: 35    TIME STEP: 11    Output deactivated
+         0         0         0         0
+         1         1         1         1   PERIOD: 35    TIME STEP: 12 
+         0         0         1         1   LAYER: 1 
+         1         1         1         1   PERIOD: 36    TIME STEP: 1 
+         0         0         1         1   LAYER: 1 
+         0         0         0         0   PERIOD: 36    TIME STEP: 2    Output deactivated
+         0         0         0         0
+         0         0         0         0   PERIOD: 36    TIME STEP: 3    Output deactivated
+         0         0         0         0
+         0         0         0         0   PERIOD: 36    TIME STEP: 4    Output deactivated
+         0         0         0         0
+         0         0         0         0   PERIOD: 36    TIME STEP: 5    Output deactivated
+         0         0         0         0
+         0         0         0         0   PERIOD: 36    TIME STEP: 6    Output deactivated
+         0         0         0         0
+         0         0         0         0   PERIOD: 36    TIME STEP: 7    Output deactivated
+         0         0         0         0
+         0         0         0         0   PERIOD: 36    TIME STEP: 8    Output deactivated
+         0         0         0         0
+         0         0         0         0   PERIOD: 36    TIME STEP: 9    Output deactivated
+         0         0         0         0
+         0         0         0         0   PERIOD: 36    TIME STEP: 10    Output deactivated
+         0         0         0         0
+         0         0         0         0   PERIOD: 36    TIME STEP: 11    Output deactivated
+         0         0         0         0
+         1         1         1         1   PERIOD: 36    TIME STEP: 12 
+         0         0         1         1   LAYER: 1 
+         1         1         1         1   PERIOD: 37    TIME STEP: 1 
+         0         0         1         1   LAYER: 1 
+         0         0         0         0   PERIOD: 37    TIME STEP: 2    Output deactivated
+         0         0         0         0
+         0         0         0         0   PERIOD: 37    TIME STEP: 3    Output deactivated
+         0         0         0         0
+         0         0         0         0   PERIOD: 37    TIME STEP: 4    Output deactivated
+         0         0         0         0
+         0         0         0         0   PERIOD: 37    TIME STEP: 5    Output deactivated
+         0         0         0         0
+         0         0         0         0   PERIOD: 37    TIME STEP: 6    Output deactivated
+         0         0         0         0
+         0         0         0         0   PERIOD: 37    TIME STEP: 7    Output deactivated
+         0         0         0         0
+         0         0         0         0   PERIOD: 37    TIME STEP: 8    Output deactivated
+         0         0         0         0
+         0         0         0         0   PERIOD: 37    TIME STEP: 9    Output deactivated
+         0         0         0         0
+         0         0         0         0   PERIOD: 37    TIME STEP: 10    Output deactivated
+         0         0         0         0
+         0         0         0         0   PERIOD: 37    TIME STEP: 11    Output deactivated
+         0         0         0         0
+         1         1         1         1   PERIOD: 37    TIME STEP: 12 
+         0         0         1         1   LAYER: 1 
+         1         1         1         1   PERIOD: 38    TIME STEP: 1 
+         0         0         1         1   LAYER: 1 
+         0         0         0         0   PERIOD: 38    TIME STEP: 2    Output deactivated
+         0         0         0         0
+         0         0         0         0   PERIOD: 38    TIME STEP: 3    Output deactivated
+         0         0         0         0
+         0         0         0         0   PERIOD: 38    TIME STEP: 4    Output deactivated
+         0         0         0         0
+         0         0         0         0   PERIOD: 38    TIME STEP: 5    Output deactivated
+         0         0         0         0
+         0         0         0         0   PERIOD: 38    TIME STEP: 6    Output deactivated
+         0         0         0         0
+         0         0         0         0   PERIOD: 38    TIME STEP: 7    Output deactivated
+         0         0         0         0
+         0         0         0         0   PERIOD: 38    TIME STEP: 8    Output deactivated
+         0         0         0         0
+         0         0         0         0   PERIOD: 38    TIME STEP: 9    Output deactivated
+         0         0         0         0
+         0         0         0         0   PERIOD: 38    TIME STEP: 10    Output deactivated
+         0         0         0         0
+         0         0         0         0   PERIOD: 38    TIME STEP: 11    Output deactivated
+         0         0         0         0
+         1         1         1         1   PERIOD: 38    TIME STEP: 12 
+         0         0         1         1   LAYER: 1 
+         1         1         1         1   PERIOD: 39    TIME STEP: 1 
+         0         0         1         1   LAYER: 1 
+         0         0         0         0   PERIOD: 39    TIME STEP: 2    Output deactivated
+         0         0         0         0
+         0         0         0         0   PERIOD: 39    TIME STEP: 3    Output deactivated
+         0         0         0         0
+         0         0         0         0   PERIOD: 39    TIME STEP: 4    Output deactivated
+         0         0         0         0
+         0         0         0         0   PERIOD: 39    TIME STEP: 5    Output deactivated
+         0         0         0         0
+         0         0         0         0   PERIOD: 39    TIME STEP: 6    Output deactivated
+         0         0         0         0
+         0         0         0         0   PERIOD: 39    TIME STEP: 7    Output deactivated
+         0         0         0         0
+         0         0         0         0   PERIOD: 39    TIME STEP: 8    Output deactivated
+         0         0         0         0
+         0         0         0         0   PERIOD: 39    TIME STEP: 9    Output deactivated
+         0         0         0         0
+         0         0         0         0   PERIOD: 39    TIME STEP: 10    Output deactivated
+         0         0         0         0
+         0         0         0         0   PERIOD: 39    TIME STEP: 11    Output deactivated
+         0         0         0         0
+         1         1         1         1   PERIOD: 39    TIME STEP: 12 
+         0         0         1         1   LAYER: 1 
+         1         1         1         1   PERIOD: 40    TIME STEP: 1 
+         0         0         1         1   LAYER: 1 
+         0         0         0         0   PERIOD: 40    TIME STEP: 2    Output deactivated
+         0         0         0         0
+         0         0         0         0   PERIOD: 40    TIME STEP: 3    Output deactivated
+         0         0         0         0
+         0         0         0         0   PERIOD: 40    TIME STEP: 4    Output deactivated
+         0         0         0         0
+         0         0         0         0   PERIOD: 40    TIME STEP: 5    Output deactivated
+         0         0         0         0
+         0         0         0         0   PERIOD: 40    TIME STEP: 6    Output deactivated
+         0         0         0         0
+         0         0         0         0   PERIOD: 40    TIME STEP: 7    Output deactivated
+         0         0         0         0
+         0         0         0         0   PERIOD: 40    TIME STEP: 8    Output deactivated
+         0         0         0         0
+         0         0         0         0   PERIOD: 40    TIME STEP: 9    Output deactivated
+         0         0         0         0
+         0         0         0         0   PERIOD: 40    TIME STEP: 10    Output deactivated
+         0         0         0         0
+         0         0         0         0   PERIOD: 40    TIME STEP: 11    Output deactivated
+         0         0         0         0
+         1         1         1         1   PERIOD: 40    TIME STEP: 12 
+         0         0         1         1   LAYER: 1 
+         1         1         1         1   PERIOD: 41    TIME STEP: 1 
+         0         0         1         1   LAYER: 1 
+         0         0         0         0   PERIOD: 41    TIME STEP: 2    Output deactivated
+         0         0         0         0
+         0         0         0         0   PERIOD: 41    TIME STEP: 3    Output deactivated
+         0         0         0         0
+         0         0         0         0   PERIOD: 41    TIME STEP: 4    Output deactivated
+         0         0         0         0
+         0         0         0         0   PERIOD: 41    TIME STEP: 5    Output deactivated
+         0         0         0         0
+         0         0         0         0   PERIOD: 41    TIME STEP: 6    Output deactivated
+         0         0         0         0
+         0         0         0         0   PERIOD: 41    TIME STEP: 7    Output deactivated
+         0         0         0         0
+         0         0         0         0   PERIOD: 41    TIME STEP: 8    Output deactivated
+         0         0         0         0
+         0         0         0         0   PERIOD: 41    TIME STEP: 9    Output deactivated
+         0         0         0         0
+         0         0         0         0   PERIOD: 41    TIME STEP: 10    Output deactivated
+         0         0         0         0
+         0         0         0         0   PERIOD: 41    TIME STEP: 11    Output deactivated
+         0         0         0         0
+         1         1         1         1   PERIOD: 41    TIME STEP: 12 
+         0         0         1         1   LAYER: 1 
+         1         1         1         1   PERIOD: 42    TIME STEP: 1 
+         0         0         1         1   LAYER: 1 
+         0         0         0         0   PERIOD: 42    TIME STEP: 2    Output deactivated
+         0         0         0         0
+         0         0         0         0   PERIOD: 42    TIME STEP: 3    Output deactivated
+         0         0         0         0
+         0         0         0         0   PERIOD: 42    TIME STEP: 4    Output deactivated
+         0         0         0         0
+         0         0         0         0   PERIOD: 42    TIME STEP: 5    Output deactivated
+         0         0         0         0
+         0         0         0         0   PERIOD: 42    TIME STEP: 6    Output deactivated
+         0         0         0         0
+         0         0         0         0   PERIOD: 42    TIME STEP: 7    Output deactivated
+         0         0         0         0
+         0         0         0         0   PERIOD: 42    TIME STEP: 8    Output deactivated
+         0         0         0         0
+         0         0         0         0   PERIOD: 42    TIME STEP: 9    Output deactivated
+         0         0         0         0
+         0         0         0         0   PERIOD: 42    TIME STEP: 10    Output deactivated
+         0         0         0         0
+         0         0         0         0   PERIOD: 42    TIME STEP: 11    Output deactivated
+         0         0         0         0
+         1         1         1         1   PERIOD: 42    TIME STEP: 12 
+         0         0         1         1   LAYER: 1 
+         1         1         1         1   PERIOD: 43    TIME STEP: 1 
+         0         0         1         1   LAYER: 1 
+         0         0         0         0   PERIOD: 43    TIME STEP: 2    Output deactivated
+         0         0         0         0
+         0         0         0         0   PERIOD: 43    TIME STEP: 3    Output deactivated
+         0         0         0         0
+         0         0         0         0   PERIOD: 43    TIME STEP: 4    Output deactivated
+         0         0         0         0
+         0         0         0         0   PERIOD: 43    TIME STEP: 5    Output deactivated
+         0         0         0         0
+         0         0         0         0   PERIOD: 43    TIME STEP: 6    Output deactivated
+         0         0         0         0
+         0         0         0         0   PERIOD: 43    TIME STEP: 7    Output deactivated
+         0         0         0         0
+         0         0         0         0   PERIOD: 43    TIME STEP: 8    Output deactivated
+         0         0         0         0
+         0         0         0         0   PERIOD: 43    TIME STEP: 9    Output deactivated
+         0         0         0         0
+         0         0         0         0   PERIOD: 43    TIME STEP: 10    Output deactivated
+         0         0         0         0
+         0         0         0         0   PERIOD: 43    TIME STEP: 11    Output deactivated
+         0         0         0         0
+         1         1         1         1   PERIOD: 43    TIME STEP: 12 
+         0         0         1         1   LAYER: 1 
+         1         1         1         1   PERIOD: 44    TIME STEP: 1 
+         0         0         1         1   LAYER: 1 
+         0         0         0         0   PERIOD: 44    TIME STEP: 2    Output deactivated
+         0         0         0         0
+         0         0         0         0   PERIOD: 44    TIME STEP: 3    Output deactivated
+         0         0         0         0
+         0         0         0         0   PERIOD: 44    TIME STEP: 4    Output deactivated
+         0         0         0         0
+         0         0         0         0   PERIOD: 44    TIME STEP: 5    Output deactivated
+         0         0         0         0
+         0         0         0         0   PERIOD: 44    TIME STEP: 6    Output deactivated
+         0         0         0         0
+         0         0         0         0   PERIOD: 44    TIME STEP: 7    Output deactivated
+         0         0         0         0
+         0         0         0         0   PERIOD: 44    TIME STEP: 8    Output deactivated
+         0         0         0         0
+         0         0         0         0   PERIOD: 44    TIME STEP: 9    Output deactivated
+         0         0         0         0
+         0         0         0         0   PERIOD: 44    TIME STEP: 10    Output deactivated
+         0         0         0         0
+         0         0         0         0   PERIOD: 44    TIME STEP: 11    Output deactivated
+         0         0         0         0
+         1         1         1         1   PERIOD: 44    TIME STEP: 12 
+         0         0         1         1   LAYER: 1 
+         1         1         1         1   PERIOD: 45    TIME STEP: 1 
+         0         0         1         1   LAYER: 1 
+         0         0         0         0   PERIOD: 45    TIME STEP: 2    Output deactivated
+         0         0         0         0
+         0         0         0         0   PERIOD: 45    TIME STEP: 3    Output deactivated
+         0         0         0         0
+         0         0         0         0   PERIOD: 45    TIME STEP: 4    Output deactivated
+         0         0         0         0
+         0         0         0         0   PERIOD: 45    TIME STEP: 5    Output deactivated
+         0         0         0         0
+         0         0         0         0   PERIOD: 45    TIME STEP: 6    Output deactivated
+         0         0         0         0
+         0         0         0         0   PERIOD: 45    TIME STEP: 7    Output deactivated
+         0         0         0         0
+         0         0         0         0   PERIOD: 45    TIME STEP: 8    Output deactivated
+         0         0         0         0
+         0         0         0         0   PERIOD: 45    TIME STEP: 9    Output deactivated
+         0         0         0         0
+         0         0         0         0   PERIOD: 45    TIME STEP: 10    Output deactivated
+         0         0         0         0
+         0         0         0         0   PERIOD: 45    TIME STEP: 11    Output deactivated
+         0         0         0         0
+         1         1         1         1   PERIOD: 45    TIME STEP: 12 
+         0         0         1         1   LAYER: 1 
+         1         1         1         1   PERIOD: 46    TIME STEP: 1 
+         0         0         1         1   LAYER: 1 
+         0         0         0         0   PERIOD: 46    TIME STEP: 2    Output deactivated
+         0         0         0         0
+         0         0         0         0   PERIOD: 46    TIME STEP: 3    Output deactivated
+         0         0         0         0
+         0         0         0         0   PERIOD: 46    TIME STEP: 4    Output deactivated
+         0         0         0         0
+         0         0         0         0   PERIOD: 46    TIME STEP: 5    Output deactivated
+         0         0         0         0
+         0         0         0         0   PERIOD: 46    TIME STEP: 6    Output deactivated
+         0         0         0         0
+         0         0         0         0   PERIOD: 46    TIME STEP: 7    Output deactivated
+         0         0         0         0
+         0         0         0         0   PERIOD: 46    TIME STEP: 8    Output deactivated
+         0         0         0         0
+         0         0         0         0   PERIOD: 46    TIME STEP: 9    Output deactivated
+         0         0         0         0
+         0         0         0         0   PERIOD: 46    TIME STEP: 10    Output deactivated
+         0         0         0         0
+         0         0         0         0   PERIOD: 46    TIME STEP: 11    Output deactivated
+         0         0         0         0
+         1         1         1         1   PERIOD: 46    TIME STEP: 12 
+         0         0         1         1   LAYER: 1 
+         1         1         1         1   PERIOD: 47    TIME STEP: 1 
+         0         0         1         1   LAYER: 1 
+         0         0         0         0   PERIOD: 47    TIME STEP: 2    Output deactivated
+         0         0         0         0
+         0         0         0         0   PERIOD: 47    TIME STEP: 3    Output deactivated
+         0         0         0         0
+         0         0         0         0   PERIOD: 47    TIME STEP: 4    Output deactivated
+         0         0         0         0
+         0         0         0         0   PERIOD: 47    TIME STEP: 5    Output deactivated
+         0         0         0         0
+         0         0         0         0   PERIOD: 47    TIME STEP: 6    Output deactivated
+         0         0         0         0
+         0         0         0         0   PERIOD: 47    TIME STEP: 7    Output deactivated
+         0         0         0         0
+         0         0         0         0   PERIOD: 47    TIME STEP: 8    Output deactivated
+         0         0         0         0
+         0         0         0         0   PERIOD: 47    TIME STEP: 9    Output deactivated
+         0         0         0         0
+         0         0         0         0   PERIOD: 47    TIME STEP: 10    Output deactivated
+         0         0         0         0
+         0         0         0         0   PERIOD: 47    TIME STEP: 11    Output deactivated
+         0         0         0         0
+         1         1         1         1   PERIOD: 47    TIME STEP: 12 
+         0         0         1         1   LAYER: 1 
+         1         1         1         1   PERIOD: 48    TIME STEP: 1 
+         0         0         1         1   LAYER: 1 
+         0         0         0         0   PERIOD: 48    TIME STEP: 2    Output deactivated
+         0         0         0         0
+         0         0         0         0   PERIOD: 48    TIME STEP: 3    Output deactivated
+         0         0         0         0
+         0         0         0         0   PERIOD: 48    TIME STEP: 4    Output deactivated
+         0         0         0         0
+         0         0         0         0   PERIOD: 48    TIME STEP: 5    Output deactivated
+         0         0         0         0
+         0         0         0         0   PERIOD: 48    TIME STEP: 6    Output deactivated
+         0         0         0         0
+         0         0         0         0   PERIOD: 48    TIME STEP: 7    Output deactivated
+         0         0         0         0
+         0         0         0         0   PERIOD: 48    TIME STEP: 8    Output deactivated
+         0         0         0         0
+         0         0         0         0   PERIOD: 48    TIME STEP: 9    Output deactivated
+         0         0         0         0
+         0         0         0         0   PERIOD: 48    TIME STEP: 10    Output deactivated
+         0         0         0         0
+         0         0         0         0   PERIOD: 48    TIME STEP: 11    Output deactivated
+         0         0         0         0
+         1         1         1         1   PERIOD: 48    TIME STEP: 12 
+         0         0         1         1   LAYER: 1 
+         1         1         1         1   PERIOD: 49    TIME STEP: 1 
+         0         0         1         1   LAYER: 1 
+         0         0         0         0   PERIOD: 49    TIME STEP: 2    Output deactivated
+         0         0         0         0
+         0         0         0         0   PERIOD: 49    TIME STEP: 3    Output deactivated
+         0         0         0         0
+         0         0         0         0   PERIOD: 49    TIME STEP: 4    Output deactivated
+         0         0         0         0
+         0         0         0         0   PERIOD: 49    TIME STEP: 5    Output deactivated
+         0         0         0         0
+         0         0         0         0   PERIOD: 49    TIME STEP: 6    Output deactivated
+         0         0         0         0
+         0         0         0         0   PERIOD: 49    TIME STEP: 7    Output deactivated
+         0         0         0         0
+         0         0         0         0   PERIOD: 49    TIME STEP: 8    Output deactivated
+         0         0         0         0
+         0         0         0         0   PERIOD: 49    TIME STEP: 9    Output deactivated
+         0         0         0         0
+         0         0         0         0   PERIOD: 49    TIME STEP: 10    Output deactivated
+         0         0         0         0
+         0         0         0         0   PERIOD: 49    TIME STEP: 11    Output deactivated
+         0         0         0         0
+         1         1         1         1   PERIOD: 49    TIME STEP: 12 
+         0         0         1         1   LAYER: 1 
+         1         1         1         1   PERIOD: 50    TIME STEP: 1 
+         0         0         1         1   LAYER: 1 
+         0         0         0         0   PERIOD: 50    TIME STEP: 2    Output deactivated
+         0         0         0         0
+         0         0         0         0   PERIOD: 50    TIME STEP: 3    Output deactivated
+         0         0         0         0
+         0         0         0         0   PERIOD: 50    TIME STEP: 4    Output deactivated
+         0         0         0         0
+         0         0         0         0   PERIOD: 50    TIME STEP: 5    Output deactivated
+         0         0         0         0
+         0         0         0         0   PERIOD: 50    TIME STEP: 6    Output deactivated
+         0         0         0         0
+         0         0         0         0   PERIOD: 50    TIME STEP: 7    Output deactivated
+         0         0         0         0
+         0         0         0         0   PERIOD: 50    TIME STEP: 8    Output deactivated
+         0         0         0         0
+         0         0         0         0   PERIOD: 50    TIME STEP: 9    Output deactivated
+         0         0         0         0
+         0         0         0         0   PERIOD: 50    TIME STEP: 10    Output deactivated
+         0         0         0         0
+         0         0         0         0   PERIOD: 50    TIME STEP: 11    Output deactivated
+         0         0         0         0
+         1         1         1         1   PERIOD: 50    TIME STEP: 12 
+         0         0         1         1   LAYER: 1 
+         1         1         1         1   PERIOD: 51    TIME STEP: 1 
+         0         0         1         1   LAYER: 1 
+         0         0         0         0   PERIOD: 51    TIME STEP: 2    Output deactivated
+         0         0         0         0
+         0         0         0         0   PERIOD: 51    TIME STEP: 3    Output deactivated
+         0         0         0         0
+         0         0         0         0   PERIOD: 51    TIME STEP: 4    Output deactivated
+         0         0         0         0
+         0         0         0         0   PERIOD: 51    TIME STEP: 5    Output deactivated
+         0         0         0         0
+         0         0         0         0   PERIOD: 51    TIME STEP: 6    Output deactivated
+         0         0         0         0
+         0         0         0         0   PERIOD: 51    TIME STEP: 7    Output deactivated
+         0         0         0         0
+         0         0         0         0   PERIOD: 51    TIME STEP: 8    Output deactivated
+         0         0         0         0
+         0         0         0         0   PERIOD: 51    TIME STEP: 9    Output deactivated
+         0         0         0         0
+         0         0         0         0   PERIOD: 51    TIME STEP: 10    Output deactivated
+         0         0         0         0
+         0         0         0         0   PERIOD: 51    TIME STEP: 11    Output deactivated
+         0         0         0         0
+         1         1         1         1   PERIOD: 51    TIME STEP: 12 
+         0         0         1         1   LAYER: 1 
+         1         1         1         1   PERIOD: 52    TIME STEP: 1 
+         0         0         1         1   LAYER: 1 
+         0         0         0         0   PERIOD: 52    TIME STEP: 2    Output deactivated
+         0         0         0         0
+         0         0         0         0   PERIOD: 52    TIME STEP: 3    Output deactivated
+         0         0         0         0
+         0         0         0         0   PERIOD: 52    TIME STEP: 4    Output deactivated
+         0         0         0         0
+         0         0         0         0   PERIOD: 52    TIME STEP: 5    Output deactivated
+         0         0         0         0
+         0         0         0         0   PERIOD: 52    TIME STEP: 6    Output deactivated
+         0         0         0         0
+         0         0         0         0   PERIOD: 52    TIME STEP: 7    Output deactivated
+         0         0         0         0
+         0         0         0         0   PERIOD: 52    TIME STEP: 8    Output deactivated
+         0         0         0         0
+         0         0         0         0   PERIOD: 52    TIME STEP: 9    Output deactivated
+         0         0         0         0
+         0         0         0         0   PERIOD: 52    TIME STEP: 10    Output deactivated
+         0         0         0         0
+         0         0         0         0   PERIOD: 52    TIME STEP: 11    Output deactivated
+         0         0         0         0
+         1         1         1         1   PERIOD: 52    TIME STEP: 12 
+         0         0         1         1   LAYER: 1 
+         1         1         1         1   PERIOD: 53    TIME STEP: 1 
+         0         0         1         1   LAYER: 1 
+         0         0         0         0   PERIOD: 53    TIME STEP: 2    Output deactivated
+         0         0         0         0
+         0         0         0         0   PERIOD: 53    TIME STEP: 3    Output deactivated
+         0         0         0         0
+         0         0         0         0   PERIOD: 53    TIME STEP: 4    Output deactivated
+         0         0         0         0
+         0         0         0         0   PERIOD: 53    TIME STEP: 5    Output deactivated
+         0         0         0         0
+         0         0         0         0   PERIOD: 53    TIME STEP: 6    Output deactivated
+         0         0         0         0
+         0         0         0         0   PERIOD: 53    TIME STEP: 7    Output deactivated
+         0         0         0         0
+         0         0         0         0   PERIOD: 53    TIME STEP: 8    Output deactivated
+         0         0         0         0
+         0         0         0         0   PERIOD: 53    TIME STEP: 9    Output deactivated
+         0         0         0         0
+         0         0         0         0   PERIOD: 53    TIME STEP: 10    Output deactivated
+         0         0         0         0
+         0         0         0         0   PERIOD: 53    TIME STEP: 11    Output deactivated
+         0         0         0         0
+         1         1         1         1   PERIOD: 53    TIME STEP: 12 
+         0         0         1         1   LAYER: 1 
+         1         1         1         1   PERIOD: 54    TIME STEP: 1 
+         0         0         1         1   LAYER: 1 
+         0         0         0         0   PERIOD: 54    TIME STEP: 2    Output deactivated
+         0         0         0         0
+         0         0         0         0   PERIOD: 54    TIME STEP: 3    Output deactivated
+         0         0         0         0
+         0         0         0         0   PERIOD: 54    TIME STEP: 4    Output deactivated
+         0         0         0         0
+         0         0         0         0   PERIOD: 54    TIME STEP: 5    Output deactivated
+         0         0         0         0
+         0         0         0         0   PERIOD: 54    TIME STEP: 6    Output deactivated
+         0         0         0         0
+         0         0         0         0   PERIOD: 54    TIME STEP: 7    Output deactivated
+         0         0         0         0
+         0         0         0         0   PERIOD: 54    TIME STEP: 8    Output deactivated
+         0         0         0         0
+         0         0         0         0   PERIOD: 54    TIME STEP: 9    Output deactivated
+         0         0         0         0
+         0         0         0         0   PERIOD: 54    TIME STEP: 10    Output deactivated
+         0         0         0         0
+         0         0         0         0   PERIOD: 54    TIME STEP: 11    Output deactivated
+         0         0         0         0
+         1         1         1         1   PERIOD: 54    TIME STEP: 12 
+         0         0         1         1   LAYER: 1 
+         1         1         1         1   PERIOD: 55    TIME STEP: 1 
+         0         0         1         1   LAYER: 1 
+         0         0         0         0   PERIOD: 55    TIME STEP: 2    Output deactivated
+         0         0         0         0
+         0         0         0         0   PERIOD: 55    TIME STEP: 3    Output deactivated
+         0         0         0         0
+         0         0         0         0   PERIOD: 55    TIME STEP: 4    Output deactivated
+         0         0         0         0
+         0         0         0         0   PERIOD: 55    TIME STEP: 5    Output deactivated
+         0         0         0         0
+         0         0         0         0   PERIOD: 55    TIME STEP: 6    Output deactivated
+         0         0         0         0
+         0         0         0         0   PERIOD: 55    TIME STEP: 7    Output deactivated
+         0         0         0         0
+         0         0         0         0   PERIOD: 55    TIME STEP: 8    Output deactivated
+         0         0         0         0
+         0         0         0         0   PERIOD: 55    TIME STEP: 9    Output deactivated
+         0         0         0         0
+         0         0         0         0   PERIOD: 55    TIME STEP: 10    Output deactivated
+         0         0         0         0
+         0         0         0         0   PERIOD: 55    TIME STEP: 11    Output deactivated
+         0         0         0         0
+         1         1         1         1   PERIOD: 55    TIME STEP: 12 
+         0         0         1         1   LAYER: 1 
+         1         1         1         1   PERIOD: 56    TIME STEP: 1 
+         0         0         1         1   LAYER: 1 
+         0         0         0         0   PERIOD: 56    TIME STEP: 2    Output deactivated
+         0         0         0         0
+         0         0         0         0   PERIOD: 56    TIME STEP: 3    Output deactivated
+         0         0         0         0
+         0         0         0         0   PERIOD: 56    TIME STEP: 4    Output deactivated
+         0         0         0         0
+         0         0         0         0   PERIOD: 56    TIME STEP: 5    Output deactivated
+         0         0         0         0
+         0         0         0         0   PERIOD: 56    TIME STEP: 6    Output deactivated
+         0         0         0         0
+         0         0         0         0   PERIOD: 56    TIME STEP: 7    Output deactivated
+         0         0         0         0
+         0         0         0         0   PERIOD: 56    TIME STEP: 8    Output deactivated
+         0         0         0         0
+         0         0         0         0   PERIOD: 56    TIME STEP: 9    Output deactivated
+         0         0         0         0
+         0         0         0         0   PERIOD: 56    TIME STEP: 10    Output deactivated
+         0         0         0         0
+         0         0         0         0   PERIOD: 56    TIME STEP: 11    Output deactivated
+         0         0         0         0
+         1         1         1         1   PERIOD: 56    TIME STEP: 12 
+         0         0         1         1   LAYER: 1 
+         1         1         1         1   PERIOD: 57    TIME STEP: 1 
+         0         0         1         1   LAYER: 1 
+         0         0         0         0   PERIOD: 57    TIME STEP: 2    Output deactivated
+         0         0         0         0
+         0         0         0         0   PERIOD: 57    TIME STEP: 3    Output deactivated
+         0         0         0         0
+         0         0         0         0   PERIOD: 57    TIME STEP: 4    Output deactivated
+         0         0         0         0
+         0         0         0         0   PERIOD: 57    TIME STEP: 5    Output deactivated
+         0         0         0         0
+         0         0         0         0   PERIOD: 57    TIME STEP: 6    Output deactivated
+         0         0         0         0
+         0         0         0         0   PERIOD: 57    TIME STEP: 7    Output deactivated
+         0         0         0         0
+         0         0         0         0   PERIOD: 57    TIME STEP: 8    Output deactivated
+         0         0         0         0
+         0         0         0         0   PERIOD: 57    TIME STEP: 9    Output deactivated
+         0         0         0         0
+         0         0         0         0   PERIOD: 57    TIME STEP: 10    Output deactivated
+         0         0         0         0
+         0         0         0         0   PERIOD: 57    TIME STEP: 11    Output deactivated
+         0         0         0         0
+         1         1         1         1   PERIOD: 57    TIME STEP: 12 
+         0         0         1         1   LAYER: 1 
+         1         1         1         1   PERIOD: 58    TIME STEP: 1 
+         0         0         1         1   LAYER: 1 
+         0         0         0         0   PERIOD: 58    TIME STEP: 2    Output deactivated
+         0         0         0         0
+         0         0         0         0   PERIOD: 58    TIME STEP: 3    Output deactivated
+         0         0         0         0
+         0         0         0         0   PERIOD: 58    TIME STEP: 4    Output deactivated
+         0         0         0         0
+         0         0         0         0   PERIOD: 58    TIME STEP: 5    Output deactivated
+         0         0         0         0
+         0         0         0         0   PERIOD: 58    TIME STEP: 6    Output deactivated
+         0         0         0         0
+         0         0         0         0   PERIOD: 58    TIME STEP: 7    Output deactivated
+         0         0         0         0
+         0         0         0         0   PERIOD: 58    TIME STEP: 8    Output deactivated
+         0         0         0         0
+         0         0         0         0   PERIOD: 58    TIME STEP: 9    Output deactivated
+         0         0         0         0
+         0         0         0         0   PERIOD: 58    TIME STEP: 10    Output deactivated
+         0         0         0         0
+         0         0         0         0   PERIOD: 58    TIME STEP: 11    Output deactivated
+         0         0         0         0
+         1         1         1         1   PERIOD: 58    TIME STEP: 12 
+         0         0         1         1   LAYER: 1 
+         1         1         1         1   PERIOD: 59    TIME STEP: 1 
+         0         0         1         1   LAYER: 1 
+         0         0         0         0   PERIOD: 59    TIME STEP: 2    Output deactivated
+         0         0         0         0
+         0         0         0         0   PERIOD: 59    TIME STEP: 3    Output deactivated
+         0         0         0         0
+         0         0         0         0   PERIOD: 59    TIME STEP: 4    Output deactivated
+         0         0         0         0
+         0         0         0         0   PERIOD: 59    TIME STEP: 5    Output deactivated
+         0         0         0         0
+         0         0         0         0   PERIOD: 59    TIME STEP: 6    Output deactivated
+         0         0         0         0
+         0         0         0         0   PERIOD: 59    TIME STEP: 7    Output deactivated
+         0         0         0         0
+         0         0         0         0   PERIOD: 59    TIME STEP: 8    Output deactivated
+         0         0         0         0
+         0         0         0         0   PERIOD: 59    TIME STEP: 9    Output deactivated
+         0         0         0         0
+         0         0         0         0   PERIOD: 59    TIME STEP: 10    Output deactivated
+         0         0         0         0
+         0         0         0         0   PERIOD: 59    TIME STEP: 11    Output deactivated
+         0         0         0         0
+         1         1         1         1   PERIOD: 59    TIME STEP: 12 
+         0         0         1         1   LAYER: 1 
+         1         1         1         1   PERIOD: 60    TIME STEP: 1 
+         0         0         1         1   LAYER: 1 
+         0         0         0         0   PERIOD: 60    TIME STEP: 2    Output deactivated
+         0         0         0         0
+         0         0         0         0   PERIOD: 60    TIME STEP: 3    Output deactivated
+         0         0         0         0
+         0         0         0         0   PERIOD: 60    TIME STEP: 4    Output deactivated
+         0         0         0         0
+         0         0         0         0   PERIOD: 60    TIME STEP: 5    Output deactivated
+         0         0         0         0
+         0         0         0         0   PERIOD: 60    TIME STEP: 6    Output deactivated
+         0         0         0         0
+         0         0         0         0   PERIOD: 60    TIME STEP: 7    Output deactivated
+         0         0         0         0
+         0         0         0         0   PERIOD: 60    TIME STEP: 8    Output deactivated
+         0         0         0         0
+         0         0         0         0   PERIOD: 60    TIME STEP: 9    Output deactivated
+         0         0         0         0
+         0         0         0         0   PERIOD: 60    TIME STEP: 10    Output deactivated
+         0         0         0         0
+         0         0         0         0   PERIOD: 60    TIME STEP: 11    Output deactivated
+         0         0         0         0
+         1         1         1         1   PERIOD: 60    TIME STEP: 12 
+         0         0         1         1   LAYER: 1 
+         1         1         1         1   PERIOD: 61    TIME STEP: 1 
+         0         0         1         1   LAYER: 1 
+         0         0         0         0   PERIOD: 61    TIME STEP: 2    Output deactivated
+         0         0         0         0
+         0         0         0         0   PERIOD: 61    TIME STEP: 3    Output deactivated
+         0         0         0         0
+         0         0         0         0   PERIOD: 61    TIME STEP: 4    Output deactivated
+         0         0         0         0
+         0         0         0         0   PERIOD: 61    TIME STEP: 5    Output deactivated
+         0         0         0         0
+         0         0         0         0   PERIOD: 61    TIME STEP: 6    Output deactivated
+         0         0         0         0
+         0         0         0         0   PERIOD: 61    TIME STEP: 7    Output deactivated
+         0         0         0         0
+         0         0         0         0   PERIOD: 61    TIME STEP: 8    Output deactivated
+         0         0         0         0
+         0         0         0         0   PERIOD: 61    TIME STEP: 9    Output deactivated
+         0         0         0         0
+         0         0         0         0   PERIOD: 61    TIME STEP: 10    Output deactivated
+         0         0         0         0
+         0         0         0         0   PERIOD: 61    TIME STEP: 11    Output deactivated
+         0         0         0         0
+         1         1         1         1   PERIOD: 61    TIME STEP: 12 
+         0         0         1         1   LAYER: 1 
+         1         1         1         1   PERIOD: 62    TIME STEP: 1 
+         0         0         1         1   LAYER: 1 
+         0         0         0         0   PERIOD: 62    TIME STEP: 2    Output deactivated
+         0         0         0         0
+         0         0         0         0   PERIOD: 62    TIME STEP: 3    Output deactivated
+         0         0         0         0
+         0         0         0         0   PERIOD: 62    TIME STEP: 4    Output deactivated
+         0         0         0         0
+         0         0         0         0   PERIOD: 62    TIME STEP: 5    Output deactivated
+         0         0         0         0
+         0         0         0         0   PERIOD: 62    TIME STEP: 6    Output deactivated
+         0         0         0         0
+         0         0         0         0   PERIOD: 62    TIME STEP: 7    Output deactivated
+         0         0         0         0
+         0         0         0         0   PERIOD: 62    TIME STEP: 8    Output deactivated
+         0         0         0         0
+         0         0         0         0   PERIOD: 62    TIME STEP: 9    Output deactivated
+         0         0         0         0
+         0         0         0         0   PERIOD: 62    TIME STEP: 10    Output deactivated
+         0         0         0         0
+         0         0         0         0   PERIOD: 62    TIME STEP: 11    Output deactivated
+         0         0         0         0
+         1         1         1         1   PERIOD: 62    TIME STEP: 12 
+         0         0         1         1   LAYER: 1 
+         1         1         1         1   PERIOD: 63    TIME STEP: 1 
+         0         0         1         1   LAYER: 1 
+         0         0         0         0   PERIOD: 63    TIME STEP: 2    Output deactivated
+         0         0         0         0
+         0         0         0         0   PERIOD: 63    TIME STEP: 3    Output deactivated
+         0         0         0         0
+         0         0         0         0   PERIOD: 63    TIME STEP: 4    Output deactivated
+         0         0         0         0
+         0         0         0         0   PERIOD: 63    TIME STEP: 5    Output deactivated
+         0         0         0         0
+         0         0         0         0   PERIOD: 63    TIME STEP: 6    Output deactivated
+         0         0         0         0
+         0         0         0         0   PERIOD: 63    TIME STEP: 7    Output deactivated
+         0         0         0         0
+         0         0         0         0   PERIOD: 63    TIME STEP: 8    Output deactivated
+         0         0         0         0
+         0         0         0         0   PERIOD: 63    TIME STEP: 9    Output deactivated
+         0         0         0         0
+         0         0         0         0   PERIOD: 63    TIME STEP: 10    Output deactivated
+         0         0         0         0
+         0         0         0         0   PERIOD: 63    TIME STEP: 11    Output deactivated
+         0         0         0         0
+         1         1         1         1   PERIOD: 63    TIME STEP: 12 
+         0         0         1         1   LAYER: 1 
+         1         1         1         1   PERIOD: 64    TIME STEP: 1 
+         0         0         1         1   LAYER: 1 
+         0         0         0         0   PERIOD: 64    TIME STEP: 2    Output deactivated
+         0         0         0         0
+         0         0         0         0   PERIOD: 64    TIME STEP: 3    Output deactivated
+         0         0         0         0
+         0         0         0         0   PERIOD: 64    TIME STEP: 4    Output deactivated
+         0         0         0         0
+         0         0         0         0   PERIOD: 64    TIME STEP: 5    Output deactivated
+         0         0         0         0
+         0         0         0         0   PERIOD: 64    TIME STEP: 6    Output deactivated
+         0         0         0         0
+         0         0         0         0   PERIOD: 64    TIME STEP: 7    Output deactivated
+         0         0         0         0
+         0         0         0         0   PERIOD: 64    TIME STEP: 8    Output deactivated
+         0         0         0         0
+         0         0         0         0   PERIOD: 64    TIME STEP: 9    Output deactivated
+         0         0         0         0
+         0         0         0         0   PERIOD: 64    TIME STEP: 10    Output deactivated
+         0         0         0         0
+         0         0         0         0   PERIOD: 64    TIME STEP: 11    Output deactivated
+         0         0         0         0
+         1         1         1         1   PERIOD: 64    TIME STEP: 12 
+         0         0         1         1   LAYER: 1 
+         1         1         1         1   PERIOD: 65    TIME STEP: 1 
+         0         0         1         1   LAYER: 1 
+         0         0         0         0   PERIOD: 65    TIME STEP: 2    Output deactivated
+         0         0         0         0
+         0         0         0         0   PERIOD: 65    TIME STEP: 3    Output deactivated
+         0         0         0         0
+         0         0         0         0   PERIOD: 65    TIME STEP: 4    Output deactivated
+         0         0         0         0
+         0         0         0         0   PERIOD: 65    TIME STEP: 5    Output deactivated
+         0         0         0         0
+         0         0         0         0   PERIOD: 65    TIME STEP: 6    Output deactivated
+         0         0         0         0
+         0         0         0         0   PERIOD: 65    TIME STEP: 7    Output deactivated
+         0         0         0         0
+         0         0         0         0   PERIOD: 65    TIME STEP: 8    Output deactivated
+         0         0         0         0
+         0         0         0         0   PERIOD: 65    TIME STEP: 9    Output deactivated
+         0         0         0         0
+         0         0         0         0   PERIOD: 65    TIME STEP: 10    Output deactivated
+         0         0         0         0
+         0         0         0         0   PERIOD: 65    TIME STEP: 11    Output deactivated
+         0         0         0         0
+         1         1         1         1   PERIOD: 65    TIME STEP: 12 
+         0         0         1         1   LAYER: 1 
+         1         1         1         1   PERIOD: 66    TIME STEP: 1 
+         0         0         1         1   LAYER: 1 
+         0         0         0         0   PERIOD: 66    TIME STEP: 2    Output deactivated
+         0         0         0         0
+         0         0         0         0   PERIOD: 66    TIME STEP: 3    Output deactivated
+         0         0         0         0
+         0         0         0         0   PERIOD: 66    TIME STEP: 4    Output deactivated
+         0         0         0         0
+         0         0         0         0   PERIOD: 66    TIME STEP: 5    Output deactivated
+         0         0         0         0
+         0         0         0         0   PERIOD: 66    TIME STEP: 6    Output deactivated
+         0         0         0         0
+         0         0         0         0   PERIOD: 66    TIME STEP: 7    Output deactivated
+         0         0         0         0
+         0         0         0         0   PERIOD: 66    TIME STEP: 8    Output deactivated
+         0         0         0         0
+         0         0         0         0   PERIOD: 66    TIME STEP: 9    Output deactivated
+         0         0         0         0
+         0         0         0         0   PERIOD: 66    TIME STEP: 10    Output deactivated
+         0         0         0         0
+         0         0         0         0   PERIOD: 66    TIME STEP: 11    Output deactivated
+         0         0         0         0
+         1         1         1         1   PERIOD: 66    TIME STEP: 12 
+         0         0         1         1   LAYER: 1 
+         1         1         1         1   PERIOD: 67    TIME STEP: 1 
+         0         0         1         1   LAYER: 1 
+         0         0         0         0   PERIOD: 67    TIME STEP: 2    Output deactivated
+         0         0         0         0
+         0         0         0         0   PERIOD: 67    TIME STEP: 3    Output deactivated
+         0         0         0         0
+         0         0         0         0   PERIOD: 67    TIME STEP: 4    Output deactivated
+         0         0         0         0
+         0         0         0         0   PERIOD: 67    TIME STEP: 5    Output deactivated
+         0         0         0         0
+         0         0         0         0   PERIOD: 67    TIME STEP: 6    Output deactivated
+         0         0         0         0
+         0         0         0         0   PERIOD: 67    TIME STEP: 7    Output deactivated
+         0         0         0         0
+         0         0         0         0   PERIOD: 67    TIME STEP: 8    Output deactivated
+         0         0         0         0
+         0         0         0         0   PERIOD: 67    TIME STEP: 9    Output deactivated
+         0         0         0         0
+         0         0         0         0   PERIOD: 67    TIME STEP: 10    Output deactivated
+         0         0         0         0
+         0         0         0         0   PERIOD: 67    TIME STEP: 11    Output deactivated
+         0         0         0         0
+         1         1         1         1   PERIOD: 67    TIME STEP: 12 
+         0         0         1         1   LAYER: 1 
+         1         1         1         1   PERIOD: 68    TIME STEP: 1 
+         0         0         1         1   LAYER: 1 
+         0         0         0         0   PERIOD: 68    TIME STEP: 2    Output deactivated
+         0         0         0         0
+         0         0         0         0   PERIOD: 68    TIME STEP: 3    Output deactivated
+         0         0         0         0
+         0         0         0         0   PERIOD: 68    TIME STEP: 4    Output deactivated
+         0         0         0         0
+         0         0         0         0   PERIOD: 68    TIME STEP: 5    Output deactivated
+         0         0         0         0
+         0         0         0         0   PERIOD: 68    TIME STEP: 6    Output deactivated
+         0         0         0         0
+         0         0         0         0   PERIOD: 68    TIME STEP: 7    Output deactivated
+         0         0         0         0
+         0         0         0         0   PERIOD: 68    TIME STEP: 8    Output deactivated
+         0         0         0         0
+         0         0         0         0   PERIOD: 68    TIME STEP: 9    Output deactivated
+         0         0         0         0
+         0         0         0         0   PERIOD: 68    TIME STEP: 10    Output deactivated
+         0         0         0         0
+         0         0         0         0   PERIOD: 68    TIME STEP: 11    Output deactivated
+         0         0         0         0
+         1         1         1         1   PERIOD: 68    TIME STEP: 12 
+         0         0         1         1   LAYER: 1 
+         1         1         1         1   PERIOD: 69    TIME STEP: 1 
+         0         0         1         1   LAYER: 1 
+         0         0         0         0   PERIOD: 69    TIME STEP: 2    Output deactivated
+         0         0         0         0
+         0         0         0         0   PERIOD: 69    TIME STEP: 3    Output deactivated
+         0         0         0         0
+         0         0         0         0   PERIOD: 69    TIME STEP: 4    Output deactivated
+         0         0         0         0
+         0         0         0         0   PERIOD: 69    TIME STEP: 5    Output deactivated
+         0         0         0         0
+         0         0         0         0   PERIOD: 69    TIME STEP: 6    Output deactivated
+         0         0         0         0
+         0         0         0         0   PERIOD: 69    TIME STEP: 7    Output deactivated
+         0         0         0         0
+         0         0         0         0   PERIOD: 69    TIME STEP: 8    Output deactivated
+         0         0         0         0
+         0         0         0         0   PERIOD: 69    TIME STEP: 9    Output deactivated
+         0         0         0         0
+         0         0         0         0   PERIOD: 69    TIME STEP: 10    Output deactivated
+         0         0         0         0
+         0         0         0         0   PERIOD: 69    TIME STEP: 11    Output deactivated
+         0         0         0         0
+         1         1         1         1   PERIOD: 69    TIME STEP: 12 
+         0         0         1         1   LAYER: 1 
+         1         1         1         1   PERIOD: 70    TIME STEP: 1 
+         0         0         1         1   LAYER: 1 
+         0         0         0         0   PERIOD: 70    TIME STEP: 2    Output deactivated
+         0         0         0         0
+         0         0         0         0   PERIOD: 70    TIME STEP: 3    Output deactivated
+         0         0         0         0
+         0         0         0         0   PERIOD: 70    TIME STEP: 4    Output deactivated
+         0         0         0         0
+         0         0         0         0   PERIOD: 70    TIME STEP: 5    Output deactivated
+         0         0         0         0
+         0         0         0         0   PERIOD: 70    TIME STEP: 6    Output deactivated
+         0         0         0         0
+         0         0         0         0   PERIOD: 70    TIME STEP: 7    Output deactivated
+         0         0         0         0
+         0         0         0         0   PERIOD: 70    TIME STEP: 8    Output deactivated
+         0         0         0         0
+         0         0         0         0   PERIOD: 70    TIME STEP: 9    Output deactivated
+         0         0         0         0
+         0         0         0         0   PERIOD: 70    TIME STEP: 10    Output deactivated
+         0         0         0         0
+         0         0         0         0   PERIOD: 70    TIME STEP: 11    Output deactivated
+         0         0         0         0
+         1         1         1         1   PERIOD: 70    TIME STEP: 12 
+         0         0         1         1   LAYER: 1 
+         1         1         1         1   PERIOD: 71    TIME STEP: 1 
+         0         0         1         1   LAYER: 1 
+         0         0         0         0   PERIOD: 71    TIME STEP: 2    Output deactivated
+         0         0         0         0
+         0         0         0         0   PERIOD: 71    TIME STEP: 3    Output deactivated
+         0         0         0         0
+         0         0         0         0   PERIOD: 71    TIME STEP: 4    Output deactivated
+         0         0         0         0
+         0         0         0         0   PERIOD: 71    TIME STEP: 5    Output deactivated
+         0         0         0         0
+         0         0         0         0   PERIOD: 71    TIME STEP: 6    Output deactivated
+         0         0         0         0
+         0         0         0         0   PERIOD: 71    TIME STEP: 7    Output deactivated
+         0         0         0         0
+         0         0         0         0   PERIOD: 71    TIME STEP: 8    Output deactivated
+         0         0         0         0
+         0         0         0         0   PERIOD: 71    TIME STEP: 9    Output deactivated
+         0         0         0         0
+         0         0         0         0   PERIOD: 71    TIME STEP: 10    Output deactivated
+         0         0         0         0
+         0         0         0         0   PERIOD: 71    TIME STEP: 11    Output deactivated
+         0         0         0         0
+         1         1         1         1   PERIOD: 71    TIME STEP: 12 
+         0         0         1         1   LAYER: 1 
+         1         1         1         1   PERIOD: 72    TIME STEP: 1 
+         0         0         1         1   LAYER: 1 
+         0         0         0         0   PERIOD: 72    TIME STEP: 2    Output deactivated
+         0         0         0         0
+         0         0         0         0   PERIOD: 72    TIME STEP: 3    Output deactivated
+         0         0         0         0
+         0         0         0         0   PERIOD: 72    TIME STEP: 4    Output deactivated
+         0         0         0         0
+         0         0         0         0   PERIOD: 72    TIME STEP: 5    Output deactivated
+         0         0         0         0
+         0         0         0         0   PERIOD: 72    TIME STEP: 6    Output deactivated
+         0         0         0         0
+         0         0         0         0   PERIOD: 72    TIME STEP: 7    Output deactivated
+         0         0         0         0
+         0         0         0         0   PERIOD: 72    TIME STEP: 8    Output deactivated
+         0         0         0         0
+         0         0         0         0   PERIOD: 72    TIME STEP: 9    Output deactivated
+         0         0         0         0
+         0         0         0         0   PERIOD: 72    TIME STEP: 10    Output deactivated
+         0         0         0         0
+         0         0         0         0   PERIOD: 72    TIME STEP: 11    Output deactivated
+         0         0         0         0
+         1         1         1         1   PERIOD: 72    TIME STEP: 12 
+         0         0         1         1   LAYER: 1 
+         1         1         1         1   PERIOD: 73    TIME STEP: 1 
+         0         0         1         1   LAYER: 1 
+         0         0         0         0   PERIOD: 73    TIME STEP: 2    Output deactivated
+         0         0         0         0
+         0         0         0         0   PERIOD: 73    TIME STEP: 3    Output deactivated
+         0         0         0         0
+         0         0         0         0   PERIOD: 73    TIME STEP: 4    Output deactivated
+         0         0         0         0
+         0         0         0         0   PERIOD: 73    TIME STEP: 5    Output deactivated
+         0         0         0         0
+         0         0         0         0   PERIOD: 73    TIME STEP: 6    Output deactivated
+         0         0         0         0
+         0         0         0         0   PERIOD: 73    TIME STEP: 7    Output deactivated
+         0         0         0         0
+         0         0         0         0   PERIOD: 73    TIME STEP: 8    Output deactivated
+         0         0         0         0
+         0         0         0         0   PERIOD: 73    TIME STEP: 9    Output deactivated
+         0         0         0         0
+         0         0         0         0   PERIOD: 73    TIME STEP: 10    Output deactivated
+         0         0         0         0
+         0         0         0         0   PERIOD: 73    TIME STEP: 11    Output deactivated
+         0         0         0         0
+         1         1         1         1   PERIOD: 73    TIME STEP: 12 
+         0         0         1         1   LAYER: 1 
+         1         1         1         1   PERIOD: 74    TIME STEP: 1 
+         0         0         1         1   LAYER: 1 
+         0         0         0         0   PERIOD: 74    TIME STEP: 2    Output deactivated
+         0         0         0         0
+         0         0         0         0   PERIOD: 74    TIME STEP: 3    Output deactivated
+         0         0         0         0
+         0         0         0         0   PERIOD: 74    TIME STEP: 4    Output deactivated
+         0         0         0         0
+         0         0         0         0   PERIOD: 74    TIME STEP: 5    Output deactivated
+         0         0         0         0
+         0         0         0         0   PERIOD: 74    TIME STEP: 6    Output deactivated
+         0         0         0         0
+         0         0         0         0   PERIOD: 74    TIME STEP: 7    Output deactivated
+         0         0         0         0
+         0         0         0         0   PERIOD: 74    TIME STEP: 8    Output deactivated
+         0         0         0         0
+         0         0         0         0   PERIOD: 74    TIME STEP: 9    Output deactivated
+         0         0         0         0
+         0         0         0         0   PERIOD: 74    TIME STEP: 10    Output deactivated
+         0         0         0         0
+         0         0         0         0   PERIOD: 74    TIME STEP: 11    Output deactivated
+         0         0         0         0
+         1         1         1         1   PERIOD: 74    TIME STEP: 12 
+         0         0         1         1   LAYER: 1 
+         1         1         1         1   PERIOD: 75    TIME STEP: 1 
+         0         0         1         1   LAYER: 1 
+         0         0         0         0   PERIOD: 75    TIME STEP: 2    Output deactivated
+         0         0         0         0
+         0         0         0         0   PERIOD: 75    TIME STEP: 3    Output deactivated
+         0         0         0         0
+         0         0         0         0   PERIOD: 75    TIME STEP: 4    Output deactivated
+         0         0         0         0
+         0         0         0         0   PERIOD: 75    TIME STEP: 5    Output deactivated
+         0         0         0         0
+         0         0         0         0   PERIOD: 75    TIME STEP: 6    Output deactivated
+         0         0         0         0
+         0         0         0         0   PERIOD: 75    TIME STEP: 7    Output deactivated
+         0         0         0         0
+         0         0         0         0   PERIOD: 75    TIME STEP: 8    Output deactivated
+         0         0         0         0
+         0         0         0         0   PERIOD: 75    TIME STEP: 9    Output deactivated
+         0         0         0         0
+         0         0         0         0   PERIOD: 75    TIME STEP: 10    Output deactivated
+         0         0         0         0
+         0         0         0         0   PERIOD: 75    TIME STEP: 11    Output deactivated
+         0         0         0         0
+         1         1         1         1   PERIOD: 75    TIME STEP: 12 
+         0         0         1         1   LAYER: 1 
+         1         1         1         1   PERIOD: 76    TIME STEP: 1 
+         0         0         1         1   LAYER: 1 
+         0         0         0         0   PERIOD: 76    TIME STEP: 2    Output deactivated
+         0         0         0         0
+         0         0         0         0   PERIOD: 76    TIME STEP: 3    Output deactivated
+         0         0         0         0
+         0         0         0         0   PERIOD: 76    TIME STEP: 4    Output deactivated
+         0         0         0         0
+         0         0         0         0   PERIOD: 76    TIME STEP: 5    Output deactivated
+         0         0         0         0
+         0         0         0         0   PERIOD: 76    TIME STEP: 6    Output deactivated
+         0         0         0         0
+         0         0         0         0   PERIOD: 76    TIME STEP: 7    Output deactivated
+         0         0         0         0
+         0         0         0         0   PERIOD: 76    TIME STEP: 8    Output deactivated
+         0         0         0         0
+         0         0         0         0   PERIOD: 76    TIME STEP: 9    Output deactivated
+         0         0         0         0
+         0         0         0         0   PERIOD: 76    TIME STEP: 10    Output deactivated
+         0         0         0         0
+         0         0         0         0   PERIOD: 76    TIME STEP: 11    Output deactivated
+         0         0         0         0
+         1         1         1         1   PERIOD: 76    TIME STEP: 12 
+         0         0         1         1   LAYER: 1 
+         1         1         1         1   PERIOD: 77    TIME STEP: 1 
+         0         0         1         1   LAYER: 1 
+         0         0         0         0   PERIOD: 77    TIME STEP: 2    Output deactivated
+         0         0         0         0
+         0         0         0         0   PERIOD: 77    TIME STEP: 3    Output deactivated
+         0         0         0         0
+         0         0         0         0   PERIOD: 77    TIME STEP: 4    Output deactivated
+         0         0         0         0
+         0         0         0         0   PERIOD: 77    TIME STEP: 5    Output deactivated
+         0         0         0         0
+         0         0         0         0   PERIOD: 77    TIME STEP: 6    Output deactivated
+         0         0         0         0
+         0         0         0         0   PERIOD: 77    TIME STEP: 7    Output deactivated
+         0         0         0         0
+         0         0         0         0   PERIOD: 77    TIME STEP: 8    Output deactivated
+         0         0         0         0
+         0         0         0         0   PERIOD: 77    TIME STEP: 9    Output deactivated
+         0         0         0         0
+         0         0         0         0   PERIOD: 77    TIME STEP: 10    Output deactivated
+         0         0         0         0
+         0         0         0         0   PERIOD: 77    TIME STEP: 11    Output deactivated
+         0         0         0         0
+         1         1         1         1   PERIOD: 77    TIME STEP: 12 
+         0         0         1         1   LAYER: 1 
+         1         1         1         1   PERIOD: 78    TIME STEP: 1 
+         0         0         1         1   LAYER: 1 
+         0         0         0         0   PERIOD: 78    TIME STEP: 2    Output deactivated
+         0         0         0         0
+         0         0         0         0   PERIOD: 78    TIME STEP: 3    Output deactivated
+         0         0         0         0
+         0         0         0         0   PERIOD: 78    TIME STEP: 4    Output deactivated
+         0         0         0         0
+         0         0         0         0   PERIOD: 78    TIME STEP: 5    Output deactivated
+         0         0         0         0
+         0         0         0         0   PERIOD: 78    TIME STEP: 6    Output deactivated
+         0         0         0         0
+         0         0         0         0   PERIOD: 78    TIME STEP: 7    Output deactivated
+         0         0         0         0
+         0         0         0         0   PERIOD: 78    TIME STEP: 8    Output deactivated
+         0         0         0         0
+         0         0         0         0   PERIOD: 78    TIME STEP: 9    Output deactivated
+         0         0         0         0
+         0         0         0         0   PERIOD: 78    TIME STEP: 10    Output deactivated
+         0         0         0         0
+         0         0         0         0   PERIOD: 78    TIME STEP: 11    Output deactivated
+         0         0         0         0
+         1         1         1         1   PERIOD: 78    TIME STEP: 12 
+         0         0         1         1   LAYER: 1 
+         1         1         1         1   PERIOD: 79    TIME STEP: 1 
+         0         0         1         1   LAYER: 1 
+         0         0         0         0   PERIOD: 79    TIME STEP: 2    Output deactivated
+         0         0         0         0
+         0         0         0         0   PERIOD: 79    TIME STEP: 3    Output deactivated
+         0         0         0         0
+         0         0         0         0   PERIOD: 79    TIME STEP: 4    Output deactivated
+         0         0         0         0
+         0         0         0         0   PERIOD: 79    TIME STEP: 5    Output deactivated
+         0         0         0         0
+         0         0         0         0   PERIOD: 79    TIME STEP: 6    Output deactivated
+         0         0         0         0
+         0         0         0         0   PERIOD: 79    TIME STEP: 7    Output deactivated
+         0         0         0         0
+         0         0         0         0   PERIOD: 79    TIME STEP: 8    Output deactivated
+         0         0         0         0
+         0         0         0         0   PERIOD: 79    TIME STEP: 9    Output deactivated
+         0         0         0         0
+         0         0         0         0   PERIOD: 79    TIME STEP: 10    Output deactivated
+         0         0         0         0
+         0         0         0         0   PERIOD: 79    TIME STEP: 11    Output deactivated
+         0         0         0         0
+         1         1         1         1   PERIOD: 79    TIME STEP: 12 
+         0         0         1         1   LAYER: 1 
+         1         1         1         1   PERIOD: 80    TIME STEP: 1 
+         0         0         1         1   LAYER: 1 
+         0         0         0         0   PERIOD: 80    TIME STEP: 2    Output deactivated
+         0         0         0         0
+         0         0         0         0   PERIOD: 80    TIME STEP: 3    Output deactivated
+         0         0         0         0
+         0         0         0         0   PERIOD: 80    TIME STEP: 4    Output deactivated
+         0         0         0         0
+         0         0         0         0   PERIOD: 80    TIME STEP: 5    Output deactivated
+         0         0         0         0
+         0         0         0         0   PERIOD: 80    TIME STEP: 6    Output deactivated
+         0         0         0         0
+         0         0         0         0   PERIOD: 80    TIME STEP: 7    Output deactivated
+         0         0         0         0
+         0         0         0         0   PERIOD: 80    TIME STEP: 8    Output deactivated
+         0         0         0         0
+         0         0         0         0   PERIOD: 80    TIME STEP: 9    Output deactivated
+         0         0         0         0
+         0         0         0         0   PERIOD: 80    TIME STEP: 10    Output deactivated
+         0         0         0         0
+         0         0         0         0   PERIOD: 80    TIME STEP: 11    Output deactivated
+         0         0         0         0
+         1         1         1         1   PERIOD: 80    TIME STEP: 12 
+         0         0         1         1   LAYER: 1 
+         1         1         1         1   PERIOD: 81    TIME STEP: 1 
+         0         0         1         1   LAYER: 1 
+         0         0         0         0   PERIOD: 81    TIME STEP: 2    Output deactivated
+         0         0         0         0
+         0         0         0         0   PERIOD: 81    TIME STEP: 3    Output deactivated
+         0         0         0         0
+         0         0         0         0   PERIOD: 81    TIME STEP: 4    Output deactivated
+         0         0         0         0
+         0         0         0         0   PERIOD: 81    TIME STEP: 5    Output deactivated
+         0         0         0         0
+         0         0         0         0   PERIOD: 81    TIME STEP: 6    Output deactivated
+         0         0         0         0
+         0         0         0         0   PERIOD: 81    TIME STEP: 7    Output deactivated
+         0         0         0         0
+         0         0         0         0   PERIOD: 81    TIME STEP: 8    Output deactivated
+         0         0         0         0
+         0         0         0         0   PERIOD: 81    TIME STEP: 9    Output deactivated
+         0         0         0         0
+         0         0         0         0   PERIOD: 81    TIME STEP: 10    Output deactivated
+         0         0         0         0
+         0         0         0         0   PERIOD: 81    TIME STEP: 11    Output deactivated
+         0         0         0         0
+         1         1         1         1   PERIOD: 81    TIME STEP: 12 
+         0         0         1         1   LAYER: 1 
+         1         1         1         1   PERIOD: 82    TIME STEP: 1 
+         0         0         1         1   LAYER: 1 
+         0         0         0         0   PERIOD: 82    TIME STEP: 2    Output deactivated
+         0         0         0         0
+         0         0         0         0   PERIOD: 82    TIME STEP: 3    Output deactivated
+         0         0         0         0
+         0         0         0         0   PERIOD: 82    TIME STEP: 4    Output deactivated
+         0         0         0         0
+         0         0         0         0   PERIOD: 82    TIME STEP: 5    Output deactivated
+         0         0         0         0
+         0         0         0         0   PERIOD: 82    TIME STEP: 6    Output deactivated
+         0         0         0         0
+         0         0         0         0   PERIOD: 82    TIME STEP: 7    Output deactivated
+         0         0         0         0
+         0         0         0         0   PERIOD: 82    TIME STEP: 8    Output deactivated
+         0         0         0         0
+         0         0         0         0   PERIOD: 82    TIME STEP: 9    Output deactivated
+         0         0         0         0
+         0         0         0         0   PERIOD: 82    TIME STEP: 10    Output deactivated
+         0         0         0         0
+         0         0         0         0   PERIOD: 82    TIME STEP: 11    Output deactivated
+         0         0         0         0
+         1         1         1         1   PERIOD: 82    TIME STEP: 12 
+         0         0         1         1   LAYER: 1 
+         1         1         1         1   PERIOD: 83    TIME STEP: 1 
+         0         0         1         1   LAYER: 1 
+         0         0         0         0   PERIOD: 83    TIME STEP: 2    Output deactivated
+         0         0         0         0
+         0         0         0         0   PERIOD: 83    TIME STEP: 3    Output deactivated
+         0         0         0         0
+         0         0         0         0   PERIOD: 83    TIME STEP: 4    Output deactivated
+         0         0         0         0
+         0         0         0         0   PERIOD: 83    TIME STEP: 5    Output deactivated
+         0         0         0         0
+         0         0         0         0   PERIOD: 83    TIME STEP: 6    Output deactivated
+         0         0         0         0
+         0         0         0         0   PERIOD: 83    TIME STEP: 7    Output deactivated
+         0         0         0         0
+         0         0         0         0   PERIOD: 83    TIME STEP: 8    Output deactivated
+         0         0         0         0
+         0         0         0         0   PERIOD: 83    TIME STEP: 9    Output deactivated
+         0         0         0         0
+         0         0         0         0   PERIOD: 83    TIME STEP: 10    Output deactivated
+         0         0         0         0
+         0         0         0         0   PERIOD: 83    TIME STEP: 11    Output deactivated
+         0         0         0         0
+         1         1         1         1   PERIOD: 83    TIME STEP: 12 
+         0         0         1         1   LAYER: 1 
+         1         1         1         1   PERIOD: 84    TIME STEP: 1 
+         0         0         1         1   LAYER: 1 
+         0         0         0         0   PERIOD: 84    TIME STEP: 2    Output deactivated
+         0         0         0         0
+         0         0         0         0   PERIOD: 84    TIME STEP: 3    Output deactivated
+         0         0         0         0
+         0         0         0         0   PERIOD: 84    TIME STEP: 4    Output deactivated
+         0         0         0         0
+         0         0         0         0   PERIOD: 84    TIME STEP: 5    Output deactivated
+         0         0         0         0
+         0         0         0         0   PERIOD: 84    TIME STEP: 6    Output deactivated
+         0         0         0         0
+         0         0         0         0   PERIOD: 84    TIME STEP: 7    Output deactivated
+         0         0         0         0
+         0         0         0         0   PERIOD: 84    TIME STEP: 8    Output deactivated
+         0         0         0         0
+         0         0         0         0   PERIOD: 84    TIME STEP: 9    Output deactivated
+         0         0         0         0
+         0         0         0         0   PERIOD: 84    TIME STEP: 10    Output deactivated
+         0         0         0         0
+         0         0         0         0   PERIOD: 84    TIME STEP: 11    Output deactivated
+         0         0         0         0
+         1         1         1         1   PERIOD: 84    TIME STEP: 12 
+         0         0         1         1   LAYER: 1 
+         1         1         1         1   PERIOD: 85    TIME STEP: 1 
+         0         0         1         1   LAYER: 1 
+         0         0         0         0   PERIOD: 85    TIME STEP: 2    Output deactivated
+         0         0         0         0
+         0         0         0         0   PERIOD: 85    TIME STEP: 3    Output deactivated
+         0         0         0         0
+         0         0         0         0   PERIOD: 85    TIME STEP: 4    Output deactivated
+         0         0         0         0
+         0         0         0         0   PERIOD: 85    TIME STEP: 5    Output deactivated
+         0         0         0         0
+         0         0         0         0   PERIOD: 85    TIME STEP: 6    Output deactivated
+         0         0         0         0
+         0         0         0         0   PERIOD: 85    TIME STEP: 7    Output deactivated
+         0         0         0         0
+         0         0         0         0   PERIOD: 85    TIME STEP: 8    Output deactivated
+         0         0         0         0
+         0         0         0         0   PERIOD: 85    TIME STEP: 9    Output deactivated
+         0         0         0         0
+         0         0         0         0   PERIOD: 85    TIME STEP: 10    Output deactivated
+         0         0         0         0
+         0         0         0         0   PERIOD: 85    TIME STEP: 11    Output deactivated
+         0         0         0         0
+         1         1         1         1   PERIOD: 85    TIME STEP: 12 
+         0         0         1         1   LAYER: 1 
+         1         1         1         1   PERIOD: 86    TIME STEP: 1 
+         0         0         1         1   LAYER: 1 
+         0         0         0         0   PERIOD: 86    TIME STEP: 2    Output deactivated
+         0         0         0         0
+         0         0         0         0   PERIOD: 86    TIME STEP: 3    Output deactivated
+         0         0         0         0
+         0         0         0         0   PERIOD: 86    TIME STEP: 4    Output deactivated
+         0         0         0         0
+         0         0         0         0   PERIOD: 86    TIME STEP: 5    Output deactivated
+         0         0         0         0
+         0         0         0         0   PERIOD: 86    TIME STEP: 6    Output deactivated
+         0         0         0         0
+         0         0         0         0   PERIOD: 86    TIME STEP: 7    Output deactivated
+         0         0         0         0
+         0         0         0         0   PERIOD: 86    TIME STEP: 8    Output deactivated
+         0         0         0         0
+         0         0         0         0   PERIOD: 86    TIME STEP: 9    Output deactivated
+         0         0         0         0
+         0         0         0         0   PERIOD: 86    TIME STEP: 10    Output deactivated
+         0         0         0         0
+         0         0         0         0   PERIOD: 86    TIME STEP: 11    Output deactivated
+         0         0         0         0
+         1         1         1         1   PERIOD: 86    TIME STEP: 12 
+         0         0         1         1   LAYER: 1 
+         1         1         1         1   PERIOD: 87    TIME STEP: 1 
+         0         0         1         1   LAYER: 1 
+         0         0         0         0   PERIOD: 87    TIME STEP: 2    Output deactivated
+         0         0         0         0
+         0         0         0         0   PERIOD: 87    TIME STEP: 3    Output deactivated
+         0         0         0         0
+         0         0         0         0   PERIOD: 87    TIME STEP: 4    Output deactivated
+         0         0         0         0
+         0         0         0         0   PERIOD: 87    TIME STEP: 5    Output deactivated
+         0         0         0         0
+         0         0         0         0   PERIOD: 87    TIME STEP: 6    Output deactivated
+         0         0         0         0
+         0         0         0         0   PERIOD: 87    TIME STEP: 7    Output deactivated
+         0         0         0         0
+         0         0         0         0   PERIOD: 87    TIME STEP: 8    Output deactivated
+         0         0         0         0
+         0         0         0         0   PERIOD: 87    TIME STEP: 9    Output deactivated
+         0         0         0         0
+         0         0         0         0   PERIOD: 87    TIME STEP: 10    Output deactivated
+         0         0         0         0
+         0         0         0         0   PERIOD: 87    TIME STEP: 11    Output deactivated
+         0         0         0         0
+         1         1         1         1   PERIOD: 87    TIME STEP: 12 
+         0         0         1         1   LAYER: 1 
+         1         1         1         1   PERIOD: 88    TIME STEP: 1 
+         0         0         1         1   LAYER: 1 
+         0         0         0         0   PERIOD: 88    TIME STEP: 2    Output deactivated
+         0         0         0         0
+         0         0         0         0   PERIOD: 88    TIME STEP: 3    Output deactivated
+         0         0         0         0
+         0         0         0         0   PERIOD: 88    TIME STEP: 4    Output deactivated
+         0         0         0         0
+         0         0         0         0   PERIOD: 88    TIME STEP: 5    Output deactivated
+         0         0         0         0
+         0         0         0         0   PERIOD: 88    TIME STEP: 6    Output deactivated
+         0         0         0         0
+         0         0         0         0   PERIOD: 88    TIME STEP: 7    Output deactivated
+         0         0         0         0
+         0         0         0         0   PERIOD: 88    TIME STEP: 8    Output deactivated
+         0         0         0         0
+         0         0         0         0   PERIOD: 88    TIME STEP: 9    Output deactivated
+         0         0         0         0
+         0         0         0         0   PERIOD: 88    TIME STEP: 10    Output deactivated
+         0         0         0         0
+         0         0         0         0   PERIOD: 88    TIME STEP: 11    Output deactivated
+         0         0         0         0
+         1         1         1         1   PERIOD: 88    TIME STEP: 12 
+         0         0         1         1   LAYER: 1 
+         1         1         1         1   PERIOD: 89    TIME STEP: 1 
+         0         0         1         1   LAYER: 1 
+         0         0         0         0   PERIOD: 89    TIME STEP: 2    Output deactivated
+         0         0         0         0
+         0         0         0         0   PERIOD: 89    TIME STEP: 3    Output deactivated
+         0         0         0         0
+         0         0         0         0   PERIOD: 89    TIME STEP: 4    Output deactivated
+         0         0         0         0
+         0         0         0         0   PERIOD: 89    TIME STEP: 5    Output deactivated
+         0         0         0         0
+         0         0         0         0   PERIOD: 89    TIME STEP: 6    Output deactivated
+         0         0         0         0
+         0         0         0         0   PERIOD: 89    TIME STEP: 7    Output deactivated
+         0         0         0         0
+         0         0         0         0   PERIOD: 89    TIME STEP: 8    Output deactivated
+         0         0         0         0
+         0         0         0         0   PERIOD: 89    TIME STEP: 9    Output deactivated
+         0         0         0         0
+         0         0         0         0   PERIOD: 89    TIME STEP: 10    Output deactivated
+         0         0         0         0
+         0         0         0         0   PERIOD: 89    TIME STEP: 11    Output deactivated
+         0         0         0         0
+         1         1         1         1   PERIOD: 89    TIME STEP: 12 
+         0         0         1         1   LAYER: 1 
+         1         1         1         1   PERIOD: 90    TIME STEP: 1 
+         0         0         1         1   LAYER: 1 
+         0         0         0         0   PERIOD: 90    TIME STEP: 2    Output deactivated
+         0         0         0         0
+         0         0         0         0   PERIOD: 90    TIME STEP: 3    Output deactivated
+         0         0         0         0
+         0         0         0         0   PERIOD: 90    TIME STEP: 4    Output deactivated
+         0         0         0         0
+         0         0         0         0   PERIOD: 90    TIME STEP: 5    Output deactivated
+         0         0         0         0
+         0         0         0         0   PERIOD: 90    TIME STEP: 6    Output deactivated
+         0         0         0         0
+         0         0         0         0   PERIOD: 90    TIME STEP: 7    Output deactivated
+         0         0         0         0
+         0         0         0         0   PERIOD: 90    TIME STEP: 8    Output deactivated
+         0         0         0         0
+         0         0         0         0   PERIOD: 90    TIME STEP: 9    Output deactivated
+         0         0         0         0
+         0         0         0         0   PERIOD: 90    TIME STEP: 10    Output deactivated
+         0         0         0         0
+         0         0         0         0   PERIOD: 90    TIME STEP: 11    Output deactivated
+         0         0         0         0
+         1         1         1         1   PERIOD: 90    TIME STEP: 12 
+         0         0         1         1   LAYER: 1 
+         1         1         1         1   PERIOD: 91    TIME STEP: 1 
+         0         0         1         1   LAYER: 1 
+         0         0         0         0   PERIOD: 91    TIME STEP: 2    Output deactivated
+         0         0         0         0
+         0         0         0         0   PERIOD: 91    TIME STEP: 3    Output deactivated
+         0         0         0         0
+         0         0         0         0   PERIOD: 91    TIME STEP: 4    Output deactivated
+         0         0         0         0
+         0         0         0         0   PERIOD: 91    TIME STEP: 5    Output deactivated
+         0         0         0         0
+         0         0         0         0   PERIOD: 91    TIME STEP: 6    Output deactivated
+         0         0         0         0
+         0         0         0         0   PERIOD: 91    TIME STEP: 7    Output deactivated
+         0         0         0         0
+         0         0         0         0   PERIOD: 91    TIME STEP: 8    Output deactivated
+         0         0         0         0
+         0         0         0         0   PERIOD: 91    TIME STEP: 9    Output deactivated
+         0         0         0         0
+         0         0         0         0   PERIOD: 91    TIME STEP: 10    Output deactivated
+         0         0         0         0
+         0         0         0         0   PERIOD: 91    TIME STEP: 11    Output deactivated
+         0         0         0         0
+         1         1         1         1   PERIOD: 91    TIME STEP: 12 
+         0         0         1         1   LAYER: 1 
+         1         1         1         1   PERIOD: 92    TIME STEP: 1 
+         0         0         1         1   LAYER: 1 
+         0         0         0         0   PERIOD: 92    TIME STEP: 2    Output deactivated
+         0         0         0         0
+         0         0         0         0   PERIOD: 92    TIME STEP: 3    Output deactivated
+         0         0         0         0
+         0         0         0         0   PERIOD: 92    TIME STEP: 4    Output deactivated
+         0         0         0         0
+         0         0         0         0   PERIOD: 92    TIME STEP: 5    Output deactivated
+         0         0         0         0
+         0         0         0         0   PERIOD: 92    TIME STEP: 6    Output deactivated
+         0         0         0         0
+         0         0         0         0   PERIOD: 92    TIME STEP: 7    Output deactivated
+         0         0         0         0
+         0         0         0         0   PERIOD: 92    TIME STEP: 8    Output deactivated
+         0         0         0         0
+         0         0         0         0   PERIOD: 92    TIME STEP: 9    Output deactivated
+         0         0         0         0
+         0         0         0         0   PERIOD: 92    TIME STEP: 10    Output deactivated
+         0         0         0         0
+         0         0         0         0   PERIOD: 92    TIME STEP: 11    Output deactivated
+         0         0         0         0
+         1         1         1         1   PERIOD: 92    TIME STEP: 12 
+         0         0         1         1   LAYER: 1 
+         1         1         1         1   PERIOD: 93    TIME STEP: 1 
+         0         0         1         1   LAYER: 1 
+         0         0         0         0   PERIOD: 93    TIME STEP: 2    Output deactivated
+         0         0         0         0
+         0         0         0         0   PERIOD: 93    TIME STEP: 3    Output deactivated
+         0         0         0         0
+         0         0         0         0   PERIOD: 93    TIME STEP: 4    Output deactivated
+         0         0         0         0
+         0         0         0         0   PERIOD: 93    TIME STEP: 5    Output deactivated
+         0         0         0         0
+         0         0         0         0   PERIOD: 93    TIME STEP: 6    Output deactivated
+         0         0         0         0
+         0         0         0         0   PERIOD: 93    TIME STEP: 7    Output deactivated
+         0         0         0         0
+         0         0         0         0   PERIOD: 93    TIME STEP: 8    Output deactivated
+         0         0         0         0
+         0         0         0         0   PERIOD: 93    TIME STEP: 9    Output deactivated
+         0         0         0         0
+         0         0         0         0   PERIOD: 93    TIME STEP: 10    Output deactivated
+         0         0         0         0
+         0         0         0         0   PERIOD: 93    TIME STEP: 11    Output deactivated
+         0         0         0         0
+         1         1         1         1   PERIOD: 93    TIME STEP: 12 
+         0         0         1         1   LAYER: 1 
+         1         1         1         1   PERIOD: 94    TIME STEP: 1 
+         0         0         1         1   LAYER: 1 
+         0         0         0         0   PERIOD: 94    TIME STEP: 2    Output deactivated
+         0         0         0         0
+         0         0         0         0   PERIOD: 94    TIME STEP: 3    Output deactivated
+         0         0         0         0
+         0         0         0         0   PERIOD: 94    TIME STEP: 4    Output deactivated
+         0         0         0         0
+         0         0         0         0   PERIOD: 94    TIME STEP: 5    Output deactivated
+         0         0         0         0
+         0         0         0         0   PERIOD: 94    TIME STEP: 6    Output deactivated
+         0         0         0         0
+         0         0         0         0   PERIOD: 94    TIME STEP: 7    Output deactivated
+         0         0         0         0
+         0         0         0         0   PERIOD: 94    TIME STEP: 8    Output deactivated
+         0         0         0         0
+         0         0         0         0   PERIOD: 94    TIME STEP: 9    Output deactivated
+         0         0         0         0
+         0         0         0         0   PERIOD: 94    TIME STEP: 10    Output deactivated
+         0         0         0         0
+         0         0         0         0   PERIOD: 94    TIME STEP: 11    Output deactivated
+         0         0         0         0
+         1         1         1         1   PERIOD: 94    TIME STEP: 12 
+         0         0         1         1   LAYER: 1 
+         1         1         1         1   PERIOD: 95    TIME STEP: 1 
+         0         0         1         1   LAYER: 1 
+         0         0         0         0   PERIOD: 95    TIME STEP: 2    Output deactivated
+         0         0         0         0
+         0         0         0         0   PERIOD: 95    TIME STEP: 3    Output deactivated
+         0         0         0         0
+         0         0         0         0   PERIOD: 95    TIME STEP: 4    Output deactivated
+         0         0         0         0
+         0         0         0         0   PERIOD: 95    TIME STEP: 5    Output deactivated
+         0         0         0         0
+         0         0         0         0   PERIOD: 95    TIME STEP: 6    Output deactivated
+         0         0         0         0
+         0         0         0         0   PERIOD: 95    TIME STEP: 7    Output deactivated
+         0         0         0         0
+         0         0         0         0   PERIOD: 95    TIME STEP: 8    Output deactivated
+         0         0         0         0
+         0         0         0         0   PERIOD: 95    TIME STEP: 9    Output deactivated
+         0         0         0         0
+         0         0         0         0   PERIOD: 95    TIME STEP: 10    Output deactivated
+         0         0         0         0
+         0         0         0         0   PERIOD: 95    TIME STEP: 11    Output deactivated
+         0         0         0         0
+         1         1         1         1   PERIOD: 95    TIME STEP: 12 
+         0         0         1         1   LAYER: 1 
+         1         1         1         1   PERIOD: 96    TIME STEP: 1 
+         0         0         1         1   LAYER: 1 
+         0         0         0         0   PERIOD: 96    TIME STEP: 2    Output deactivated
+         0         0         0         0
+         0         0         0         0   PERIOD: 96    TIME STEP: 3    Output deactivated
+         0         0         0         0
+         0         0         0         0   PERIOD: 96    TIME STEP: 4    Output deactivated
+         0         0         0         0
+         0         0         0         0   PERIOD: 96    TIME STEP: 5    Output deactivated
+         0         0         0         0
+         0         0         0         0   PERIOD: 96    TIME STEP: 6    Output deactivated
+         0         0         0         0
+         0         0         0         0   PERIOD: 96    TIME STEP: 7    Output deactivated
+         0         0         0         0
+         0         0         0         0   PERIOD: 96    TIME STEP: 8    Output deactivated
+         0         0         0         0
+         0         0         0         0   PERIOD: 96    TIME STEP: 9    Output deactivated
+         0         0         0         0
+         0         0         0         0   PERIOD: 96    TIME STEP: 10    Output deactivated
+         0         0         0         0
+         0         0         0         0   PERIOD: 96    TIME STEP: 11    Output deactivated
+         0         0         0         0
+         1         1         1         1   PERIOD: 96    TIME STEP: 12 
+         0         0         1         1   LAYER: 1 
+         1         1         1         1   PERIOD: 97    TIME STEP: 1 
+         0         0         1         1   LAYER: 1 
+         0         0         0         0   PERIOD: 97    TIME STEP: 2    Output deactivated
+         0         0         0         0
+         0         0         0         0   PERIOD: 97    TIME STEP: 3    Output deactivated
+         0         0         0         0
+         0         0         0         0   PERIOD: 97    TIME STEP: 4    Output deactivated
+         0         0         0         0
+         0         0         0         0   PERIOD: 97    TIME STEP: 5    Output deactivated
+         0         0         0         0
+         0         0         0         0   PERIOD: 97    TIME STEP: 6    Output deactivated
+         0         0         0         0
+         0         0         0         0   PERIOD: 97    TIME STEP: 7    Output deactivated
+         0         0         0         0
+         0         0         0         0   PERIOD: 97    TIME STEP: 8    Output deactivated
+         0         0         0         0
+         0         0         0         0   PERIOD: 97    TIME STEP: 9    Output deactivated
+         0         0         0         0
+         0         0         0         0   PERIOD: 97    TIME STEP: 10    Output deactivated
+         0         0         0         0
+         0         0         0         0   PERIOD: 97    TIME STEP: 11    Output deactivated
+         0         0         0         0
+         1         1         1         1   PERIOD: 97    TIME STEP: 12 
+         0         0         1         1   LAYER: 1 
+         1         1         1         1   PERIOD: 98    TIME STEP: 1 
+         0         0         1         1   LAYER: 1 
+         0         0         0         0   PERIOD: 98    TIME STEP: 2    Output deactivated
+         0         0         0         0
+         0         0         0         0   PERIOD: 98    TIME STEP: 3    Output deactivated
+         0         0         0         0
+         0         0         0         0   PERIOD: 98    TIME STEP: 4    Output deactivated
+         0         0         0         0
+         0         0         0         0   PERIOD: 98    TIME STEP: 5    Output deactivated
+         0         0         0         0
+         0         0         0         0   PERIOD: 98    TIME STEP: 6    Output deactivated
+         0         0         0         0
+         0         0         0         0   PERIOD: 98    TIME STEP: 7    Output deactivated
+         0         0         0         0
+         0         0         0         0   PERIOD: 98    TIME STEP: 8    Output deactivated
+         0         0         0         0
+         0         0         0         0   PERIOD: 98    TIME STEP: 9    Output deactivated
+         0         0         0         0
+         0         0         0         0   PERIOD: 98    TIME STEP: 10    Output deactivated
+         0         0         0         0
+         0         0         0         0   PERIOD: 98    TIME STEP: 11    Output deactivated
+         0         0         0         0
+         1         1         1         1   PERIOD: 98    TIME STEP: 12 
+         0         0         1         1   LAYER: 1 
+         1         1         1         1   PERIOD: 99    TIME STEP: 1 
+         0         0         1         1   LAYER: 1 
+         0         0         0         0   PERIOD: 99    TIME STEP: 2    Output deactivated
+         0         0         0         0
+         0         0         0         0   PERIOD: 99    TIME STEP: 3    Output deactivated
+         0         0         0         0
+         0         0         0         0   PERIOD: 99    TIME STEP: 4    Output deactivated
+         0         0         0         0
+         0         0         0         0   PERIOD: 99    TIME STEP: 5    Output deactivated
+         0         0         0         0
+         0         0         0         0   PERIOD: 99    TIME STEP: 6    Output deactivated
+         0         0         0         0
+         0         0         0         0   PERIOD: 99    TIME STEP: 7    Output deactivated
+         0         0         0         0
+         0         0         0         0   PERIOD: 99    TIME STEP: 8    Output deactivated
+         0         0         0         0
+         0         0         0         0   PERIOD: 99    TIME STEP: 9    Output deactivated
+         0         0         0         0
+         0         0         0         0   PERIOD: 99    TIME STEP: 10    Output deactivated
+         0         0         0         0
+         0         0         0         0   PERIOD: 99    TIME STEP: 11    Output deactivated
+         0         0         0         0
+         1         1         1         1   PERIOD: 99    TIME STEP: 12 
+         0         0         1         1   LAYER: 1 
+         1         1         1         1   PERIOD: 100    TIME STEP: 1 
+         0         0         1         1   LAYER: 1 
+         0         0         0         0   PERIOD: 100    TIME STEP: 2    Output deactivated
+         0         0         0         0
+         0         0         0         0   PERIOD: 100    TIME STEP: 3    Output deactivated
+         0         0         0         0
+         0         0         0         0   PERIOD: 100    TIME STEP: 4    Output deactivated
+         0         0         0         0
+         0         0         0         0   PERIOD: 100    TIME STEP: 5    Output deactivated
+         0         0         0         0
+         0         0         0         0   PERIOD: 100    TIME STEP: 6    Output deactivated
+         0         0         0         0
+         0         0         0         0   PERIOD: 100    TIME STEP: 7    Output deactivated
+         0         0         0         0
+         0         0         0         0   PERIOD: 100    TIME STEP: 8    Output deactivated
+         0         0         0         0
+         0         0         0         0   PERIOD: 100    TIME STEP: 9    Output deactivated
+         0         0         0         0
+         0         0         0         0   PERIOD: 100    TIME STEP: 10    Output deactivated
+         0         0         0         0
+         0         0         0         0   PERIOD: 100    TIME STEP: 11    Output deactivated
+         0         0         0         0
+         1         1         1         1   PERIOD: 100    TIME STEP: 12 
+         0         0         1         1   LAYER: 1 
+         1         1         1         1   PERIOD: 101    TIME STEP: 1 
+         0         0         1         1   LAYER: 1 
+         0         0         0         0   PERIOD: 101    TIME STEP: 2    Output deactivated
+         0         0         0         0
+         0         0         0         0   PERIOD: 101    TIME STEP: 3    Output deactivated
+         0         0         0         0
+         0         0         0         0   PERIOD: 101    TIME STEP: 4    Output deactivated
+         0         0         0         0
+         0         0         0         0   PERIOD: 101    TIME STEP: 5    Output deactivated
+         0         0         0         0
+         0         0         0         0   PERIOD: 101    TIME STEP: 6    Output deactivated
+         0         0         0         0
+         0         0         0         0   PERIOD: 101    TIME STEP: 7    Output deactivated
+         0         0         0         0
+         0         0         0         0   PERIOD: 101    TIME STEP: 8    Output deactivated
+         0         0         0         0
+         0         0         0         0   PERIOD: 101    TIME STEP: 9    Output deactivated
+         0         0         0         0
+         0         0         0         0   PERIOD: 101    TIME STEP: 10    Output deactivated
+         0         0         0         0
+         0         0         0         0   PERIOD: 101    TIME STEP: 11    Output deactivated
+         0         0         0         0
+         1         1         1         1   PERIOD: 101    TIME STEP: 12 
+         0         0         1         1   LAYER: 1 
+         1         1         1         1   PERIOD: 102    TIME STEP: 1 
+         0         0         1         1   LAYER: 1 
+         0         0         0         0   PERIOD: 102    TIME STEP: 2    Output deactivated
+         0         0         0         0
+         0         0         0         0   PERIOD: 102    TIME STEP: 3    Output deactivated
+         0         0         0         0
+         0         0         0         0   PERIOD: 102    TIME STEP: 4    Output deactivated
+         0         0         0         0
+         0         0         0         0   PERIOD: 102    TIME STEP: 5    Output deactivated
+         0         0         0         0
+         0         0         0         0   PERIOD: 102    TIME STEP: 6    Output deactivated
+         0         0         0         0
+         0         0         0         0   PERIOD: 102    TIME STEP: 7    Output deactivated
+         0         0         0         0
+         0         0         0         0   PERIOD: 102    TIME STEP: 8    Output deactivated
+         0         0         0         0
+         0         0         0         0   PERIOD: 102    TIME STEP: 9    Output deactivated
+         0         0         0         0
+         0         0         0         0   PERIOD: 102    TIME STEP: 10    Output deactivated
+         0         0         0         0
+         0         0         0         0   PERIOD: 102    TIME STEP: 11    Output deactivated
+         0         0         0         0
+         1         1         1         1   PERIOD: 102    TIME STEP: 12 
+         0         0         1         1   LAYER: 1 
+         1         1         1         1   PERIOD: 103    TIME STEP: 1 
+         0         0         1         1   LAYER: 1 
+         0         0         0         0   PERIOD: 103    TIME STEP: 2    Output deactivated
+         0         0         0         0
+         0         0         0         0   PERIOD: 103    TIME STEP: 3    Output deactivated
+         0         0         0         0
+         0         0         0         0   PERIOD: 103    TIME STEP: 4    Output deactivated
+         0         0         0         0
+         0         0         0         0   PERIOD: 103    TIME STEP: 5    Output deactivated
+         0         0         0         0
+         0         0         0         0   PERIOD: 103    TIME STEP: 6    Output deactivated
+         0         0         0         0
+         0         0         0         0   PERIOD: 103    TIME STEP: 7    Output deactivated
+         0         0         0         0
+         0         0         0         0   PERIOD: 103    TIME STEP: 8    Output deactivated
+         0         0         0         0
+         0         0         0         0   PERIOD: 103    TIME STEP: 9    Output deactivated
+         0         0         0         0
+         0         0         0         0   PERIOD: 103    TIME STEP: 10    Output deactivated
+         0         0         0         0
+         0         0         0         0   PERIOD: 103    TIME STEP: 11    Output deactivated
+         0         0         0         0
+         1         1         1         1   PERIOD: 103    TIME STEP: 12 
+         0         0         1         1   LAYER: 1 
+         1         1         1         1   PERIOD: 104    TIME STEP: 1 
+         0         0         1         1   LAYER: 1 
+         0         0         0         0   PERIOD: 104    TIME STEP: 2    Output deactivated
+         0         0         0         0
+         0         0         0         0   PERIOD: 104    TIME STEP: 3    Output deactivated
+         0         0         0         0
+         0         0         0         0   PERIOD: 104    TIME STEP: 4    Output deactivated
+         0         0         0         0
+         0         0         0         0   PERIOD: 104    TIME STEP: 5    Output deactivated
+         0         0         0         0
+         0         0         0         0   PERIOD: 104    TIME STEP: 6    Output deactivated
+         0         0         0         0
+         0         0         0         0   PERIOD: 104    TIME STEP: 7    Output deactivated
+         0         0         0         0
+         0         0         0         0   PERIOD: 104    TIME STEP: 8    Output deactivated
+         0         0         0         0
+         0         0         0         0   PERIOD: 104    TIME STEP: 9    Output deactivated
+         0         0         0         0
+         0         0         0         0   PERIOD: 104    TIME STEP: 10    Output deactivated
+         0         0         0         0
+         0         0         0         0   PERIOD: 104    TIME STEP: 11    Output deactivated
+         0         0         0         0
+         1         1         1         1   PERIOD: 104    TIME STEP: 12 
+         0         0         1         1   LAYER: 1 
+         1         1         1         1   PERIOD: 105    TIME STEP: 1 
+         0         0         1         1   LAYER: 1 
+         0         0         0         0   PERIOD: 105    TIME STEP: 2    Output deactivated
+         0         0         0         0
+         0         0         0         0   PERIOD: 105    TIME STEP: 3    Output deactivated
+         0         0         0         0
+         0         0         0         0   PERIOD: 105    TIME STEP: 4    Output deactivated
+         0         0         0         0
+         0         0         0         0   PERIOD: 105    TIME STEP: 5    Output deactivated
+         0         0         0         0
+         0         0         0         0   PERIOD: 105    TIME STEP: 6    Output deactivated
+         0         0         0         0
+         0         0         0         0   PERIOD: 105    TIME STEP: 7    Output deactivated
+         0         0         0         0
+         0         0         0         0   PERIOD: 105    TIME STEP: 8    Output deactivated
+         0         0         0         0
+         0         0         0         0   PERIOD: 105    TIME STEP: 9    Output deactivated
+         0         0         0         0
+         0         0         0         0   PERIOD: 105    TIME STEP: 10    Output deactivated
+         0         0         0         0
+         0         0         0         0   PERIOD: 105    TIME STEP: 11    Output deactivated
+         0         0         0         0
+         1         1         1         1   PERIOD: 105    TIME STEP: 12 
+         0         0         1         1   LAYER: 1 
+         1         1         1         1   PERIOD: 106    TIME STEP: 1 
+         0         0         1         1   LAYER: 1 
+         0         0         0         0   PERIOD: 106    TIME STEP: 2    Output deactivated
+         0         0         0         0
+         0         0         0         0   PERIOD: 106    TIME STEP: 3    Output deactivated
+         0         0         0         0
+         0         0         0         0   PERIOD: 106    TIME STEP: 4    Output deactivated
+         0         0         0         0
+         0         0         0         0   PERIOD: 106    TIME STEP: 5    Output deactivated
+         0         0         0         0
+         0         0         0         0   PERIOD: 106    TIME STEP: 6    Output deactivated
+         0         0         0         0
+         0         0         0         0   PERIOD: 106    TIME STEP: 7    Output deactivated
+         0         0         0         0
+         0         0         0         0   PERIOD: 106    TIME STEP: 8    Output deactivated
+         0         0         0         0
+         0         0         0         0   PERIOD: 106    TIME STEP: 9    Output deactivated
+         0         0         0         0
+         0         0         0         0   PERIOD: 106    TIME STEP: 10    Output deactivated
+         0         0         0         0
+         0         0         0         0   PERIOD: 106    TIME STEP: 11    Output deactivated
+         0         0         0         0
+         1         1         1         1   PERIOD: 106    TIME STEP: 12 
+         0         0         1         1   LAYER: 1 
+         1         1         1         1   PERIOD: 107    TIME STEP: 1 
+         0         0         1         1   LAYER: 1 
+         0         0         0         0   PERIOD: 107    TIME STEP: 2    Output deactivated
+         0         0         0         0
+         0         0         0         0   PERIOD: 107    TIME STEP: 3    Output deactivated
+         0         0         0         0
+         0         0         0         0   PERIOD: 107    TIME STEP: 4    Output deactivated
+         0         0         0         0
+         0         0         0         0   PERIOD: 107    TIME STEP: 5    Output deactivated
+         0         0         0         0
+         0         0         0         0   PERIOD: 107    TIME STEP: 6    Output deactivated
+         0         0         0         0
+         0         0         0         0   PERIOD: 107    TIME STEP: 7    Output deactivated
+         0         0         0         0
+         0         0         0         0   PERIOD: 107    TIME STEP: 8    Output deactivated
+         0         0         0         0
+         0         0         0         0   PERIOD: 107    TIME STEP: 9    Output deactivated
+         0         0         0         0
+         0         0         0         0   PERIOD: 107    TIME STEP: 10    Output deactivated
+         0         0         0         0
+         0         0         0         0   PERIOD: 107    TIME STEP: 11    Output deactivated
+         0         0         0         0
+         1         1         1         1   PERIOD: 107    TIME STEP: 12 
+         0         0         1         1   LAYER: 1 
+         1         1         1         1   PERIOD: 108    TIME STEP: 1 
+         0         0         1         1   LAYER: 1 
+         0         0         0         0   PERIOD: 108    TIME STEP: 2    Output deactivated
+         0         0         0         0
+         0         0         0         0   PERIOD: 108    TIME STEP: 3    Output deactivated
+         0         0         0         0
+         0         0         0         0   PERIOD: 108    TIME STEP: 4    Output deactivated
+         0         0         0         0
+         0         0         0         0   PERIOD: 108    TIME STEP: 5    Output deactivated
+         0         0         0         0
+         0         0         0         0   PERIOD: 108    TIME STEP: 6    Output deactivated
+         0         0         0         0
+         0         0         0         0   PERIOD: 108    TIME STEP: 7    Output deactivated
+         0         0         0         0
+         0         0         0         0   PERIOD: 108    TIME STEP: 8    Output deactivated
+         0         0         0         0
+         0         0         0         0   PERIOD: 108    TIME STEP: 9    Output deactivated
+         0         0         0         0
+         0         0         0         0   PERIOD: 108    TIME STEP: 10    Output deactivated
+         0         0         0         0
+         0         0         0         0   PERIOD: 108    TIME STEP: 11    Output deactivated
+         0         0         0         0
+         1         1         1         1   PERIOD: 108    TIME STEP: 12 
+         0         0         1         1   LAYER: 1 
+         1         1         1         1   PERIOD: 109    TIME STEP: 1 
+         0         0         1         1   LAYER: 1 
+         0         0         0         0   PERIOD: 109    TIME STEP: 2    Output deactivated
+         0         0         0         0
+         0         0         0         0   PERIOD: 109    TIME STEP: 3    Output deactivated
+         0         0         0         0
+         0         0         0         0   PERIOD: 109    TIME STEP: 4    Output deactivated
+         0         0         0         0
+         0         0         0         0   PERIOD: 109    TIME STEP: 5    Output deactivated
+         0         0         0         0
+         0         0         0         0   PERIOD: 109    TIME STEP: 6    Output deactivated
+         0         0         0         0
+         0         0         0         0   PERIOD: 109    TIME STEP: 7    Output deactivated
+         0         0         0         0
+         0         0         0         0   PERIOD: 109    TIME STEP: 8    Output deactivated
+         0         0         0         0
+         0         0         0         0   PERIOD: 109    TIME STEP: 9    Output deactivated
+         0         0         0         0
+         0         0         0         0   PERIOD: 109    TIME STEP: 10    Output deactivated
+         0         0         0         0
+         0         0         0         0   PERIOD: 109    TIME STEP: 11    Output deactivated
+         0         0         0         0
+         1         1         1         1   PERIOD: 109    TIME STEP: 12 
+         0         0         1         1   LAYER: 1 
+         1         1         1         1   PERIOD: 110    TIME STEP: 1 
+         0         0         1         1   LAYER: 1 
+         0         0         0         0   PERIOD: 110    TIME STEP: 2    Output deactivated
+         0         0         0         0
+         0         0         0         0   PERIOD: 110    TIME STEP: 3    Output deactivated
+         0         0         0         0
+         0         0         0         0   PERIOD: 110    TIME STEP: 4    Output deactivated
+         0         0         0         0
+         0         0         0         0   PERIOD: 110    TIME STEP: 5    Output deactivated
+         0         0         0         0
+         0         0         0         0   PERIOD: 110    TIME STEP: 6    Output deactivated
+         0         0         0         0
+         0         0         0         0   PERIOD: 110    TIME STEP: 7    Output deactivated
+         0         0         0         0
+         0         0         0         0   PERIOD: 110    TIME STEP: 8    Output deactivated
+         0         0         0         0
+         0         0         0         0   PERIOD: 110    TIME STEP: 9    Output deactivated
+         0         0         0         0
+         0         0         0         0   PERIOD: 110    TIME STEP: 10    Output deactivated
+         0         0         0         0
+         0         0         0         0   PERIOD: 110    TIME STEP: 11    Output deactivated
+         0         0         0         0
+         1         1         1         1   PERIOD: 110    TIME STEP: 12 
+         0         0         1         1   LAYER: 1 
+         1         1         1         1   PERIOD: 111    TIME STEP: 1 
+         0         0         1         1   LAYER: 1 
+         0         0         0         0   PERIOD: 111    TIME STEP: 2    Output deactivated
+         0         0         0         0
+         0         0         0         0   PERIOD: 111    TIME STEP: 3    Output deactivated
+         0         0         0         0
+         0         0         0         0   PERIOD: 111    TIME STEP: 4    Output deactivated
+         0         0         0         0
+         0         0         0         0   PERIOD: 111    TIME STEP: 5    Output deactivated
+         0         0         0         0
+         0         0         0         0   PERIOD: 111    TIME STEP: 6    Output deactivated
+         0         0         0         0
+         0         0         0         0   PERIOD: 111    TIME STEP: 7    Output deactivated
+         0         0         0         0
+         0         0         0         0   PERIOD: 111    TIME STEP: 8    Output deactivated
+         0         0         0         0
+         0         0         0         0   PERIOD: 111    TIME STEP: 9    Output deactivated
+         0         0         0         0
+         0         0         0         0   PERIOD: 111    TIME STEP: 10    Output deactivated
+         0         0         0         0
+         0         0         0         0   PERIOD: 111    TIME STEP: 11    Output deactivated
+         0         0         0         0
+         1         1         1         1   PERIOD: 111    TIME STEP: 12 
+         0         0         1         1   LAYER: 1 

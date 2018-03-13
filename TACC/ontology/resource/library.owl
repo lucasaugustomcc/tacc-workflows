@@ -1,0 +1,23 @@
+<?xml version="1.0"?>
+<rdf:RDF
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:j.0="http://www.wings-workflows.org/ontology/resource.owl#"
+    xmlns:owl="http://www.w3.org/2002/07/owl#"
+    xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+    xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+      xml:base="http://localhost:8080/wings-portal/export/common/resource/library.owl">
+      <j.0:Machine rdf:about="http://www.wings-workflows.org/ontology/resource.owl#Localhost">
+            <j.0:isHealthy rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean"
+            >true</j.0:isHealthy>
+            <j.0:is64Bit rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean"
+            >false</j.0:is64Bit>
+            <j.0:hasMemoryGB rdf:datatype="http://www.w3.org/2001/XMLSchema#float"
+            >0.0</j.0:hasMemoryGB>
+            <j.0:hasStorageGB rdf:datatype="http://www.w3.org/2001/XMLSchema#float"
+            >0.0</j.0:hasStorageGB>
+            <j.0:hasHostIP rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+            >127.0.0.1</j.0:hasHostIP>
+            <j.0:hasHostName rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+            >Localhost</j.0:hasHostName>
+      </j.0:Machine>
+</rdf:RDF>

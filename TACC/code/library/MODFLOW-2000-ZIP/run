@@ -1,0 +1,32 @@
+#!/bin/bash
+
+checkExitCode() {
+if [ $? -ne 0 ]; then
+    echo "Error"
+    exit 1;
+fi
+}
+
+BASEDIR=`dirname $0`
+
+. $BASEDIR/io.sh 1 0 2 "$@"
+
+unzip $INPUTS1 -d tmp
+
+FILENAME=`basename $INPUTS1`
+
+NEW_OUTPUT=${FILENAME%.zip}.lst
+NEW_INPUT=${FILENAME%.zip}.nam
+NEW_OUTPUT_ZIP=${FILENAME%.zip}
+
+cd tmp
+mf2k $NEW_INPUT
+mv $NEW_OUTPUT $OUTPUTS2    
+
+cd ../
+mv tmp $NEW_OUTPUT_ZIP
+zip -r tmp.zip $NEW_OUTPUT_ZIP/*
+mv tmp.zip $OUTPUTS1 
+
+rm -R $NEW_OUTPUT_ZIP
+checkExitCode

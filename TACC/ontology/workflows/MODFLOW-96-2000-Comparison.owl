@@ -1,0 +1,19 @@
+<?xml version="1.0"?>
+<rdf:RDF
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:j.0="http://www.wings-workflows.org/ontology/workflow.owl#"
+    xmlns:owl="http://www.w3.org/2002/07/owl#"
+    xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+    xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+      xml:base="http://localhost:8080/wings-portal/export/users/lucas/TACC/workflows/MODFLOW-96-2000-Comparison.owl">
+      <owl:Ontology rdf:about="">
+            <owl:imports rdf:resource="http://www.wings-workflows.org/ontology/workflow.owl"/>
+      </owl:Ontology>
+      <j.0:WorkflowTemplate rdf:ID="MODFLOW-96-2000-Comparison">
+            <j.0:hasMetadata>
+                  <j.0:Metadata rdf:ID="MODFLOW-96-2000-Comparison_meta"/>
+            </j.0:hasMetadata>
+            <j.0:hasVersion rdf:datatype="http://www.w3.org/2001/XMLSchema#integer"
+            >3</j.0:hasVersion>
+      </j.0:WorkflowTemplate>
+</rdf:RDF>

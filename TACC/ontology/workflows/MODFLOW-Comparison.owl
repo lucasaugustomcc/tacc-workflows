@@ -1,0 +1,1586 @@
+<?xml version="1.0"?>
+<rdf:RDF
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:j.0="http://www.wings-workflows.org/ontology/workflow.owl#"
+    xmlns:owl="http://www.w3.org/2002/07/owl#"
+    xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+    xmlns:j.1="http://localhost:8080/wings-portal/export/users/lucas/TACC/data/ontology.owl#"
+    xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+      xml:base="http://localhost:8080/wings-portal/export/users/lucas/TACC/workflows/MODFLOW-Comparison.owl">
+      <owl:Ontology rdf:about="">
+            <owl:imports rdf:resource="http://www.wings-workflows.org/ontology/workflow.owl"/>
+      </owl:Ontology>
+      <j.0:WorkflowTemplate rdf:ID="MODFLOW-Comparison">
+            <j.0:hasNode>
+                  <j.0:Node rdf:ID="MODFLOW_node1">
+                        <j.0:hasOutputPort>
+                              <j.0:Port rdf:ID="MODFLOW_node1_GLOBAL">
+                                    <j.0:satisfiesRole>
+                                          <rdf:Description rdf:ID="MODFLOW_node1_GLOBAL_role">
+                                                <j.0:hasDimensionality
+                                                 rdf:datatype=
+                                                "http://www.w3.org/2001/XMLSchema#integer"
+                                                >0</j.0:hasDimensionality>
+                                                <j.0:hasRoleID
+                                                 rdf:datatype=
+                                                "http://www.w3.org/2001/XMLSchema#string"
+                                                >GLOBAL</j.0:hasRoleID>
+                                          </rdf:Description>
+                                    </j.0:satisfiesRole>
+                              </j.0:Port>
+                        </j.0:hasOutputPort>
+                        <j.0:hasInputPort>
+                              <j.0:Port rdf:ID="MODFLOW_node1_HFB">
+                                    <j.0:satisfiesRole>
+                                          <rdf:Description rdf:ID="MODFLOW_node1_HFB_role">
+                                                <j.0:hasDimensionality
+                                                 rdf:datatype=
+                                                "http://www.w3.org/2001/XMLSchema#integer"
+                                                >0</j.0:hasDimensionality>
+                                                <j.0:hasRoleID
+                                                 rdf:datatype=
+                                                "http://www.w3.org/2001/XMLSchema#string"
+                                                >HFB</j.0:hasRoleID>
+                                          </rdf:Description>
+                                    </j.0:satisfiesRole>
+                              </j.0:Port>
+                        </j.0:hasInputPort>
+                        <j.0:hasPortSetCreationRule>
+                              <j.0:PortSetRule rdf:ID="MODFLOW_node1_prule">
+                                    <j.0:createSetsOn>
+                                          <j.0:XProduct rdf:ID="_xprod-cd280774-de30-447c-8139-308b50120adc">
+                                                <j.0:hasExpressionArgument>
+                                                      <j.0:Port rdf:ID="MODFLOW_node1_DIS">
+                                                            <j.0:satisfiesRole>
+                                                            
+      <rdf:Description rdf:ID="MODFLOW_node1_DIS_role">
+            <j.0:hasDimensionality rdf:datatype="http://www.w3.org/2001/XMLSchema#integer"
+            >0</j.0:hasDimensionality>
+            <j.0:hasRoleID rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+            >DIS</j.0:hasRoleID>
+      </rdf:Description>                                    </j.0:satisfiesRole>
+                                                      </j.0:Port>
+                                                </j.0:hasExpressionArgument>
+                                                <j.0:hasExpressionArgument>
+                                                      <j.0:Port rdf:ID="MODFLOW_node1_PCG">
+                                                            <j.0:satisfiesRole>
+                                                            
+      <rdf:Description rdf:ID="MODFLOW_node1_PCG_role">
+            <j.0:hasDimensionality rdf:datatype="http://www.w3.org/2001/XMLSchema#integer"
+            >0</j.0:hasDimensionality>
+            <j.0:hasRoleID rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+            >PCG</j.0:hasRoleID>
+      </rdf:Description>                                    </j.0:satisfiesRole>
+                                                      </j.0:Port>
+                                                </j.0:hasExpressionArgument>
+                                                <j.0:hasExpressionArgument>
+                                                      <j.0:Port rdf:ID="MODFLOW_node1_OutputControl">
+                                                            <j.0:satisfiesRole>
+                                                            
+      <rdf:Description rdf:ID="MODFLOW_node1_OutputControl_role">
+            <j.0:hasDimensionality rdf:datatype="http://www.w3.org/2001/XMLSchema#integer"
+            >0</j.0:hasDimensionality>
+            <j.0:hasRoleID rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+            >OutputControl</j.0:hasRoleID>
+      </rdf:Description>                                    </j.0:satisfiesRole>
+                                                      </j.0:Port>
+                                                </j.0:hasExpressionArgument>
+                                                <j.0:hasExpressionArgument>
+                                                      <j.0:Port rdf:ID="MODFLOW_node1_RECHARGE">
+                                                            <j.0:satisfiesRole>
+                                                            
+      <rdf:Description rdf:ID="MODFLOW_node1_RECHARGE_role">
+            <j.0:hasDimensionality rdf:datatype="http://www.w3.org/2001/XMLSchema#integer"
+            >0</j.0:hasDimensionality>
+            <j.0:hasRoleID rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+            >RECHARGE</j.0:hasRoleID>
+      </rdf:Description>                                    </j.0:satisfiesRole>
+                                                      </j.0:Port>
+                                                </j.0:hasExpressionArgument>
+                                                <j.0:hasExpressionArgument>
+                                                      <j.0:Port rdf:ID="MODFLOW_node1_NAM">
+                                                            <j.0:satisfiesRole>
+                                                            
+      <rdf:Description rdf:ID="MODFLOW_node1_NAM_role">
+            <j.0:hasDimensionality rdf:datatype="http://www.w3.org/2001/XMLSchema#integer"
+            >0</j.0:hasDimensionality>
+            <j.0:hasRoleID rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+            >NAM</j.0:hasRoleID>
+      </rdf:Description>                                    </j.0:satisfiesRole>
+                                                      </j.0:Port>
+                                                </j.0:hasExpressionArgument>
+                                                <j.0:hasExpressionArgument>
+                                                      <j.0:Port rdf:ID="MODFLOW_node1_WELL">
+                                                            <j.0:satisfiesRole>
+                                                            
+      <rdf:Description rdf:ID="MODFLOW_node1_WELL_role">
+            <j.0:hasDimensionality rdf:datatype="http://www.w3.org/2001/XMLSchema#integer"
+            >0</j.0:hasDimensionality>
+            <j.0:hasRoleID rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+            >WELL</j.0:hasRoleID>
+      </rdf:Description>                                    </j.0:satisfiesRole>
+                                                      </j.0:Port>
+                                                </j.0:hasExpressionArgument>
+                                                <j.0:hasExpressionArgument>
+                                                      <j.0:Port rdf:ID="MODFLOW_node1_BAS">
+                                                            <j.0:satisfiesRole>
+                                                            
+      <rdf:Description rdf:ID="MODFLOW_node1_BAS_role">
+            <j.0:hasDimensionality rdf:datatype="http://www.w3.org/2001/XMLSchema#integer"
+            >0</j.0:hasDimensionality>
+            <j.0:hasRoleID rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+            >BAS</j.0:hasRoleID>
+      </rdf:Description>                                    </j.0:satisfiesRole>
+                                                      </j.0:Port>
+                                                </j.0:hasExpressionArgument>
+                                                <j.0:hasExpressionArgument>
+                                                      <j.0:Port rdf:ID="MODFLOW_node1_BCF">
+                                                            <j.0:satisfiesRole>
+                                                            
+      <rdf:Description rdf:ID="MODFLOW_node1_BCF_role">
+            <j.0:hasDimensionality rdf:datatype="http://www.w3.org/2001/XMLSchema#integer"
+            >0</j.0:hasDimensionality>
+            <j.0:hasRoleID rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+            >BCF</j.0:hasRoleID>
+      </rdf:Description>                                    </j.0:satisfiesRole>
+                                                      </j.0:Port>
+                                                </j.0:hasExpressionArgument>
+                                                <j.0:hasExpressionArgument>
+                                                      <j.0:Port rdf:ID="MODFLOW_node1_MT3D">
+                                                            <j.0:satisfiesRole>
+                                                            
+      <rdf:Description rdf:ID="MODFLOW_node1_MT3D_role">
+            <j.0:hasDimensionality rdf:datatype="http://www.w3.org/2001/XMLSchema#integer"
+            >0</j.0:hasDimensionality>
+            <j.0:hasRoleID rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+            >MT3D</j.0:hasRoleID>
+      </rdf:Description>                                    </j.0:satisfiesRole>
+                                                      </j.0:Port>
+                                                </j.0:hasExpressionArgument>
+                                                <j.0:hasExpressionArgument rdf:resource="#MODFLOW_node1_HFB"/>
+                                                <j.0:hasExpressionArgument>
+                                                      <j.0:Port rdf:ID="MODFLOW_node1_DRN">
+                                                            <j.0:satisfiesRole>
+                                                            
+      <rdf:Description rdf:ID="MODFLOW_node1_DRN_role">
+            <j.0:hasDimensionality rdf:datatype="http://www.w3.org/2001/XMLSchema#integer"
+            >0</j.0:hasDimensionality>
+            <j.0:hasRoleID rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+            >DRN</j.0:hasRoleID>
+      </rdf:Description>                                    </j.0:satisfiesRole>
+                                                      </j.0:Port>
+                                                </j.0:hasExpressionArgument>
+                                          </j.0:XProduct>
+                                    </j.0:createSetsOn>
+                                    <j.0:createComponentSets rdf:datatype=
+                                    "http://www.w3.org/2001/XMLSchema#boolean"
+                                    >true</j.0:createComponentSets>
+                              </j.0:PortSetRule>
+                        </j.0:hasPortSetCreationRule>
+                        <j.0:hasInputPort rdf:resource="#MODFLOW_node1_MT3D"/>
+                        <j.0:hasComponentSetCreationRule>
+                              <j.0:ComponentSetRule rdf:ID="MODFLOW_node1_crule">
+                                    <j.0:createSetsOn>
+                                          <rdf:Description rdf:ID="MODFLOW_node1_comp">
+                                                <j.0:hasComponentBinding rdf:resource="../components/library.owl#MODFLOW"/>
+                                          </rdf:Description>
+                                    </j.0:createSetsOn>
+                                    <j.0:createWorkflowSets rdf:datatype=
+                                    "http://www.w3.org/2001/XMLSchema#boolean"
+                                    >true</j.0:createWorkflowSets>
+                              </j.0:ComponentSetRule>
+                        </j.0:hasComponentSetCreationRule>
+                        <j.0:hasInputPort rdf:resource="#MODFLOW_node1_NAM"/>
+                        <j.0:hasOutputPort>
+                              <j.0:Port rdf:ID="MODFLOW_node1_HEADS">
+                                    <j.0:satisfiesRole>
+                                          <rdf:Description rdf:ID="MODFLOW_node1_HEADS_role">
+                                                <j.0:hasDimensionality
+                                                 rdf:datatype=
+                                                "http://www.w3.org/2001/XMLSchema#integer"
+                                                >0</j.0:hasDimensionality>
+                                                <j.0:hasRoleID
+                                                 rdf:datatype=
+                                                "http://www.w3.org/2001/XMLSchema#string"
+                                                >HEADS</j.0:hasRoleID>
+                                          </rdf:Description>
+                                    </j.0:satisfiesRole>
+                              </j.0:Port>
+                        </j.0:hasOutputPort>
+                        <j.0:hasOutputPort>
+                              <j.0:Port rdf:ID="MODFLOW_node1_BUDGET">
+                                    <j.0:satisfiesRole>
+                                          <rdf:Description rdf:ID="MODFLOW_node1_BUDGET_role">
+                                                <j.0:hasDimensionality
+                                                 rdf:datatype=
+                                                "http://www.w3.org/2001/XMLSchema#integer"
+                                                >0</j.0:hasDimensionality>
+                                                <j.0:hasRoleID
+                                                 rdf:datatype=
+                                                "http://www.w3.org/2001/XMLSchema#string"
+                                                >BUDGET</j.0:hasRoleID>
+                                          </rdf:Description>
+                                    </j.0:satisfiesRole>
+                              </j.0:Port>
+                        </j.0:hasOutputPort>
+                        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+                        >center:x=799.210205078125,y=154.08197021484375</rdfs:comment>
+                        <j.0:hasComponent rdf:resource="#MODFLOW_node1_comp"/>
+                        <j.0:hasOutputPort>
+                              <j.0:Port rdf:ID="MODFLOW_node1_DDOWN">
+                                    <j.0:satisfiesRole>
+                                          <rdf:Description rdf:ID="MODFLOW_node1_DDOWN_role">
+                                                <j.0:hasDimensionality
+                                                 rdf:datatype=
+                                                "http://www.w3.org/2001/XMLSchema#integer"
+                                                >0</j.0:hasDimensionality>
+                                                <j.0:hasRoleID
+                                                 rdf:datatype=
+                                                "http://www.w3.org/2001/XMLSchema#string"
+                                                >DDOWN</j.0:hasRoleID>
+                                          </rdf:Description>
+                                    </j.0:satisfiesRole>
+                              </j.0:Port>
+                        </j.0:hasOutputPort>
+                        <j.0:hasInputPort rdf:resource="#MODFLOW_node1_DIS"/>
+                        <j.0:hasInputPort rdf:resource="#MODFLOW_node1_WELL"/>
+                        <j.0:hasOutputPort>
+                              <j.0:Port rdf:ID="MODFLOW_node1_LIST">
+                                    <j.0:satisfiesRole>
+                                          <rdf:Description rdf:ID="MODFLOW_node1_LIST_role">
+                                                <j.0:hasDimensionality
+                                                 rdf:datatype=
+                                                "http://www.w3.org/2001/XMLSchema#integer"
+                                                >0</j.0:hasDimensionality>
+                                                <j.0:hasRoleID
+                                                 rdf:datatype=
+                                                "http://www.w3.org/2001/XMLSchema#string"
+                                                >LIST</j.0:hasRoleID>
+                                          </rdf:Description>
+                                    </j.0:satisfiesRole>
+                              </j.0:Port>
+                        </j.0:hasOutputPort>
+                        <j.0:hasInputPort rdf:resource="#MODFLOW_node1_RECHARGE"/>
+                        <j.0:hasInputPort rdf:resource="#MODFLOW_node1_BAS"/>
+                        <j.0:hasInputPort rdf:resource="#MODFLOW_node1_OutputControl"/>
+                        <j.0:hasInputPort rdf:resource="#MODFLOW_node1_DRN"/>
+                        <j.0:hasInputPort rdf:resource="#MODFLOW_node1_BCF"/>
+                        <j.0:hasInputPort rdf:resource="#MODFLOW_node1_PCG"/>
+                  </j.0:Node>
+            </j.0:hasNode>
+            <j.0:hasInputRole>
+                  <j.0:Role rdf:ID="NAM1_irole">
+                        <j.0:hasDimensionality rdf:datatype="http://www.w3.org/2001/XMLSchema#integer"
+                        >0</j.0:hasDimensionality>
+                        <j.0:mapsToVariable>
+                              <j.1:NAM rdf:ID="NAM1">
+                                    <rdfs:comment rdf:datatype=
+                                    "http://www.w3.org/2001/XMLSchema#string"
+                                    >center:x=825.1298217773438,y=18.600253105163574</rdfs:comment>
+                                    <rdf:type rdf:resource="http://www.wings-workflows.org/ontology/workflow.owl#DataVariable"/>
+                              </j.1:NAM>
+                        </j.0:mapsToVariable>
+                        <j.0:hasRoleID rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+                        >MODFLOW_node1_NAM</j.0:hasRoleID>
+                  </j.0:Role>
+            </j.0:hasInputRole>
+            <j.0:hasOutputRole>
+                  <j.0:Role rdf:ID="BUDGET_orole">
+                        <j.0:hasDimensionality rdf:datatype="http://www.w3.org/2001/XMLSchema#integer"
+                        >0</j.0:hasDimensionality>
+                        <j.0:mapsToVariable>
+                              <j.1:BUDGET rdf:ID="BUDGET">
+                                    <rdfs:comment rdf:datatype=
+                                    "http://www.w3.org/2001/XMLSchema#string"
+                                    >center:x=128.27923583984375,y=254.14007568359375</rdfs:comment>
+                                    <rdf:type rdf:resource="http://www.wings-workflows.org/ontology/workflow.owl#DataVariable"/>
+                              </j.1:BUDGET>
+                        </j.0:mapsToVariable>
+                        <j.0:hasRoleID rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+                        >BUDGET</j.0:hasRoleID>
+                  </j.0:Role>
+            </j.0:hasOutputRole>
+            <j.0:hasNode>
+                  <j.0:Node rdf:ID="ExtractDataResults_node">
+                        <j.0:hasComponent>
+                              <rdf:Description rdf:ID="ExtractDataResults_node_comp">
+                                    <j.0:isConcrete rdf:datatype=
+                                    "http://www.w3.org/2001/XMLSchema#boolean"
+                                    >true</j.0:isConcrete>
+                                    <j.0:hasComponentBinding rdf:resource="../components/library.owl#ExtractDataResults"/>
+                              </rdf:Description>
+                        </j.0:hasComponent>
+                        <j.0:hasComponentSetCreationRule>
+                              <j.0:ComponentSetRule rdf:ID="ExtractDataResults_node_crule">
+                                    <j.0:createSetsOn rdf:resource="#ExtractDataResults_node_comp"/>
+                                    <j.0:createWorkflowSets rdf:datatype=
+                                    "http://www.w3.org/2001/XMLSchema#boolean"
+                                    >true</j.0:createWorkflowSets>
+                              </j.0:ComponentSetRule>
+                        </j.0:hasComponentSetCreationRule>
+                        <j.0:hasInputPort>
+                              <j.0:Port rdf:ID="ExtractDataResults_node_simulation_results">
+                                    <j.0:satisfiesRole>
+                                          <rdf:Description rdf:ID="ExtractDataResults_node_simulation_results_role">
+                                                <j.0:hasDimensionality
+                                                 rdf:datatype=
+                                                "http://www.w3.org/2001/XMLSchema#integer"
+                                                >0</j.0:hasDimensionality>
+                                                <j.0:hasRoleID
+                                                 rdf:datatype=
+                                                "http://www.w3.org/2001/XMLSchema#string"
+                                                >simulation_results</j.0:hasRoleID>
+                                          </rdf:Description>
+                                    </j.0:satisfiesRole>
+                              </j.0:Port>
+                        </j.0:hasInputPort>
+                        <j.0:hasOutputPort>
+                              <j.0:Port rdf:ID="ExtractDataResults_node_extracted_data">
+                                    <j.0:satisfiesRole>
+                                          <rdf:Description rdf:ID="ExtractDataResults_node_extracted_data_role">
+                                                <j.0:hasDimensionality
+                                                 rdf:datatype=
+                                                "http://www.w3.org/2001/XMLSchema#integer"
+                                                >0</j.0:hasDimensionality>
+                                                <j.0:hasRoleID
+                                                 rdf:datatype=
+                                                "http://www.w3.org/2001/XMLSchema#string"
+                                                >extracted_data</j.0:hasRoleID>
+                                          </rdf:Description>
+                                    </j.0:satisfiesRole>
+                              </j.0:Port>
+                        </j.0:hasOutputPort>
+                        <j.0:hasPortSetCreationRule>
+                              <j.0:PortSetRule rdf:ID="ExtractDataResults_node_prule">
+                                    <j.0:createSetsOn>
+                                          <j.0:XProduct rdf:ID="_xprod-df74b7d1-eec7-4ebb-bc09-bf8aa760a951">
+                                                <j.0:hasExpressionArgument rdf:resource="#ExtractDataResults_node_simulation_results"/>
+                                          </j.0:XProduct>
+                                    </j.0:createSetsOn>
+                                    <j.0:createComponentSets rdf:datatype=
+                                    "http://www.w3.org/2001/XMLSchema#boolean"
+                                    >true</j.0:createComponentSets>
+                              </j.0:PortSetRule>
+                        </j.0:hasPortSetCreationRule>
+                        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+                        >center:x=416.16546630859375,y=329.7643737792969</rdfs:comment>
+                  </j.0:Node>
+            </j.0:hasNode>
+            <j.0:hasOutputRole>
+                  <j.0:Role rdf:ID="DDOWN_orole">
+                        <j.0:hasDimensionality rdf:datatype="http://www.w3.org/2001/XMLSchema#integer"
+                        >0</j.0:hasDimensionality>
+                        <j.0:mapsToVariable>
+                              <j.1:DDOWN rdf:ID="DDOWN">
+                                    <rdfs:comment rdf:datatype=
+                                    "http://www.w3.org/2001/XMLSchema#string"
+                                    >center:x=195.84255981445312,y=256.3631343841553</rdfs:comment>
+                                    <rdf:type rdf:resource="http://www.wings-workflows.org/ontology/workflow.owl#DataVariable"/>
+                              </j.1:DDOWN>
+                        </j.0:mapsToVariable>
+                        <j.0:hasRoleID rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+                        >DDOWN</j.0:hasRoleID>
+                  </j.0:Role>
+            </j.0:hasOutputRole>
+            <j.0:hasLink>
+                  <j.0:InputLink rdf:ID="MODFLOW_node_BAS_input">
+                        <j.0:hasVariable>
+                              <j.1:BAS rdf:ID="BAS">
+                                    <rdfs:comment rdf:datatype=
+                                    "http://www.w3.org/2001/XMLSchema#string"
+                                    >center:x=47,y=51.5</rdfs:comment>
+                                    <rdf:type rdf:resource="http://www.wings-workflows.org/ontology/workflow.owl#DataVariable"/>
+                              </j.1:BAS>
+                        </j.0:hasVariable>
+                        <j.0:hasDestinationNode>
+                              <j.0:Node rdf:ID="MODFLOW_node">
+                                    <j.0:hasOutputPort>
+                                          <j.0:Port rdf:ID="MODFLOW_node_GLOBAL">
+                                                <j.0:satisfiesRole>
+                                                      <rdf:Description rdf:ID="MODFLOW_node_GLOBAL_role">
+                                                            <j.0:hasDimensionality
+                                                             rdf:datatype=
+                                                            "http://www.w3.org/2001/XMLSchema#integer"
+                                                            >0</j.0:hasDimensionality>
+                                                            <j.0:hasRoleID
+                                                             rdf:datatype=
+                                                            "http://www.w3.org/2001/XMLSchema#string"
+                                                            >GLOBAL</j.0:hasRoleID>
+                                                      </rdf:Description>
+                                                </j.0:satisfiesRole>
+                                          </j.0:Port>
+                                    </j.0:hasOutputPort>
+                                    <j.0:hasOutputPort>
+                                          <j.0:Port rdf:ID="MODFLOW_node_HEADS">
+                                                <j.0:satisfiesRole>
+                                                      <rdf:Description rdf:ID="MODFLOW_node_HEADS_role">
+                                                            <j.0:hasDimensionality
+                                                             rdf:datatype=
+                                                            "http://www.w3.org/2001/XMLSchema#integer"
+                                                            >0</j.0:hasDimensionality>
+                                                            <j.0:hasRoleID
+                                                             rdf:datatype=
+                                                            "http://www.w3.org/2001/XMLSchema#string"
+                                                            >HEADS</j.0:hasRoleID>
+                                                      </rdf:Description>
+                                                </j.0:satisfiesRole>
+                                          </j.0:Port>
+                                    </j.0:hasOutputPort>
+                                    <j.0:hasInputPort>
+                                          <j.0:Port rdf:ID="MODFLOW_node_NAM">
+                                                <j.0:satisfiesRole>
+                                                      <rdf:Description rdf:ID="MODFLOW_node_NAM_role">
+                                                            <j.0:hasDimensionality
+                                                             rdf:datatype=
+                                                            "http://www.w3.org/2001/XMLSchema#integer"
+                                                            >0</j.0:hasDimensionality>
+                                                            <j.0:hasRoleID
+                                                             rdf:datatype=
+                                                            "http://www.w3.org/2001/XMLSchema#string"
+                                                            >NAM</j.0:hasRoleID>
+                                                      </rdf:Description>
+                                                </j.0:satisfiesRole>
+                                          </j.0:Port>
+                                    </j.0:hasInputPort>
+                                    <j.0:hasInputPort>
+                                          <j.0:Port rdf:ID="MODFLOW_node_RECHARGE">
+                                                <j.0:satisfiesRole>
+                                                      <rdf:Description rdf:ID="MODFLOW_node_RECHARGE_role">
+                                                            <j.0:hasDimensionality
+                                                             rdf:datatype=
+                                                            "http://www.w3.org/2001/XMLSchema#integer"
+                                                            >0</j.0:hasDimensionality>
+                                                            <j.0:hasRoleID
+                                                             rdf:datatype=
+                                                            "http://www.w3.org/2001/XMLSchema#string"
+                                                            >RECHARGE</j.0:hasRoleID>
+                                                      </rdf:Description>
+                                                </j.0:satisfiesRole>
+                                          </j.0:Port>
+                                    </j.0:hasInputPort>
+                                    <j.0:hasInputPort>
+                                          <j.0:Port rdf:ID="MODFLOW_node_BCF">
+                                                <j.0:satisfiesRole>
+                                                      <rdf:Description rdf:ID="MODFLOW_node_BCF_role">
+                                                            <j.0:hasDimensionality
+                                                             rdf:datatype=
+                                                            "http://www.w3.org/2001/XMLSchema#integer"
+                                                            >0</j.0:hasDimensionality>
+                                                            <j.0:hasRoleID
+                                                             rdf:datatype=
+                                                            "http://www.w3.org/2001/XMLSchema#string"
+                                                            >BCF</j.0:hasRoleID>
+                                                      </rdf:Description>
+                                                </j.0:satisfiesRole>
+                                          </j.0:Port>
+                                    </j.0:hasInputPort>
+                                    <j.0:hasOutputPort>
+                                          <j.0:Port rdf:ID="MODFLOW_node_LIST">
+                                                <j.0:satisfiesRole>
+                                                      <rdf:Description rdf:ID="MODFLOW_node_LIST_role">
+                                                            <j.0:hasDimensionality
+                                                             rdf:datatype=
+                                                            "http://www.w3.org/2001/XMLSchema#integer"
+                                                            >0</j.0:hasDimensionality>
+                                                            <j.0:hasRoleID
+                                                             rdf:datatype=
+                                                            "http://www.w3.org/2001/XMLSchema#string"
+                                                            >LIST</j.0:hasRoleID>
+                                                      </rdf:Description>
+                                                </j.0:satisfiesRole>
+                                          </j.0:Port>
+                                    </j.0:hasOutputPort>
+                                    <j.0:hasComponentSetCreationRule>
+                                          <j.0:ComponentSetRule rdf:ID="MODFLOW_node_crule">
+                                                <j.0:createSetsOn>
+                                                      <rdf:Description rdf:ID="MODFLOW_node_comp">
+                                                            <j.0:hasComponentBinding rdf:resource="../components/library.owl#MODFLOW"/>
+                                                      </rdf:Description>
+                                                </j.0:createSetsOn>
+                                                <j.0:createWorkflowSets
+                                                 rdf:datatype=
+                                                "http://www.w3.org/2001/XMLSchema#boolean"
+                                                >true</j.0:createWorkflowSets>
+                                          </j.0:ComponentSetRule>
+                                    </j.0:hasComponentSetCreationRule>
+                                    <j.0:hasOutputPort>
+                                          <j.0:Port rdf:ID="MODFLOW_node_DDOWN">
+                                                <j.0:satisfiesRole>
+                                                      <rdf:Description rdf:ID="MODFLOW_node_DDOWN_role">
+                                                            <j.0:hasDimensionality
+                                                             rdf:datatype=
+                                                            "http://www.w3.org/2001/XMLSchema#integer"
+                                                            >0</j.0:hasDimensionality>
+                                                            <j.0:hasRoleID
+                                                             rdf:datatype=
+                                                            "http://www.w3.org/2001/XMLSchema#string"
+                                                            >DDOWN</j.0:hasRoleID>
+                                                      </rdf:Description>
+                                                </j.0:satisfiesRole>
+                                          </j.0:Port>
+                                    </j.0:hasOutputPort>
+                                    <j.0:hasInputPort>
+                                          <j.0:Port rdf:ID="MODFLOW_node_WELL">
+                                                <j.0:satisfiesRole>
+                                                      <rdf:Description rdf:ID="MODFLOW_node_WELL_role">
+                                                            <j.0:hasDimensionality
+                                                             rdf:datatype=
+                                                            "http://www.w3.org/2001/XMLSchema#integer"
+                                                            >0</j.0:hasDimensionality>
+                                                            <j.0:hasRoleID
+                                                             rdf:datatype=
+                                                            "http://www.w3.org/2001/XMLSchema#string"
+                                                            >WELL</j.0:hasRoleID>
+                                                      </rdf:Description>
+                                                </j.0:satisfiesRole>
+                                          </j.0:Port>
+                                    </j.0:hasInputPort>
+                                    <j.0:hasPortSetCreationRule>
+                                          <j.0:PortSetRule rdf:ID="MODFLOW_node_prule">
+                                                <j.0:createSetsOn>
+                                                      <j.0:XProduct rdf:ID="_xprod-4d6135f6-675c-485d-969f-244e6eaa5f2b">
+                                                            <j.0:hasExpressionArgument rdf:resource="#MODFLOW_node_NAM"/>
+                                                            <j.0:hasExpressionArgument>
+                                                            
+      <j.0:Port rdf:ID="MODFLOW_node_DIS">
+            <j.0:satisfiesRole>
+                  <rdf:Description rdf:ID="MODFLOW_node_DIS_role">
+                        <j.0:hasDimensionality rdf:datatype="http://www.w3.org/2001/XMLSchema#integer"
+                        >0</j.0:hasDimensionality>
+                        <j.0:hasRoleID rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+                        >DIS</j.0:hasRoleID>
+                  </rdf:Description>
+            </j.0:satisfiesRole>
+      </j.0:Port>                                           </j.0:hasExpressionArgument>
+                                                            <j.0:hasExpressionArgument rdf:resource="#MODFLOW_node_WELL"/>
+                                                            <j.0:hasExpressionArgument>
+                                                            
+      <j.0:Port rdf:ID="MODFLOW_node_DRN">
+            <j.0:satisfiesRole>
+                  <rdf:Description rdf:ID="MODFLOW_node_DRN_role">
+                        <j.0:hasDimensionality rdf:datatype="http://www.w3.org/2001/XMLSchema#integer"
+                        >0</j.0:hasDimensionality>
+                        <j.0:hasRoleID rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+                        >DRN</j.0:hasRoleID>
+                  </rdf:Description>
+            </j.0:satisfiesRole>
+      </j.0:Port>                                           </j.0:hasExpressionArgument>
+                                                            <j.0:hasExpressionArgument>
+                                                            
+      <j.0:Port rdf:ID="MODFLOW_node_BAS">
+            <j.0:satisfiesRole>
+                  <rdf:Description rdf:ID="MODFLOW_node_BAS_role">
+                        <j.0:hasDimensionality rdf:datatype="http://www.w3.org/2001/XMLSchema#integer"
+                        >0</j.0:hasDimensionality>
+                        <j.0:hasRoleID rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+                        >BAS</j.0:hasRoleID>
+                  </rdf:Description>
+            </j.0:satisfiesRole>
+      </j.0:Port>                                           </j.0:hasExpressionArgument>
+                                                            <j.0:hasExpressionArgument>
+                                                            
+      <j.0:Port rdf:ID="MODFLOW_node_MT3D">
+            <j.0:satisfiesRole>
+                  <rdf:Description rdf:ID="MODFLOW_node_MT3D_role">
+                        <j.0:hasDimensionality rdf:datatype="http://www.w3.org/2001/XMLSchema#integer"
+                        >0</j.0:hasDimensionality>
+                        <j.0:hasRoleID rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+                        >MT3D</j.0:hasRoleID>
+                  </rdf:Description>
+            </j.0:satisfiesRole>
+      </j.0:Port>                                           </j.0:hasExpressionArgument>
+                                                            <j.0:hasExpressionArgument>
+                                                            
+      <j.0:Port rdf:ID="MODFLOW_node_HFB">
+            <j.0:satisfiesRole>
+                  <rdf:Description rdf:ID="MODFLOW_node_HFB_role">
+                        <j.0:hasDimensionality rdf:datatype="http://www.w3.org/2001/XMLSchema#integer"
+                        >0</j.0:hasDimensionality>
+                        <j.0:hasRoleID rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+                        >HFB</j.0:hasRoleID>
+                  </rdf:Description>
+            </j.0:satisfiesRole>
+      </j.0:Port>                                           </j.0:hasExpressionArgument>
+                                                            <j.0:hasExpressionArgument rdf:resource="#MODFLOW_node_RECHARGE"/>
+                                                            <j.0:hasExpressionArgument rdf:resource="#MODFLOW_node_BCF"/>
+                                                            <j.0:hasExpressionArgument>
+                                                            
+      <j.0:Port rdf:ID="MODFLOW_node_PCG">
+            <j.0:satisfiesRole>
+                  <rdf:Description rdf:ID="MODFLOW_node_PCG_role">
+                        <j.0:hasDimensionality rdf:datatype="http://www.w3.org/2001/XMLSchema#integer"
+                        >0</j.0:hasDimensionality>
+                        <j.0:hasRoleID rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+                        >PCG</j.0:hasRoleID>
+                  </rdf:Description>
+            </j.0:satisfiesRole>
+      </j.0:Port>                                           </j.0:hasExpressionArgument>
+                                                            <j.0:hasExpressionArgument>
+                                                            
+      <j.0:Port rdf:ID="MODFLOW_node_OutputControl">
+            <j.0:satisfiesRole>
+                  <rdf:Description rdf:ID="MODFLOW_node_OutputControl_role">
+                        <j.0:hasDimensionality rdf:datatype="http://www.w3.org/2001/XMLSchema#integer"
+                        >0</j.0:hasDimensionality>
+                        <j.0:hasRoleID rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+                        >OutputControl</j.0:hasRoleID>
+                  </rdf:Description>
+            </j.0:satisfiesRole>
+      </j.0:Port>                                           </j.0:hasExpressionArgument>
+                                                      </j.0:XProduct>
+                                                </j.0:createSetsOn>
+                                                <j.0:createComponentSets
+                                                 rdf:datatype=
+                                                "http://www.w3.org/2001/XMLSchema#boolean"
+                                                >true</j.0:createComponentSets>
+                                          </j.0:PortSetRule>
+                                    </j.0:hasPortSetCreationRule>
+                                    <j.0:hasInputPort rdf:resource="#MODFLOW_node_PCG"/>
+                                    <j.0:hasInputPort rdf:resource="#MODFLOW_node_BAS"/>
+                                    <j.0:hasOutputPort>
+                                          <j.0:Port rdf:ID="MODFLOW_node_BUDGET">
+                                                <j.0:satisfiesRole>
+                                                      <rdf:Description rdf:ID="MODFLOW_node_BUDGET_role">
+                                                            <j.0:hasDimensionality
+                                                             rdf:datatype=
+                                                            "http://www.w3.org/2001/XMLSchema#integer"
+                                                            >0</j.0:hasDimensionality>
+                                                            <j.0:hasRoleID
+                                                             rdf:datatype=
+                                                            "http://www.w3.org/2001/XMLSchema#string"
+                                                            >BUDGET</j.0:hasRoleID>
+                                                      </rdf:Description>
+                                                </j.0:satisfiesRole>
+                                          </j.0:Port>
+                                    </j.0:hasOutputPort>
+                                    <j.0:hasInputPort rdf:resource="#MODFLOW_node_DIS"/>
+                                    <j.0:hasInputPort rdf:resource="#MODFLOW_node_MT3D"/>
+                                    <j.0:hasInputPort rdf:resource="#MODFLOW_node_DRN"/>
+                                    <j.0:hasComponent rdf:resource="#MODFLOW_node_comp"/>
+                                    <j.0:hasInputPort rdf:resource="#MODFLOW_node_OutputControl"/>
+                                    <rdfs:comment rdf:datatype=
+                                    "http://www.w3.org/2001/XMLSchema#string"
+                                    >center:x=251,y=137</rdfs:comment>
+                                    <j.0:hasInputPort rdf:resource="#MODFLOW_node_HFB"/>
+                              </j.0:Node>
+                        </j.0:hasDestinationNode>
+                        <j.0:hasDestinationPort rdf:resource="#MODFLOW_node_BAS"/>
+                  </j.0:InputLink>
+            </j.0:hasLink>
+            <j.0:hasInputRole>
+                  <j.0:Role rdf:ID="DRN1_irole">
+                        <j.0:hasDimensionality rdf:datatype="http://www.w3.org/2001/XMLSchema#integer"
+                        >0</j.0:hasDimensionality>
+                        <j.0:mapsToVariable>
+                              <j.1:DRN rdf:ID="DRN1">
+                                    <rdfs:comment rdf:datatype=
+                                    "http://www.w3.org/2001/XMLSchema#string"
+                                    >center:x=727.2086791992188,y=61.80078411102295</rdfs:comment>
+                                    <rdf:type rdf:resource="http://www.wings-workflows.org/ontology/workflow.owl#DataVariable"/>
+                              </j.1:DRN>
+                        </j.0:mapsToVariable>
+                        <j.0:hasRoleID rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+                        >MODFLOW_node1_DRN</j.0:hasRoleID>
+                  </j.0:Role>
+            </j.0:hasInputRole>
+            <j.0:hasInputRole>
+                  <j.0:Role rdf:ID="PCG_irole">
+                        <j.0:hasDimensionality rdf:datatype="http://www.w3.org/2001/XMLSchema#integer"
+                        >0</j.0:hasDimensionality>
+                        <j.0:mapsToVariable>
+                              <j.1:PCG rdf:ID="PCG">
+                                    <rdfs:comment rdf:datatype=
+                                    "http://www.w3.org/2001/XMLSchema#string"
+                                    >center:x=446,y=35.5</rdfs:comment>
+                                    <rdf:type rdf:resource="http://www.wings-workflows.org/ontology/workflow.owl#DataVariable"/>
+                              </j.1:PCG>
+                        </j.0:mapsToVariable>
+                        <j.0:hasRoleID rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+                        >MODFLOW_node_PCG</j.0:hasRoleID>
+                  </j.0:Role>
+            </j.0:hasInputRole>
+            <j.0:hasLink>
+                  <j.0:OutputLink rdf:ID="MODFLOW_node_BUDGET_output">
+                        <j.0:hasVariable rdf:resource="#BUDGET"/>
+                        <j.0:hasOriginNode rdf:resource="#MODFLOW_node"/>
+                        <j.0:hasOriginPort rdf:resource="#MODFLOW_node_BUDGET"/>
+                  </j.0:OutputLink>
+            </j.0:hasLink>
+            <j.0:hasLink>
+                  <j.0:InOutLink rdf:ID="ExtractDataResults_node1_extracted_data_to_CompareDataResults_node_extracted_data_2">
+                        <j.0:hasDestinationNode>
+                              <j.0:Node rdf:ID="CompareDataResults_node">
+                                    <j.0:hasComponentSetCreationRule>
+                                          <j.0:ComponentSetRule rdf:ID="CompareDataResults_node_crule">
+                                                <j.0:createSetsOn>
+                                                      <rdf:Description rdf:ID="CompareDataResults_node_comp">
+                                                            <j.0:isConcrete
+                                                             rdf:datatype=
+                                                            "http://www.w3.org/2001/XMLSchema#boolean"
+                                                            >true</j.0:isConcrete>
+                                                            <j.0:hasComponentBinding rdf:resource="../components/library.owl#CompareDataResults"/>
+                                                      </rdf:Description>
+                                                </j.0:createSetsOn>
+                                                <j.0:createWorkflowSets
+                                                 rdf:datatype=
+                                                "http://www.w3.org/2001/XMLSchema#boolean"
+                                                >true</j.0:createWorkflowSets>
+                                          </j.0:ComponentSetRule>
+                                    </j.0:hasComponentSetCreationRule>
+                                    <j.0:hasInputPort>
+                                          <j.0:Port rdf:ID="CompareDataResults_node_extracted_data_1">
+                                                <j.0:satisfiesRole>
+                                                      <rdf:Description rdf:ID="CompareDataResults_node_extracted_data_1_role">
+                                                            <j.0:hasDimensionality
+                                                             rdf:datatype=
+                                                            "http://www.w3.org/2001/XMLSchema#integer"
+                                                            >0</j.0:hasDimensionality>
+                                                            <j.0:hasRoleID
+                                                             rdf:datatype=
+                                                            "http://www.w3.org/2001/XMLSchema#string"
+                                                            >extracted_data_1</j.0:hasRoleID>
+                                                      </rdf:Description>
+                                                </j.0:satisfiesRole>
+                                          </j.0:Port>
+                                    </j.0:hasInputPort>
+                                    <j.0:hasInputPort>
+                                          <j.0:Port rdf:ID="CompareDataResults_node_extracted_data_2">
+                                                <j.0:satisfiesRole>
+                                                      <rdf:Description rdf:ID="CompareDataResults_node_extracted_data_2_role">
+                                                            <j.0:hasDimensionality
+                                                             rdf:datatype=
+                                                            "http://www.w3.org/2001/XMLSchema#integer"
+                                                            >0</j.0:hasDimensionality>
+                                                            <j.0:hasRoleID
+                                                             rdf:datatype=
+                                                            "http://www.w3.org/2001/XMLSchema#string"
+                                                            >extracted_data_2</j.0:hasRoleID>
+                                                      </rdf:Description>
+                                                </j.0:satisfiesRole>
+                                          </j.0:Port>
+                                    </j.0:hasInputPort>
+                                    <j.0:hasOutputPort>
+                                          <j.0:Port rdf:ID="CompareDataResults_node_comparative_data">
+                                                <j.0:satisfiesRole>
+                                                      <rdf:Description rdf:ID="CompareDataResults_node_comparative_data_role">
+                                                            <j.0:hasDimensionality
+                                                             rdf:datatype=
+                                                            "http://www.w3.org/2001/XMLSchema#integer"
+                                                            >0</j.0:hasDimensionality>
+                                                            <j.0:hasRoleID
+                                                             rdf:datatype=
+                                                            "http://www.w3.org/2001/XMLSchema#string"
+                                                            >comparative_data</j.0:hasRoleID>
+                                                      </rdf:Description>
+                                                </j.0:satisfiesRole>
+                                          </j.0:Port>
+                                    </j.0:hasOutputPort>
+                                    <j.0:hasPortSetCreationRule>
+                                          <j.0:PortSetRule rdf:ID="CompareDataResults_node_prule">
+                                                <j.0:createSetsOn>
+                                                      <j.0:XProduct rdf:ID="_xprod-e55fe25b-acbf-4783-a681-0c98d4b009e7">
+                                                            <j.0:hasExpressionArgument rdf:resource="#CompareDataResults_node_extracted_data_1"/>
+                                                            <j.0:hasExpressionArgument rdf:resource="#CompareDataResults_node_extracted_data_2"/>
+                                                      </j.0:XProduct>
+                                                </j.0:createSetsOn>
+                                                <j.0:createComponentSets
+                                                 rdf:datatype=
+                                                "http://www.w3.org/2001/XMLSchema#boolean"
+                                                >true</j.0:createComponentSets>
+                                          </j.0:PortSetRule>
+                                    </j.0:hasPortSetCreationRule>
+                                    <rdfs:comment rdf:datatype=
+                                    "http://www.w3.org/2001/XMLSchema#string"
+                                    >center:x=604.8060913085938,y=444.96392822265625</rdfs:comment>
+                                    <j.0:hasComponent rdf:resource="#CompareDataResults_node_comp"/>
+                              </j.0:Node>
+                        </j.0:hasDestinationNode>
+                        <j.0:hasDestinationPort rdf:resource="#CompareDataResults_node_extracted_data_2"/>
+                        <j.0:hasOriginNode>
+                              <j.0:Node rdf:ID="ExtractDataResults_node1">
+                                    <j.0:hasComponent>
+                                          <rdf:Description rdf:ID="ExtractDataResults_node1_comp">
+                                                <j.0:isConcrete
+                                                 rdf:datatype=
+                                                "http://www.w3.org/2001/XMLSchema#boolean"
+                                                >true</j.0:isConcrete>
+                                                <j.0:hasComponentBinding rdf:resource="../components/library.owl#ExtractDataResults"/>
+                                          </rdf:Description>
+                                    </j.0:hasComponent>
+                                    <j.0:hasComponentSetCreationRule>
+                                          <j.0:ComponentSetRule rdf:ID="ExtractDataResults_node1_crule">
+                                                <j.0:createSetsOn rdf:resource="#ExtractDataResults_node1_comp"/>
+                                                <j.0:createWorkflowSets
+                                                 rdf:datatype=
+                                                "http://www.w3.org/2001/XMLSchema#boolean"
+                                                >true</j.0:createWorkflowSets>
+                                          </j.0:ComponentSetRule>
+                                    </j.0:hasComponentSetCreationRule>
+                                    <j.0:hasInputPort>
+                                          <j.0:Port rdf:ID="ExtractDataResults_node1_simulation_results">
+                                                <j.0:satisfiesRole>
+                                                      <rdf:Description rdf:ID="ExtractDataResults_node1_simulation_results_role">
+                                                            <j.0:hasDimensionality
+                                                             rdf:datatype=
+                                                            "http://www.w3.org/2001/XMLSchema#integer"
+                                                            >0</j.0:hasDimensionality>
+                                                            <j.0:hasRoleID
+                                                             rdf:datatype=
+                                                            "http://www.w3.org/2001/XMLSchema#string"
+                                                            >simulation_results</j.0:hasRoleID>
+                                                      </rdf:Description>
+                                                </j.0:satisfiesRole>
+                                          </j.0:Port>
+                                    </j.0:hasInputPort>
+                                    <j.0:hasOutputPort>
+                                          <j.0:Port rdf:ID="ExtractDataResults_node1_extracted_data">
+                                                <j.0:satisfiesRole>
+                                                      <rdf:Description rdf:ID="ExtractDataResults_node1_extracted_data_role">
+                                                            <j.0:hasDimensionality
+                                                             rdf:datatype=
+                                                            "http://www.w3.org/2001/XMLSchema#integer"
+                                                            >0</j.0:hasDimensionality>
+                                                            <j.0:hasRoleID
+                                                             rdf:datatype=
+                                                            "http://www.w3.org/2001/XMLSchema#string"
+                                                            >extracted_data</j.0:hasRoleID>
+                                                      </rdf:Description>
+                                                </j.0:satisfiesRole>
+                                          </j.0:Port>
+                                    </j.0:hasOutputPort>
+                                    <j.0:hasPortSetCreationRule>
+                                          <j.0:PortSetRule rdf:ID="ExtractDataResults_node1_prule">
+                                                <j.0:createSetsOn>
+                                                      <j.0:XProduct rdf:ID="_xprod-889b66d8-db8c-46dd-8405-45c859b88fdd">
+                                                            <j.0:hasExpressionArgument rdf:resource="#ExtractDataResults_node1_simulation_results"/>
+                                                      </j.0:XProduct>
+                                                </j.0:createSetsOn>
+                                                <j.0:createComponentSets
+                                                 rdf:datatype=
+                                                "http://www.w3.org/2001/XMLSchema#boolean"
+                                                >true</j.0:createComponentSets>
+                                          </j.0:PortSetRule>
+                                    </j.0:hasPortSetCreationRule>
+                                    <rdfs:comment rdf:datatype=
+                                    "http://www.w3.org/2001/XMLSchema#string"
+                                    >center:x=876.9705200195312,y=319.683837890625</rdfs:comment>
+                              </j.0:Node>
+                        </j.0:hasOriginNode>
+                        <j.0:hasOriginPort rdf:resource="#ExtractDataResults_node1_extracted_data"/>
+                        <j.0:hasVariable>
+                              <j.1:TXT rdf:ID="extracted_data">
+                                    <rdfs:comment rdf:datatype=
+                                    "http://www.w3.org/2001/XMLSchema#string"
+                                    >center:x=746.920166015625,y=387.92022705078125</rdfs:comment>
+                                    <rdf:type rdf:resource="http://www.wings-workflows.org/ontology/workflow.owl#DataVariable"/>
+                              </j.1:TXT>
+                        </j.0:hasVariable>
+                  </j.0:InOutLink>
+            </j.0:hasLink>
+            <j.0:hasLink>
+                  <j.0:InputLink rdf:ID="MODFLOW_node_DIS_input">
+                        <j.0:hasVariable>
+                              <j.1:DIS rdf:ID="DIS">
+                                    <rdfs:comment rdf:datatype=
+                                    "http://www.w3.org/2001/XMLSchema#string"
+                                    >center:x=130,y=41.5</rdfs:comment>
+                                    <rdf:type rdf:resource="http://www.wings-workflows.org/ontology/workflow.owl#DataVariable"/>
+                              </j.1:DIS>
+                        </j.0:hasVariable>
+                        <j.0:hasDestinationNode rdf:resource="#MODFLOW_node"/>
+                        <j.0:hasDestinationPort rdf:resource="#MODFLOW_node_DIS"/>
+                  </j.0:InputLink>
+            </j.0:hasLink>
+            <j.0:hasOutputRole>
+                  <j.0:Role rdf:ID="BUDGET1_orole">
+                        <j.0:hasDimensionality rdf:datatype="http://www.w3.org/2001/XMLSchema#integer"
+                        >0</j.0:hasDimensionality>
+                        <j.0:mapsToVariable>
+                              <j.1:BUDGET rdf:ID="BUDGET1">
+                                    <rdfs:comment rdf:datatype=
+                                    "http://www.w3.org/2001/XMLSchema#string"
+                                    >center:x=609.1271362304688,y=224.68252277374268</rdfs:comment>
+                                    <rdf:type rdf:resource="http://www.wings-workflows.org/ontology/workflow.owl#DataVariable"/>
+                              </j.1:BUDGET>
+                        </j.0:mapsToVariable>
+                        <j.0:hasRoleID rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+                        >BUDGET1</j.0:hasRoleID>
+                  </j.0:Role>
+            </j.0:hasOutputRole>
+            <j.0:hasOutputRole>
+                  <j.0:Role rdf:ID="HEADS1_orole">
+                        <j.0:hasDimensionality rdf:datatype="http://www.w3.org/2001/XMLSchema#integer"
+                        >0</j.0:hasDimensionality>
+                        <j.0:mapsToVariable>
+                              <j.1:HEADS rdf:ID="HEADS1">
+                                    <rdfs:comment rdf:datatype=
+                                    "http://www.w3.org/2001/XMLSchema#string"
+                                    >center:x=828.0099487304688,y=249.16280841827393</rdfs:comment>
+                                    <rdf:type rdf:resource="http://www.wings-workflows.org/ontology/workflow.owl#DataVariable"/>
+                              </j.1:HEADS>
+                        </j.0:mapsToVariable>
+                        <j.0:hasRoleID rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+                        >HEADS1</j.0:hasRoleID>
+                  </j.0:Role>
+            </j.0:hasOutputRole>
+            <j.0:hasInputRole>
+                  <j.0:Role rdf:ID="OutputControl_irole">
+                        <j.0:hasDimensionality rdf:datatype="http://www.w3.org/2001/XMLSchema#integer"
+                        >0</j.0:hasDimensionality>
+                        <j.0:mapsToVariable>
+                              <j.1:OC rdf:ID="OutputControl">
+                                    <rdfs:comment rdf:datatype=
+                                    "http://www.w3.org/2001/XMLSchema#string"
+                                    >center:x=374,y=35.5</rdfs:comment>
+                                    <rdf:type rdf:resource="http://www.wings-workflows.org/ontology/workflow.owl#DataVariable"/>
+                              </j.1:OC>
+                        </j.0:mapsToVariable>
+                        <j.0:hasRoleID rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+                        >MODFLOW_node_OutputControl</j.0:hasRoleID>
+                  </j.0:Role>
+            </j.0:hasInputRole>
+            <j.0:hasInputRole>
+                  <j.0:Role rdf:ID="HFB1_irole">
+                        <j.0:hasDimensionality rdf:datatype="http://www.w3.org/2001/XMLSchema#integer"
+                        >0</j.0:hasDimensionality>
+                        <j.0:mapsToVariable>
+                              <j.1:HFB rdf:ID="HFB1">
+                                    <rdfs:comment rdf:datatype=
+                                    "http://www.w3.org/2001/XMLSchema#string"
+                                    >center:x=747.3689575195312,y=24.360323905944824</rdfs:comment>
+                                    <rdf:type rdf:resource="http://www.wings-workflows.org/ontology/workflow.owl#DataVariable"/>
+                              </j.1:HFB>
+                        </j.0:mapsToVariable>
+                        <j.0:hasRoleID rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+                        >MODFLOW_node1_HFB</j.0:hasRoleID>
+                  </j.0:Role>
+            </j.0:hasInputRole>
+            <j.0:hasMetadata>
+                  <j.0:Metadata rdf:ID="MODFLOW-Comparison_meta">
+                        <j.0:hasContributor rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+                        >admin</j.0:hasContributor>
+                        <j.0:lastUpdateTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime"
+                        >2018-03-07T06:00:00Z</j.0:lastUpdateTime>
+                  </j.0:Metadata>
+            </j.0:hasMetadata>
+            <j.0:hasLink>
+                  <j.0:InputLink rdf:ID="MODFLOW_node1_BAS_input">
+                        <j.0:hasVariable>
+                              <j.1:BAS rdf:ID="BAS1">
+                                    <rdfs:comment rdf:datatype=
+                                    "http://www.w3.org/2001/XMLSchema#string"
+                                    >center:x=612.0072631835938,y=102.12124919891357</rdfs:comment>
+                                    <rdf:type rdf:resource="http://www.wings-workflows.org/ontology/workflow.owl#DataVariable"/>
+                              </j.1:BAS>
+                        </j.0:hasVariable>
+                        <j.0:hasDestinationNode rdf:resource="#MODFLOW_node1"/>
+                        <j.0:hasDestinationPort rdf:resource="#MODFLOW_node1_BAS"/>
+                  </j.0:InputLink>
+            </j.0:hasLink>
+            <j.0:hasLink>
+                  <j.0:InputLink rdf:ID="MODFLOW_node1_DRN_input">
+                        <j.0:hasVariable rdf:resource="#DRN1"/>
+                        <j.0:hasDestinationNode rdf:resource="#MODFLOW_node1"/>
+                        <j.0:hasDestinationPort rdf:resource="#MODFLOW_node1_DRN"/>
+                  </j.0:InputLink>
+            </j.0:hasLink>
+            <j.0:hasLink>
+                  <j.0:OutputLink rdf:ID="MODFLOW_node1_GLOBAL_output">
+                        <j.0:hasVariable>
+                              <j.1:GLOBAL rdf:ID="GLOBAL1">
+                                    <rdfs:comment rdf:datatype=
+                                    "http://www.w3.org/2001/XMLSchema#string"
+                                    >center:x=751.6890258789062,y=247.72280597686768</rdfs:comment>
+                                    <rdf:type rdf:resource="http://www.wings-workflows.org/ontology/workflow.owl#DataVariable"/>
+                              </j.1:GLOBAL>
+                        </j.0:hasVariable>
+                        <j.0:hasOriginNode rdf:resource="#MODFLOW_node1"/>
+                        <j.0:hasOriginPort rdf:resource="#MODFLOW_node1_GLOBAL"/>
+                  </j.0:OutputLink>
+            </j.0:hasLink>
+            <j.0:hasLink>
+                  <j.0:OutputLink rdf:ID="MODFLOW_node1_LIST_output">
+                        <j.0:hasVariable>
+                              <j.1:LIST rdf:ID="LIST1">
+                                    <rdfs:comment rdf:datatype=
+                                    "http://www.w3.org/2001/XMLSchema#string"
+                                    >center:x=888.4906616210938,y=224.68252277374268</rdfs:comment>
+                                    <rdf:type rdf:resource="http://www.wings-workflows.org/ontology/workflow.owl#DataVariable"/>
+                              </j.1:LIST>
+                        </j.0:hasVariable>
+                        <j.0:hasOriginNode rdf:resource="#MODFLOW_node1"/>
+                        <j.0:hasOriginPort rdf:resource="#MODFLOW_node1_LIST"/>
+                  </j.0:OutputLink>
+            </j.0:hasLink>
+            <j.0:hasLink>
+                  <j.0:OutputLink rdf:ID="MODFLOW_node1_HEADS_output">
+                        <j.0:hasVariable rdf:resource="#HEADS1"/>
+                        <j.0:hasOriginNode rdf:resource="#MODFLOW_node1"/>
+                        <j.0:hasOriginPort rdf:resource="#MODFLOW_node1_HEADS"/>
+                  </j.0:OutputLink>
+            </j.0:hasLink>
+            <j.0:hasInputRole>
+                  <j.0:Role rdf:ID="DRN_irole">
+                        <j.0:hasDimensionality rdf:datatype="http://www.w3.org/2001/XMLSchema#integer"
+                        >0</j.0:hasDimensionality>
+                        <j.0:mapsToVariable>
+                              <j.1:DRN rdf:ID="DRN">
+                                    <rdfs:comment rdf:datatype=
+                                    "http://www.w3.org/2001/XMLSchema#string"
+                                    >center:x=168,y=44.5</rdfs:comment>
+                                    <rdf:type rdf:resource="http://www.wings-workflows.org/ontology/workflow.owl#DataVariable"/>
+                              </j.1:DRN>
+                        </j.0:mapsToVariable>
+                        <j.0:hasRoleID rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+                        >MODFLOW_node_DRN</j.0:hasRoleID>
+                  </j.0:Role>
+            </j.0:hasInputRole>
+            <j.0:hasOutputRole>
+                  <j.0:Role rdf:ID="HEADS_orole">
+                        <j.0:hasDimensionality rdf:datatype="http://www.w3.org/2001/XMLSchema#integer"
+                        >0</j.0:hasDimensionality>
+                        <j.0:mapsToVariable>
+                              <j.1:HEADS rdf:ID="HEADS">
+                                    <rdfs:comment rdf:datatype=
+                                    "http://www.w3.org/2001/XMLSchema#string"
+                                    >center:x=338.4043884277344,y=240.5229549407959</rdfs:comment>
+                                    <rdf:type rdf:resource="http://www.wings-workflows.org/ontology/workflow.owl#DataVariable"/>
+                              </j.1:HEADS>
+                        </j.0:mapsToVariable>
+                        <j.0:hasRoleID rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+                        >HEADS</j.0:hasRoleID>
+                  </j.0:Role>
+            </j.0:hasOutputRole>
+            <j.0:hasLink>
+                  <j.0:InputLink rdf:ID="MODFLOW_node_MT3D_input">
+                        <j.0:hasVariable>
+                              <j.1:MT3D rdf:ID="MT3D">
+                                    <rdfs:comment rdf:datatype=
+                                    "http://www.w3.org/2001/XMLSchema#string"
+                                    >center:x=254,y=37.5</rdfs:comment>
+                                    <rdf:type rdf:resource="http://www.wings-workflows.org/ontology/workflow.owl#DataVariable"/>
+                              </j.1:MT3D>
+                        </j.0:hasVariable>
+                        <j.0:hasDestinationNode rdf:resource="#MODFLOW_node"/>
+                        <j.0:hasDestinationPort rdf:resource="#MODFLOW_node_MT3D"/>
+                  </j.0:InputLink>
+            </j.0:hasLink>
+            <j.0:hasLink>
+                  <j.0:OutputLink rdf:ID="MODFLOW_node_HEADS_output">
+                        <j.0:hasVariable rdf:resource="#HEADS"/>
+                        <j.0:hasOriginNode rdf:resource="#MODFLOW_node"/>
+                        <j.0:hasOriginPort rdf:resource="#MODFLOW_node_HEADS"/>
+                  </j.0:OutputLink>
+            </j.0:hasLink>
+            <j.0:hasLink>
+                  <j.0:InputLink rdf:ID="MODFLOW_node1_DIS_input">
+                        <j.0:hasVariable>
+                              <j.1:DIS rdf:ID="DIS1">
+                                    <rdfs:comment rdf:datatype=
+                                    "http://www.w3.org/2001/XMLSchema#string"
+                                    >center:x=679.6881713867188,y=28.6803617477417</rdfs:comment>
+                                    <rdf:type rdf:resource="http://www.wings-workflows.org/ontology/workflow.owl#DataVariable"/>
+                              </j.1:DIS>
+                        </j.0:hasVariable>
+                        <j.0:hasDestinationNode rdf:resource="#MODFLOW_node1"/>
+                        <j.0:hasDestinationPort rdf:resource="#MODFLOW_node1_DIS"/>
+                  </j.0:InputLink>
+            </j.0:hasLink>
+            <j.0:hasInputRole>
+                  <j.0:Role rdf:ID="DIS1_irole">
+                        <j.0:hasDimensionality rdf:datatype="http://www.w3.org/2001/XMLSchema#integer"
+                        >0</j.0:hasDimensionality>
+                        <j.0:mapsToVariable rdf:resource="#DIS1"/>
+                        <j.0:hasRoleID rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+                        >MODFLOW_node1_DIS</j.0:hasRoleID>
+                  </j.0:Role>
+            </j.0:hasInputRole>
+            <j.0:hasInputRole>
+                  <j.0:Role rdf:ID="NAM_irole">
+                        <j.0:hasDimensionality rdf:datatype="http://www.w3.org/2001/XMLSchema#integer"
+                        >0</j.0:hasDimensionality>
+                        <j.0:mapsToVariable>
+                              <j.1:NAM rdf:ID="NAM">
+                                    <rdfs:comment rdf:datatype=
+                                    "http://www.w3.org/2001/XMLSchema#string"
+                                    >center:x=303,y=36.5</rdfs:comment>
+                                    <rdf:type rdf:resource="http://www.wings-workflows.org/ontology/workflow.owl#DataVariable"/>
+                              </j.1:NAM>
+                        </j.0:mapsToVariable>
+                        <j.0:hasRoleID rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+                        >MODFLOW_node_NAM</j.0:hasRoleID>
+                  </j.0:Role>
+            </j.0:hasInputRole>
+            <j.0:hasInputRole>
+                  <j.0:Role rdf:ID="RECHARGE_irole">
+                        <j.0:hasDimensionality rdf:datatype="http://www.w3.org/2001/XMLSchema#integer"
+                        >0</j.0:hasDimensionality>
+                        <j.0:mapsToVariable>
+                              <j.1:RCH rdf:ID="RECHARGE">
+                                    <rdfs:comment rdf:datatype=
+                                    "http://www.w3.org/2001/XMLSchema#string"
+                                    >center:x=506,y=35.5</rdfs:comment>
+                                    <rdf:type rdf:resource="http://www.wings-workflows.org/ontology/workflow.owl#DataVariable"/>
+                              </j.1:RCH>
+                        </j.0:mapsToVariable>
+                        <j.0:hasRoleID rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+                        >MODFLOW_node_RECHARGE</j.0:hasRoleID>
+                  </j.0:Role>
+            </j.0:hasInputRole>
+            <j.0:hasLink>
+                  <j.0:InputLink rdf:ID="MODFLOW_node_DRN_input">
+                        <j.0:hasVariable rdf:resource="#DRN"/>
+                        <j.0:hasDestinationNode rdf:resource="#MODFLOW_node"/>
+                        <j.0:hasDestinationPort rdf:resource="#MODFLOW_node_DRN"/>
+                  </j.0:InputLink>
+            </j.0:hasLink>
+            <j.0:hasLink>
+                  <j.0:InputLink rdf:ID="MODFLOW_node_BCF_input">
+                        <j.0:hasVariable>
+                              <j.1:BCF rdf:ID="BCF">
+                                    <rdfs:comment rdf:datatype=
+                                    "http://www.w3.org/2001/XMLSchema#string"
+                                    >center:x=90,y=39.5</rdfs:comment>
+                                    <rdf:type rdf:resource="http://www.wings-workflows.org/ontology/workflow.owl#DataVariable"/>
+                              </j.1:BCF>
+                        </j.0:hasVariable>
+                        <j.0:hasDestinationNode rdf:resource="#MODFLOW_node"/>
+                        <j.0:hasDestinationPort rdf:resource="#MODFLOW_node_BCF"/>
+                  </j.0:InputLink>
+            </j.0:hasLink>
+            <j.0:hasInputRole>
+                  <j.0:Role rdf:ID="OutputControl1_irole">
+                        <j.0:hasDimensionality rdf:datatype="http://www.w3.org/2001/XMLSchema#integer"
+                        >0</j.0:hasDimensionality>
+                        <j.0:mapsToVariable>
+                              <j.1:OC rdf:ID="OutputControl1">
+                                    <rdfs:comment rdf:datatype=
+                                    "http://www.w3.org/2001/XMLSchema#string"
+                                    >center:x=900.96923828125,y=13.5</rdfs:comment>
+                                    <rdf:type rdf:resource="http://www.wings-workflows.org/ontology/workflow.owl#DataVariable"/>
+                              </j.1:OC>
+                        </j.0:mapsToVariable>
+                        <j.0:hasRoleID rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+                        >MODFLOW_node1_OutputControl</j.0:hasRoleID>
+                  </j.0:Role>
+            </j.0:hasInputRole>
+            <j.0:hasOutputRole>
+                  <j.0:Role rdf:ID="GLOBAL1_orole">
+                        <j.0:hasDimensionality rdf:datatype="http://www.w3.org/2001/XMLSchema#integer"
+                        >0</j.0:hasDimensionality>
+                        <j.0:mapsToVariable rdf:resource="#GLOBAL1"/>
+                        <j.0:hasRoleID rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+                        >GLOBAL1</j.0:hasRoleID>
+                  </j.0:Role>
+            </j.0:hasOutputRole>
+            <j.0:hasOutputRole>
+                  <j.0:Role rdf:ID="LIST1_orole">
+                        <j.0:hasDimensionality rdf:datatype="http://www.w3.org/2001/XMLSchema#integer"
+                        >0</j.0:hasDimensionality>
+                        <j.0:mapsToVariable rdf:resource="#LIST1"/>
+                        <j.0:hasRoleID rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+                        >LIST1</j.0:hasRoleID>
+                  </j.0:Role>
+            </j.0:hasOutputRole>
+            <j.0:hasLink>
+                  <j.0:InputLink rdf:ID="MODFLOW_node_HFB_input">
+                        <j.0:hasVariable>
+                              <j.1:HFB rdf:ID="HFB">
+                                    <rdfs:comment rdf:datatype=
+                                    "http://www.w3.org/2001/XMLSchema#string"
+                                    >center:x=210,y=40.5</rdfs:comment>
+                                    <rdf:type rdf:resource="http://www.wings-workflows.org/ontology/workflow.owl#DataVariable"/>
+                              </j.1:HFB>
+                        </j.0:hasVariable>
+                        <j.0:hasDestinationNode rdf:resource="#MODFLOW_node"/>
+                        <j.0:hasDestinationPort rdf:resource="#MODFLOW_node_HFB"/>
+                  </j.0:InputLink>
+            </j.0:hasLink>
+            <j.0:hasInputRole>
+                  <j.0:Role rdf:ID="BAS_irole">
+                        <j.0:hasDimensionality rdf:datatype="http://www.w3.org/2001/XMLSchema#integer"
+                        >0</j.0:hasDimensionality>
+                        <j.0:mapsToVariable rdf:resource="#BAS"/>
+                        <j.0:hasRoleID rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+                        >MODFLOW_node_BAS</j.0:hasRoleID>
+                  </j.0:Role>
+            </j.0:hasInputRole>
+            <j.0:hasLink>
+                  <j.0:OutputLink rdf:ID="MODFLOW_node1_BUDGET_output">
+                        <j.0:hasVariable rdf:resource="#BUDGET1"/>
+                        <j.0:hasOriginNode rdf:resource="#MODFLOW_node1"/>
+                        <j.0:hasOriginPort rdf:resource="#MODFLOW_node1_BUDGET"/>
+                  </j.0:OutputLink>
+            </j.0:hasLink>
+            <j.0:hasOutputRole>
+                  <j.0:Role rdf:ID="GLOBAL_orole">
+                        <j.0:hasDimensionality rdf:datatype="http://www.w3.org/2001/XMLSchema#integer"
+                        >0</j.0:hasDimensionality>
+                        <j.0:mapsToVariable>
+                              <j.1:GLOBAL rdf:ID="GLOBAL">
+                                    <rdfs:comment rdf:datatype=
+                                    "http://www.w3.org/2001/XMLSchema#string"
+                                    >center:x=263.5234680175781,y=253.48309898376465</rdfs:comment>
+                                    <rdf:type rdf:resource="http://www.wings-workflows.org/ontology/workflow.owl#DataVariable"/>
+                              </j.1:GLOBAL>
+                        </j.0:mapsToVariable>
+                        <j.0:hasRoleID rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+                        >GLOBAL</j.0:hasRoleID>
+                  </j.0:Role>
+            </j.0:hasOutputRole>
+            <j.0:hasLink>
+                  <j.0:InputLink rdf:ID="MODFLOW_node1_PCG_input">
+                        <j.0:hasVariable>
+                              <j.1:PCG rdf:ID="PCG1">
+                                    <rdfs:comment rdf:datatype=
+                                    "http://www.w3.org/2001/XMLSchema#string"
+                                    >center:x=864.0104370117188,y=57.48071575164795</rdfs:comment>
+                                    <rdf:type rdf:resource="http://www.wings-workflows.org/ontology/workflow.owl#DataVariable"/>
+                              </j.1:PCG>
+                        </j.0:hasVariable>
+                        <j.0:hasDestinationNode rdf:resource="#MODFLOW_node1"/>
+                        <j.0:hasDestinationPort rdf:resource="#MODFLOW_node1_PCG"/>
+                  </j.0:InputLink>
+            </j.0:hasLink>
+            <j.0:hasVersion rdf:datatype="http://www.w3.org/2001/XMLSchema#integer"
+            >3</j.0:hasVersion>
+            <j.0:hasNode rdf:resource="#CompareDataResults_node"/>
+            <j.0:hasLink>
+                  <j.0:InputLink rdf:ID="MODFLOW_node1_NAM_input">
+                        <j.0:hasVariable rdf:resource="#NAM1"/>
+                        <j.0:hasDestinationNode rdf:resource="#MODFLOW_node1"/>
+                        <j.0:hasDestinationPort rdf:resource="#MODFLOW_node1_NAM"/>
+                  </j.0:InputLink>
+            </j.0:hasLink>
+            <j.0:hasLink>
+                  <j.0:InputLink rdf:ID="MODFLOW_node1_WELL_input">
+                        <j.0:hasVariable>
+                              <j.1:WEL rdf:ID="WELL1">
+                                    <rdfs:comment rdf:datatype=
+                                    "http://www.w3.org/2001/XMLSchema#string"
+                                    >center:x=1006.5720825195312,y=63.2407865524292</rdfs:comment>
+                                    <rdf:type rdf:resource="http://www.wings-workflows.org/ontology/workflow.owl#DataVariable"/>
+                              </j.1:WEL>
+                        </j.0:hasVariable>
+                        <j.0:hasDestinationNode rdf:resource="#MODFLOW_node1"/>
+                        <j.0:hasDestinationPort rdf:resource="#MODFLOW_node1_WELL"/>
+                  </j.0:InputLink>
+            </j.0:hasLink>
+            <j.0:hasLink>
+                  <j.0:InOutLink rdf:ID="MODFLOW_node1_LIST_to_ExtractDataResults_node1_simulation_results">
+                        <j.0:hasDestinationNode rdf:resource="#ExtractDataResults_node1"/>
+                        <j.0:hasDestinationPort rdf:resource="#ExtractDataResults_node1_simulation_results"/>
+                        <j.0:hasOriginNode rdf:resource="#MODFLOW_node1"/>
+                        <j.0:hasOriginPort rdf:resource="#MODFLOW_node1_LIST"/>
+                        <j.0:hasVariable rdf:resource="#LIST1"/>
+                  </j.0:InOutLink>
+            </j.0:hasLink>
+            <j.0:hasOutputRole>
+                  <j.0:Role rdf:ID="DDOWN1_orole">
+                        <j.0:hasDimensionality rdf:datatype="http://www.w3.org/2001/XMLSchema#integer"
+                        >0</j.0:hasDimensionality>
+                        <j.0:mapsToVariable>
+                              <j.1:DDOWN rdf:ID="DDOWN1">
+                                    <rdfs:comment rdf:datatype=
+                                    "http://www.w3.org/2001/XMLSchema#string"
+                                    >center:x=666.7279663085938,y=267.8830232620239</rdfs:comment>
+                                    <rdf:type rdf:resource="http://www.wings-workflows.org/ontology/workflow.owl#DataVariable"/>
+                              </j.1:DDOWN>
+                        </j.0:mapsToVariable>
+                        <j.0:hasRoleID rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+                        >DDOWN1</j.0:hasRoleID>
+                  </j.0:Role>
+            </j.0:hasOutputRole>
+            <j.0:hasInputRole>
+                  <j.0:Role rdf:ID="BCF1_irole">
+                        <j.0:hasDimensionality rdf:datatype="http://www.w3.org/2001/XMLSchema#integer"
+                        >0</j.0:hasDimensionality>
+                        <j.0:mapsToVariable>
+                              <j.1:BCF rdf:ID="BCF1">
+                                    <rdfs:comment rdf:datatype=
+                                    "http://www.w3.org/2001/XMLSchema#string"
+                                    >center:x=656.6478881835938,y=74.7609281539917</rdfs:comment>
+                                    <rdf:type rdf:resource="http://www.wings-workflows.org/ontology/workflow.owl#DataVariable"/>
+                              </j.1:BCF>
+                        </j.0:mapsToVariable>
+                        <j.0:hasRoleID rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+                        >MODFLOW_node1_BCF</j.0:hasRoleID>
+                  </j.0:Role>
+            </j.0:hasInputRole>
+            <j.0:hasInputRole>
+                  <j.0:Role rdf:ID="WELL_irole">
+                        <j.0:hasDimensionality rdf:datatype="http://www.w3.org/2001/XMLSchema#integer"
+                        >0</j.0:hasDimensionality>
+                        <j.0:mapsToVariable>
+                              <j.1:WEL rdf:ID="WELL">
+                                    <rdfs:comment rdf:datatype=
+                                    "http://www.w3.org/2001/XMLSchema#string"
+                                    >center:x=575,y=35.5</rdfs:comment>
+                                    <rdf:type rdf:resource="http://www.wings-workflows.org/ontology/workflow.owl#DataVariable"/>
+                              </j.1:WEL>
+                        </j.0:mapsToVariable>
+                        <j.0:hasRoleID rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+                        >MODFLOW_node_WELL</j.0:hasRoleID>
+                  </j.0:Role>
+            </j.0:hasInputRole>
+            <j.0:hasLink>
+                  <j.0:OutputLink rdf:ID="MODFLOW_node_LIST_output">
+                        <j.0:hasVariable>
+                              <j.1:LIST rdf:ID="LIST">
+                                    <rdfs:comment rdf:datatype=
+                                    "http://www.w3.org/2001/XMLSchema#string"
+                                    >center:x=417.6054382324219,y=231.8828182220459</rdfs:comment>
+                                    <rdf:type rdf:resource="http://www.wings-workflows.org/ontology/workflow.owl#DataVariable"/>
+                              </j.1:LIST>
+                        </j.0:hasVariable>
+                        <j.0:hasOriginNode rdf:resource="#MODFLOW_node"/>
+                        <j.0:hasOriginPort rdf:resource="#MODFLOW_node_LIST"/>
+                  </j.0:OutputLink>
+            </j.0:hasLink>
+            <j.0:hasLink>
+                  <j.0:InputLink rdf:ID="MODFLOW_node_OutputControl_input">
+                        <j.0:hasVariable rdf:resource="#OutputControl"/>
+                        <j.0:hasDestinationNode rdf:resource="#MODFLOW_node"/>
+                        <j.0:hasDestinationPort rdf:resource="#MODFLOW_node_OutputControl"/>
+                  </j.0:InputLink>
+            </j.0:hasLink>
+            <j.0:hasInputRole>
+                  <j.0:Role rdf:ID="BAS1_irole">
+                        <j.0:hasDimensionality rdf:datatype="http://www.w3.org/2001/XMLSchema#integer"
+                        >0</j.0:hasDimensionality>
+                        <j.0:mapsToVariable rdf:resource="#BAS1"/>
+                        <j.0:hasRoleID rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+                        >MODFLOW_node1_BAS</j.0:hasRoleID>
+                  </j.0:Role>
+            </j.0:hasInputRole>
+            <j.0:hasLink>
+                  <j.0:OutputLink rdf:ID="CompareDataResults_node_comparative_data_output">
+                        <j.0:hasVariable>
+                              <j.1:TXT rdf:ID="comparative_data">
+                                    <rdfs:comment rdf:datatype=
+                                    "http://www.w3.org/2001/XMLSchema#string"
+                                    >center:x=607.67529296875,y=524.1961317062378</rdfs:comment>
+                                    <rdf:type rdf:resource="http://www.wings-workflows.org/ontology/workflow.owl#DataVariable"/>
+                              </j.1:TXT>
+                        </j.0:hasVariable>
+                        <j.0:hasOriginNode rdf:resource="#CompareDataResults_node"/>
+                        <j.0:hasOriginPort rdf:resource="#CompareDataResults_node_comparative_data"/>
+                  </j.0:OutputLink>
+            </j.0:hasLink>
+            <j.0:hasLink>
+                  <j.0:InputLink rdf:ID="MODFLOW_node1_HFB_input">
+                        <j.0:hasVariable rdf:resource="#HFB1"/>
+                        <j.0:hasDestinationNode rdf:resource="#MODFLOW_node1"/>
+                        <j.0:hasDestinationPort rdf:resource="#MODFLOW_node1_HFB"/>
+                  </j.0:InputLink>
+            </j.0:hasLink>
+            <j.0:hasLink>
+                  <j.0:OutputLink rdf:ID="MODFLOW_node_DDOWN_output">
+                        <j.0:hasVariable rdf:resource="#DDOWN"/>
+                        <j.0:hasOriginNode rdf:resource="#MODFLOW_node"/>
+                        <j.0:hasOriginPort rdf:resource="#MODFLOW_node_DDOWN"/>
+                  </j.0:OutputLink>
+            </j.0:hasLink>
+            <j.0:hasLink>
+                  <j.0:InputLink rdf:ID="MODFLOW_node1_MT3D_input">
+                        <j.0:hasVariable>
+                              <j.1:MT3D rdf:ID="MT3D1">
+                                    <rdfs:comment rdf:datatype=
+                                    "http://www.w3.org/2001/XMLSchema#string"
+                                    >center:x=790.5693969726562,y=60.360751152038574</rdfs:comment>
+                                    <rdf:type rdf:resource="http://www.wings-workflows.org/ontology/workflow.owl#DataVariable"/>
+                              </j.1:MT3D>
+                        </j.0:hasVariable>
+                        <j.0:hasDestinationNode rdf:resource="#MODFLOW_node1"/>
+                        <j.0:hasDestinationPort rdf:resource="#MODFLOW_node1_MT3D"/>
+                  </j.0:InputLink>
+            </j.0:hasLink>
+            <j.0:hasLink>
+                  <j.0:InputLink rdf:ID="MODFLOW_node1_OutputControl_input">
+                        <j.0:hasVariable rdf:resource="#OutputControl1"/>
+                        <j.0:hasDestinationNode rdf:resource="#MODFLOW_node1"/>
+                        <j.0:hasDestinationPort rdf:resource="#MODFLOW_node1_OutputControl"/>
+                  </j.0:InputLink>
+            </j.0:hasLink>
+            <j.0:hasInputRole>
+                  <j.0:Role rdf:ID="HFB_irole">
+                        <j.0:hasDimensionality rdf:datatype="http://www.w3.org/2001/XMLSchema#integer"
+                        >0</j.0:hasDimensionality>
+                        <j.0:mapsToVariable rdf:resource="#HFB"/>
+                        <j.0:hasRoleID rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+                        >MODFLOW_node_HFB</j.0:hasRoleID>
+                  </j.0:Role>
+            </j.0:hasInputRole>
+            <j.0:hasLink>
+                  <j.0:OutputLink rdf:ID="MODFLOW_node_GLOBAL_output">
+                        <j.0:hasVariable rdf:resource="#GLOBAL"/>
+                        <j.0:hasOriginNode rdf:resource="#MODFLOW_node"/>
+                        <j.0:hasOriginPort rdf:resource="#MODFLOW_node_GLOBAL"/>
+                  </j.0:OutputLink>
+            </j.0:hasLink>
+            <j.0:hasInputRole>
+                  <j.0:Role rdf:ID="BCF_irole">
+                        <j.0:hasDimensionality rdf:datatype="http://www.w3.org/2001/XMLSchema#integer"
+                        >0</j.0:hasDimensionality>
+                        <j.0:mapsToVariable rdf:resource="#BCF"/>
+                        <j.0:hasRoleID rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+                        >MODFLOW_node_BCF</j.0:hasRoleID>
+                  </j.0:Role>
+            </j.0:hasInputRole>
+            <j.0:hasInputRole>
+                  <j.0:Role rdf:ID="WELL1_irole">
+                        <j.0:hasDimensionality rdf:datatype="http://www.w3.org/2001/XMLSchema#integer"
+                        >0</j.0:hasDimensionality>
+                        <j.0:mapsToVariable rdf:resource="#WELL1"/>
+                        <j.0:hasRoleID rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+                        >MODFLOW_node1_WELL</j.0:hasRoleID>
+                  </j.0:Role>
+            </j.0:hasInputRole>
+            <j.0:hasNode rdf:resource="#MODFLOW_node"/>
+            <j.0:hasLink>
+                  <j.0:InOutLink rdf:ID="MODFLOW_node_LIST_to_ExtractDataResults_node_simulation_results">
+                        <j.0:hasDestinationNode rdf:resource="#ExtractDataResults_node"/>
+                        <j.0:hasDestinationPort rdf:resource="#ExtractDataResults_node_simulation_results"/>
+                        <j.0:hasOriginNode rdf:resource="#MODFLOW_node"/>
+                        <j.0:hasOriginPort rdf:resource="#MODFLOW_node_LIST"/>
+                        <j.0:hasVariable rdf:resource="#LIST"/>
+                  </j.0:InOutLink>
+            </j.0:hasLink>
+            <j.0:hasLink>
+                  <j.0:InputLink rdf:ID="MODFLOW_node_RECHARGE_input">
+                        <j.0:hasVariable rdf:resource="#RECHARGE"/>
+                        <j.0:hasDestinationNode rdf:resource="#MODFLOW_node"/>
+                        <j.0:hasDestinationPort rdf:resource="#MODFLOW_node_RECHARGE"/>
+                  </j.0:InputLink>
+            </j.0:hasLink>
+            <j.0:hasLink>
+                  <j.0:InputLink rdf:ID="MODFLOW_node_WELL_input">
+                        <j.0:hasVariable rdf:resource="#WELL"/>
+                        <j.0:hasDestinationNode rdf:resource="#MODFLOW_node"/>
+                        <j.0:hasDestinationPort rdf:resource="#MODFLOW_node_WELL"/>
+                  </j.0:InputLink>
+            </j.0:hasLink>
+            <j.0:hasLink>
+                  <j.0:InputLink rdf:ID="MODFLOW_node1_RECHARGE_input">
+                        <j.0:hasVariable>
+                              <j.1:RCH rdf:ID="RECHARGE1">
+                                    <rdfs:comment rdf:datatype=
+                                    "http://www.w3.org/2001/XMLSchema#string"
+                                    >center:x=933.1310424804688,y=57.48071575164795</rdfs:comment>
+                                    <rdf:type rdf:resource="http://www.wings-workflows.org/ontology/workflow.owl#DataVariable"/>
+                              </j.1:RCH>
+                        </j.0:hasVariable>
+                        <j.0:hasDestinationNode rdf:resource="#MODFLOW_node1"/>
+                        <j.0:hasDestinationPort rdf:resource="#MODFLOW_node1_RECHARGE"/>
+                  </j.0:InputLink>
+            </j.0:hasLink>
+            <j.0:hasInputRole>
+                  <j.0:Role rdf:ID="RECHARGE1_irole">
+                        <j.0:hasDimensionality rdf:datatype="http://www.w3.org/2001/XMLSchema#integer"
+                        >0</j.0:hasDimensionality>
+                        <j.0:mapsToVariable rdf:resource="#RECHARGE1"/>
+                        <j.0:hasRoleID rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+                        >MODFLOW_node1_RECHARGE</j.0:hasRoleID>
+                  </j.0:Role>
+            </j.0:hasInputRole>
+            <j.0:hasLink>
+                  <j.0:InputLink rdf:ID="MODFLOW_node_NAM_input">
+                        <j.0:hasVariable rdf:resource="#NAM"/>
+                        <j.0:hasDestinationNode rdf:resource="#MODFLOW_node"/>
+                        <j.0:hasDestinationPort rdf:resource="#MODFLOW_node_NAM"/>
+                  </j.0:InputLink>
+            </j.0:hasLink>
+            <j.0:hasOutputRole>
+                  <j.0:Role rdf:ID="comparative_data_orole">
+                        <j.0:hasDimensionality rdf:datatype="http://www.w3.org/2001/XMLSchema#integer"
+                        >0</j.0:hasDimensionality>
+                        <j.0:mapsToVariable rdf:resource="#comparative_data"/>
+                        <j.0:hasRoleID rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+                        >comparative_data</j.0:hasRoleID>
+                  </j.0:Role>
+            </j.0:hasOutputRole>
+            <j.0:hasNode rdf:resource="#ExtractDataResults_node1"/>
+            <j.0:hasLink>
+                  <j.0:OutputLink rdf:ID="MODFLOW_node1_DDOWN_output">
+                        <j.0:hasVariable rdf:resource="#DDOWN1"/>
+                        <j.0:hasOriginNode rdf:resource="#MODFLOW_node1"/>
+                        <j.0:hasOriginPort rdf:resource="#MODFLOW_node1_DDOWN"/>
+                  </j.0:OutputLink>
+            </j.0:hasLink>
+            <j.0:hasLink>
+                  <j.0:InOutLink rdf:ID="ExtractDataResults_node_extracted_data_to_CompareDataResults_node_extracted_data_1">
+                        <j.0:hasDestinationNode rdf:resource="#CompareDataResults_node"/>
+                        <j.0:hasDestinationPort rdf:resource="#CompareDataResults_node_extracted_data_1"/>
+                        <j.0:hasOriginNode rdf:resource="#ExtractDataResults_node"/>
+                        <j.0:hasOriginPort rdf:resource="#ExtractDataResults_node_extracted_data"/>
+                        <j.0:hasVariable>
+                              <j.1:TXT rdf:ID="extracted_data1">
+                                    <rdfs:comment rdf:datatype=
+                                    "http://www.w3.org/2001/XMLSchema#string"
+                                    >center:x=475.67999267578125,y=395.80023193359375</rdfs:comment>
+                                    <rdf:type rdf:resource="http://www.wings-workflows.org/ontology/workflow.owl#DataVariable"/>
+                              </j.1:TXT>
+                        </j.0:hasVariable>
+                  </j.0:InOutLink>
+            </j.0:hasLink>
+            <j.0:hasLink>
+                  <j.0:InputLink rdf:ID="MODFLOW_node1_BCF_input">
+                        <j.0:hasVariable rdf:resource="#BCF1"/>
+                        <j.0:hasDestinationNode rdf:resource="#MODFLOW_node1"/>
+                        <j.0:hasDestinationPort rdf:resource="#MODFLOW_node1_BCF"/>
+                  </j.0:InputLink>
+            </j.0:hasLink>
+            <j.0:hasInputRole>
+                  <j.0:Role rdf:ID="MT3D1_irole">
+                        <j.0:hasDimensionality rdf:datatype="http://www.w3.org/2001/XMLSchema#integer"
+                        >0</j.0:hasDimensionality>
+                        <j.0:mapsToVariable rdf:resource="#MT3D1"/>
+                        <j.0:hasRoleID rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+                        >MODFLOW_node1_MT3D</j.0:hasRoleID>
+                  </j.0:Role>
+            </j.0:hasInputRole>
+            <j.0:hasInputRole>
+                  <j.0:Role rdf:ID="MT3D_irole">
+                        <j.0:hasDimensionality rdf:datatype="http://www.w3.org/2001/XMLSchema#integer"
+                        >0</j.0:hasDimensionality>
+                        <j.0:mapsToVariable rdf:resource="#MT3D"/>
+                        <j.0:hasRoleID rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+                        >MODFLOW_node_MT3D</j.0:hasRoleID>
+                  </j.0:Role>
+            </j.0:hasInputRole>
+            <j.0:hasOutputRole>
+                  <j.0:Role rdf:ID="LIST_orole">
+                        <j.0:hasDimensionality rdf:datatype="http://www.w3.org/2001/XMLSchema#integer"
+                        >0</j.0:hasDimensionality>
+                        <j.0:mapsToVariable rdf:resource="#LIST"/>
+                        <j.0:hasRoleID rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+                        >LIST</j.0:hasRoleID>
+                  </j.0:Role>
+            </j.0:hasOutputRole>
+            <j.0:hasInputRole>
+                  <j.0:Role rdf:ID="DIS_irole">
+                        <j.0:hasDimensionality rdf:datatype="http://www.w3.org/2001/XMLSchema#integer"
+                        >0</j.0:hasDimensionality>
+                        <j.0:mapsToVariable rdf:resource="#DIS"/>
+                        <j.0:hasRoleID rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+                        >MODFLOW_node_DIS</j.0:hasRoleID>
+                  </j.0:Role>
+            </j.0:hasInputRole>
+            <j.0:hasLink>
+                  <j.0:InputLink rdf:ID="MODFLOW_node_PCG_input">
+                        <j.0:hasVariable rdf:resource="#PCG"/>
+                        <j.0:hasDestinationNode rdf:resource="#MODFLOW_node"/>
+                        <j.0:hasDestinationPort rdf:resource="#MODFLOW_node_PCG"/>
+                  </j.0:InputLink>
+            </j.0:hasLink>
+            <j.0:hasInputRole>
+                  <j.0:Role rdf:ID="PCG1_irole">
+                        <j.0:hasDimensionality rdf:datatype="http://www.w3.org/2001/XMLSchema#integer"
+                        >0</j.0:hasDimensionality>
+                        <j.0:mapsToVariable rdf:resource="#PCG1"/>
+                        <j.0:hasRoleID rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+                        >MODFLOW_node1_PCG</j.0:hasRoleID>
+                  </j.0:Role>
+            </j.0:hasInputRole>
+      </j.0:WorkflowTemplate>
+</rdf:RDF>

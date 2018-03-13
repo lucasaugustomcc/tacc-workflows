@@ -1,0 +1,133 @@
+<?xml version="1.0"?>
+<rdf:RDF
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:owl="http://www.w3.org/2002/07/owl#"
+    xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+    xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+      xml:base="http://localhost:8080/wings-portal/export/users/lucas/TACC/data/ontology.owl">
+      <owl:Class rdf:ID="MT3D">
+            <rdfs:subClassOf>
+                  <owl:Class rdf:ID="Modflow"/>
+            </rdfs:subClassOf>
+      </owl:Class>
+      <owl:Class rdf:ID="BCF">
+            <rdfs:subClassOf>
+                  <owl:Class rdf:about="#Modflow"/>
+            </rdfs:subClassOf>
+      </owl:Class>
+      <owl:Class rdf:ID="DRN">
+            <rdfs:subClassOf>
+                  <owl:Class rdf:about="#Modflow"/>
+            </rdfs:subClassOf>
+      </owl:Class>
+      <owl:Class rdf:ID="Image">
+            <rdfs:subClassOf>
+                  <owl:Class rdf:about="http://www.wings-workflows.org/ontology/data.owl#DataObject"/>
+            </rdfs:subClassOf>
+      </owl:Class>
+      <owl:Class rdf:ID="HFB">
+            <rdfs:subClassOf>
+                  <owl:Class rdf:about="#Modflow"/>
+            </rdfs:subClassOf>
+      </owl:Class>
+      <owl:Class rdf:ID="DDOWN">
+            <rdfs:subClassOf>
+                  <owl:Class rdf:about="#Modflow"/>
+            </rdfs:subClassOf>
+      </owl:Class>
+      <owl:Class rdf:ID="PCG">
+            <rdfs:subClassOf>
+                  <owl:Class rdf:about="#Modflow"/>
+            </rdfs:subClassOf>
+      </owl:Class>
+      <owl:Class rdf:ID="BAS">
+            <rdfs:subClassOf>
+                  <owl:Class rdf:about="#Modflow"/>
+            </rdfs:subClassOf>
+      </owl:Class>
+      <owl:Class rdf:ID="WEL">
+            <rdfs:subClassOf>
+                  <owl:Class rdf:about="#Modflow"/>
+            </rdfs:subClassOf>
+      </owl:Class>
+      <owl:Class rdf:ID="NAM">
+            <rdfs:subClassOf>
+                  <owl:Class rdf:about="#Modflow"/>
+            </rdfs:subClassOf>
+      </owl:Class>
+      <owl:Class rdf:ID="LIST">
+            <rdfs:subClassOf>
+                  <owl:Class rdf:about="#Modflow"/>
+            </rdfs:subClassOf>
+      </owl:Class>
+      <owl:Class rdf:ID="SIP">
+            <rdfs:subClassOf>
+                  <owl:Class rdf:about="#Modflow"/>
+            </rdfs:subClassOf>
+      </owl:Class>
+      <owl:Class rdf:ID="ZIP">
+            <rdfs:subClassOf rdf:resource="http://www.wings-workflows.org/ontology/data.owl#DataObject"/>
+      </owl:Class>
+      <owl:Class rdf:ID="DIS">
+            <rdfs:subClassOf>
+                  <owl:Class rdf:about="#Modflow"/>
+            </rdfs:subClassOf>
+      </owl:Class>
+      <owl:Class rdf:ID="RIV">
+            <rdfs:subClassOf>
+                  <owl:Class rdf:about="#Modflow"/>
+            </rdfs:subClassOf>
+      </owl:Class>
+      <owl:Class rdf:about="#Modflow">
+            <rdfs:subClassOf rdf:resource="http://www.wings-workflows.org/ontology/data.owl#DataObject"/>
+      </owl:Class>
+      <owl:Class rdf:ID="GHB">
+            <rdfs:subClassOf rdf:resource="#Modflow"/>
+      </owl:Class>
+      <owl:Class rdf:ID="OC">
+            <rdfs:subClassOf rdf:resource="#Modflow"/>
+      </owl:Class>
+      <owl:Class rdf:ID="BUDGET">
+            <rdfs:subClassOf rdf:resource="#Modflow"/>
+      </owl:Class>
+      <owl:Class rdf:ID="GLOBAL">
+            <rdfs:subClassOf rdf:resource="#Modflow"/>
+      </owl:Class>
+      <owl:Class rdf:ID="TXT">
+            <rdfs:subClassOf rdf:resource="http://www.wings-workflows.org/ontology/data.owl#DataObject"/>
+      </owl:Class>
+      <owl:Class rdf:ID="HEADS">
+            <rdfs:subClassOf rdf:resource="#Modflow"/>
+      </owl:Class>
+      <owl:Class rdf:ID="Shapefile">
+            <rdfs:subClassOf rdf:resource="http://www.wings-workflows.org/ontology/data.owl#DataObject"/>
+      </owl:Class>
+      <owl:Class rdf:ID="RCH">
+            <rdfs:subClassOf rdf:resource="#Modflow"/>
+      </owl:Class>
+      <owl:DatatypeProperty rdf:ID="aquifer_name">
+            <rdfs:domain rdf:resource="http://www.wings-workflows.org/ontology/data.owl#DataObject"/>
+            <rdfs:subPropertyOf rdf:resource="http://www.wings-workflows.org/ontology/data.owl#hasDataMetrics"/>
+            <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+      </owl:DatatypeProperty>
+      <owl:DatatypeProperty rdf:ID="aquifer">
+            <rdfs:domain>
+                  <owl:Class>
+                        <owl:unionOf rdf:parseType="Collection">
+                              <owl:Class rdf:about="#NAM"/>
+                              <owl:Class rdf:about="http://www.wings-workflows.org/ontology/data.owl#DataObject"/>
+                              <owl:Class rdf:about="http://www.wings-workflows.org/ontology/data.owl#DataObject"/>
+                              <owl:Class rdf:about="http://www.wings-workflows.org/ontology/data.owl#DataObject"/>
+                              <owl:Class rdf:about="#NAM"/>
+                        </owl:unionOf>
+                  </owl:Class>
+            </rdfs:domain>
+            <rdfs:subPropertyOf rdf:resource="http://www.wings-workflows.org/ontology/data.owl#hasDataMetrics"/>
+            <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+      </owl:DatatypeProperty>
+      <owl:DatatypeProperty rdf:ID="modflow_version">
+            <rdfs:domain rdf:resource="http://www.wings-workflows.org/ontology/data.owl#DataObject"/>
+            <rdfs:subPropertyOf rdf:resource="http://www.wings-workflows.org/ontology/data.owl#hasDataMetrics"/>
+            <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+      </owl:DatatypeProperty>
+</rdf:RDF>

@@ -1,0 +1,320 @@
+<?xml version="1.0"?>
+<rdf:RDF
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:j.0="http://www.wings-workflows.org/ontology/resource.owl#"
+    xmlns:owl="http://www.w3.org/2002/07/owl#"
+    xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+    xmlns:j.1="http://localhost:8080/wings-portal/export/users/lucas/TACC/components/library.owl#"
+    xmlns:j.2="http://localhost:8080/wings-portal/export/users/lucas/TACC/data/ontology.owl#"
+    xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+    xmlns:j.3="http://www.wings-workflows.org/ontology/component.owl#"
+      xml:base="http://localhost:8080/wings-portal/export/users/lucas/TACC/components/abstract.owl">
+      <owl:Class rdf:about="library.owl#CompareDataClass">
+            <rdfs:subClassOf rdf:resource="http://www.wings-workflows.org/ontology/component.owl#Component"/>
+      </owl:Class>
+      <owl:Class rdf:about="library.owl#ExtractDataClass">
+            <rdfs:subClassOf rdf:resource="http://www.wings-workflows.org/ontology/component.owl#Component"/>
+      </owl:Class>
+      <owl:Class rdf:about="library.owl#MODFLOWClass">
+            <rdfs:subClassOf rdf:resource="http://www.wings-workflows.org/ontology/component.owl#Component"/>
+      </owl:Class>
+      <owl:Class rdf:about="library.owl#MODFLOW-ZIPClass">
+            <rdfs:subClassOf rdf:resource="http://www.wings-workflows.org/ontology/component.owl#Component"/>
+      </owl:Class>
+      <owl:Class rdf:about="library.owl#VisualizationClass">
+            <rdfs:subClassOf rdf:resource="http://www.wings-workflows.org/ontology/component.owl#Component"/>
+      </owl:Class>
+      <owl:Class rdf:about="library.owl#RechargeClass">
+            <rdfs:subClassOf rdf:resource="http://www.wings-workflows.org/ontology/component.owl#Component"/>
+      </owl:Class>
+      <owl:Class rdf:about="library.owl#BudgetProcessingClass">
+            <rdfs:subClassOf rdf:resource="http://www.wings-workflows.org/ontology/component.owl#Component"/>
+      </owl:Class>
+      <j.1:RechargeClass rdf:about="library.owl#Recharge">
+            <j.3:isConcrete rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean"
+            >false</j.3:isConcrete>
+            <j.0:hasHardwareDependency>
+                  <j.0:HardwareDependency>
+                        <j.0:needs64bit rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean"
+                        >false</j.0:needs64bit>
+                        <j.0:requiresStorageGB rdf:datatype="http://www.w3.org/2001/XMLSchema#float"
+                        >0.0</j.0:requiresStorageGB>
+                        <j.0:requiresMemoryGB rdf:datatype="http://www.w3.org/2001/XMLSchema#float"
+                        >0.0</j.0:requiresMemoryGB>
+                  </j.0:HardwareDependency>
+            </j.0:hasHardwareDependency>
+      </j.1:RechargeClass>
+      <j.1:CompareDataClass rdf:about="library.owl#CompareData">
+            <j.3:isConcrete rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean"
+            >false</j.3:isConcrete>
+            <j.0:hasHardwareDependency>
+                  <j.0:HardwareDependency>
+                        <j.0:needs64bit rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean"
+                        >false</j.0:needs64bit>
+                        <j.0:requiresStorageGB rdf:datatype="http://www.w3.org/2001/XMLSchema#float"
+                        >0.0</j.0:requiresStorageGB>
+                        <j.0:requiresMemoryGB rdf:datatype="http://www.w3.org/2001/XMLSchema#float"
+                        >0.0</j.0:requiresMemoryGB>
+                  </j.0:HardwareDependency>
+            </j.0:hasHardwareDependency>
+      </j.1:CompareDataClass>
+      <j.1:MODFLOWClass rdf:about="library.owl#MODFLOW">
+            <j.3:hasInput>
+                  <j.2:RCH rdf:about="library.owl#MODFLOW_RECHARGE">
+                        <j.3:hasDimensionality rdf:datatype="http://www.w3.org/2001/XMLSchema#integer"
+                        >0</j.3:hasDimensionality>
+                        <j.3:hasArgumentName rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+                        >-i1</j.3:hasArgumentName>
+                        <j.3:hasArgumentID rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+                        >RECHARGE</j.3:hasArgumentID>
+                        <rdf:type rdf:resource="http://www.wings-workflows.org/ontology/component.owl#DataArgument"/>
+                  </j.2:RCH>
+            </j.3:hasInput>
+            <j.3:hasOutput>
+                  <j.2:LIST rdf:about="library.owl#MODFLOW_LIST">
+                        <j.3:hasDimensionality rdf:datatype="http://www.w3.org/2001/XMLSchema#integer"
+                        >0</j.3:hasDimensionality>
+                        <j.3:hasArgumentName rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+                        >-o1</j.3:hasArgumentName>
+                        <j.3:hasArgumentID rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+                        >LIST</j.3:hasArgumentID>
+                        <rdf:type rdf:resource="http://www.wings-workflows.org/ontology/component.owl#DataArgument"/>
+                  </j.2:LIST>
+            </j.3:hasOutput>
+            <j.3:hasInput>
+                  <j.2:SIP rdf:about="library.owl#MODFLOW_SIP">
+                        <j.3:hasDimensionality rdf:datatype="http://www.w3.org/2001/XMLSchema#integer"
+                        >0</j.3:hasDimensionality>
+                        <j.3:hasArgumentName rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+                        >-i12</j.3:hasArgumentName>
+                        <j.3:hasArgumentID rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+                        >SIP</j.3:hasArgumentID>
+                        <rdf:type rdf:resource="http://www.wings-workflows.org/ontology/component.owl#DataArgument"/>
+                  </j.2:SIP>
+            </j.3:hasInput>
+            <j.3:hasOutput>
+                  <j.2:GLOBAL rdf:about="library.owl#MODFLOW_GLOBAL">
+                        <j.3:hasDimensionality rdf:datatype="http://www.w3.org/2001/XMLSchema#integer"
+                        >0</j.3:hasDimensionality>
+                        <j.3:hasArgumentName rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+                        >-o5</j.3:hasArgumentName>
+                        <j.3:hasArgumentID rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+                        >GLOBAL</j.3:hasArgumentID>
+                        <rdf:type rdf:resource="http://www.wings-workflows.org/ontology/component.owl#DataArgument"/>
+                  </j.2:GLOBAL>
+            </j.3:hasOutput>
+            <j.3:hasInput>
+                  <j.2:PCG rdf:about="library.owl#MODFLOW_PCG">
+                        <j.3:hasDimensionality rdf:datatype="http://www.w3.org/2001/XMLSchema#integer"
+                        >0</j.3:hasDimensionality>
+                        <j.3:hasArgumentName rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+                        >-i7</j.3:hasArgumentName>
+                        <j.3:hasArgumentID rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+                        >PCG</j.3:hasArgumentID>
+                        <rdf:type rdf:resource="http://www.wings-workflows.org/ontology/component.owl#DataArgument"/>
+                  </j.2:PCG>
+            </j.3:hasInput>
+            <j.3:hasOutput>
+                  <j.2:DDOWN rdf:about="library.owl#MODFLOW_DDOWN">
+                        <j.3:hasDimensionality rdf:datatype="http://www.w3.org/2001/XMLSchema#integer"
+                        >0</j.3:hasDimensionality>
+                        <j.3:hasArgumentName rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+                        >-o5</j.3:hasArgumentName>
+                        <j.3:hasArgumentID rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+                        >DDOWN</j.3:hasArgumentID>
+                        <rdf:type rdf:resource="http://www.wings-workflows.org/ontology/component.owl#DataArgument"/>
+                  </j.2:DDOWN>
+            </j.3:hasOutput>
+            <j.3:hasOutput>
+                  <j.2:BUDGET rdf:about="library.owl#MODFLOW_BUDGET">
+                        <j.3:hasDimensionality rdf:datatype="http://www.w3.org/2001/XMLSchema#integer"
+                        >0</j.3:hasDimensionality>
+                        <j.3:hasArgumentName rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+                        >-o2</j.3:hasArgumentName>
+                        <j.3:hasArgumentID rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+                        >BUDGET</j.3:hasArgumentID>
+                        <rdf:type rdf:resource="http://www.wings-workflows.org/ontology/component.owl#DataArgument"/>
+                  </j.2:BUDGET>
+            </j.3:hasOutput>
+            <j.3:isConcrete rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean"
+            >false</j.3:isConcrete>
+            <j.3:hasInput>
+                  <j.2:OC rdf:about="library.owl#MODFLOW_OutputControl">
+                        <j.3:hasDimensionality rdf:datatype="http://www.w3.org/2001/XMLSchema#integer"
+                        >0</j.3:hasDimensionality>
+                        <j.3:hasArgumentName rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+                        >-i6</j.3:hasArgumentName>
+                        <j.3:hasArgumentID rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+                        >OutputControl</j.3:hasArgumentID>
+                        <rdf:type rdf:resource="http://www.wings-workflows.org/ontology/component.owl#DataArgument"/>
+                  </j.2:OC>
+            </j.3:hasInput>
+            <j.3:hasInput>
+                  <j.2:BAS rdf:about="library.owl#MODFLOW_BAS">
+                        <j.3:hasDimensionality rdf:datatype="http://www.w3.org/2001/XMLSchema#integer"
+                        >0</j.3:hasDimensionality>
+                        <j.3:hasArgumentName rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+                        >-i10</j.3:hasArgumentName>
+                        <j.3:hasArgumentID rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+                        >BAS</j.3:hasArgumentID>
+                        <rdf:type rdf:resource="http://www.wings-workflows.org/ontology/component.owl#DataArgument"/>
+                  </j.2:BAS>
+            </j.3:hasInput>
+            <j.3:hasInput>
+                  <j.2:MT3D rdf:about="library.owl#MODFLOW_MT3D">
+                        <j.3:hasDimensionality rdf:datatype="http://www.w3.org/2001/XMLSchema#integer"
+                        >0</j.3:hasDimensionality>
+                        <j.3:hasArgumentName rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+                        >-i5</j.3:hasArgumentName>
+                        <j.3:hasArgumentID rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+                        >MT3D</j.3:hasArgumentID>
+                        <rdf:type rdf:resource="http://www.wings-workflows.org/ontology/component.owl#DataArgument"/>
+                  </j.2:MT3D>
+            </j.3:hasInput>
+            <j.3:hasInput>
+                  <j.2:NAM rdf:about="library.owl#MODFLOW_NAM">
+                        <j.3:hasDimensionality rdf:datatype="http://www.w3.org/2001/XMLSchema#integer"
+                        >0</j.3:hasDimensionality>
+                        <j.3:hasArgumentName rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+                        >-i3</j.3:hasArgumentName>
+                        <j.3:hasArgumentID rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+                        >NAM</j.3:hasArgumentID>
+                        <rdf:type rdf:resource="http://www.wings-workflows.org/ontology/component.owl#DataArgument"/>
+                  </j.2:NAM>
+            </j.3:hasInput>
+            <j.3:hasInput>
+                  <j.2:HFB rdf:about="library.owl#MODFLOW_HFB">
+                        <j.3:hasDimensionality rdf:datatype="http://www.w3.org/2001/XMLSchema#integer"
+                        >0</j.3:hasDimensionality>
+                        <j.3:hasArgumentName rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+                        >-i8</j.3:hasArgumentName>
+                        <j.3:hasArgumentID rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+                        >HFB</j.3:hasArgumentID>
+                        <rdf:type rdf:resource="http://www.wings-workflows.org/ontology/component.owl#DataArgument"/>
+                  </j.2:HFB>
+            </j.3:hasInput>
+            <j.3:hasInput>
+                  <j.2:WEL rdf:about="library.owl#MODFLOW_WELL">
+                        <j.3:hasDimensionality rdf:datatype="http://www.w3.org/2001/XMLSchema#integer"
+                        >0</j.3:hasDimensionality>
+                        <j.3:hasArgumentName rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+                        >-i2</j.3:hasArgumentName>
+                        <j.3:hasArgumentID rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+                        >WELL</j.3:hasArgumentID>
+                        <rdf:type rdf:resource="http://www.wings-workflows.org/ontology/component.owl#DataArgument"/>
+                  </j.2:WEL>
+            </j.3:hasInput>
+            <j.3:hasInput>
+                  <j.2:BCF rdf:about="library.owl#MODFLOW_BCF">
+                        <j.3:hasDimensionality rdf:datatype="http://www.w3.org/2001/XMLSchema#integer"
+                        >0</j.3:hasDimensionality>
+                        <j.3:hasArgumentName rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+                        >-i4</j.3:hasArgumentName>
+                        <j.3:hasArgumentID rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+                        >BCF</j.3:hasArgumentID>
+                        <rdf:type rdf:resource="http://www.wings-workflows.org/ontology/component.owl#DataArgument"/>
+                  </j.2:BCF>
+            </j.3:hasInput>
+            <j.3:hasOutput>
+                  <j.2:HEADS rdf:about="library.owl#MODFLOW_HEADS">
+                        <j.3:hasDimensionality rdf:datatype="http://www.w3.org/2001/XMLSchema#integer"
+                        >0</j.3:hasDimensionality>
+                        <j.3:hasArgumentName rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+                        >-o4</j.3:hasArgumentName>
+                        <j.3:hasArgumentID rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+                        >HEADS</j.3:hasArgumentID>
+                        <rdf:type rdf:resource="http://www.wings-workflows.org/ontology/component.owl#DataArgument"/>
+                  </j.2:HEADS>
+            </j.3:hasOutput>
+            <j.3:hasInput>
+                  <j.2:DRN rdf:about="library.owl#MODFLOW_DRN">
+                        <j.3:hasDimensionality rdf:datatype="http://www.w3.org/2001/XMLSchema#integer"
+                        >0</j.3:hasDimensionality>
+                        <j.3:hasArgumentName rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+                        >-i11</j.3:hasArgumentName>
+                        <j.3:hasArgumentID rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+                        >DRN</j.3:hasArgumentID>
+                        <rdf:type rdf:resource="http://www.wings-workflows.org/ontology/component.owl#DataArgument"/>
+                  </j.2:DRN>
+            </j.3:hasInput>
+      </j.1:MODFLOWClass>
+      <j.1:VisualizationClass rdf:about="library.owl#Visualization">
+            <j.3:isConcrete rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean"
+            >false</j.3:isConcrete>
+            <j.0:hasHardwareDependency>
+                  <j.0:HardwareDependency>
+                        <j.0:needs64bit rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean"
+                        >false</j.0:needs64bit>
+                        <j.0:requiresStorageGB rdf:datatype="http://www.w3.org/2001/XMLSchema#float"
+                        >0.0</j.0:requiresStorageGB>
+                        <j.0:requiresMemoryGB rdf:datatype="http://www.w3.org/2001/XMLSchema#float"
+                        >0.0</j.0:requiresMemoryGB>
+                  </j.0:HardwareDependency>
+            </j.0:hasHardwareDependency>
+      </j.1:VisualizationClass>
+      <j.1:BudgetProcessingClass rdf:about="library.owl#BudgetProcessing">
+            <j.3:isConcrete rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean"
+            >false</j.3:isConcrete>
+            <j.0:hasHardwareDependency>
+                  <j.0:HardwareDependency>
+                        <j.0:needs64bit rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean"
+                        >false</j.0:needs64bit>
+                        <j.0:requiresStorageGB rdf:datatype="http://www.w3.org/2001/XMLSchema#float"
+                        >0.0</j.0:requiresStorageGB>
+                        <j.0:requiresMemoryGB rdf:datatype="http://www.w3.org/2001/XMLSchema#float"
+                        >0.0</j.0:requiresMemoryGB>
+                  </j.0:HardwareDependency>
+            </j.0:hasHardwareDependency>
+      </j.1:BudgetProcessingClass>
+      <j.1:ExtractDataClass rdf:about="library.owl#ExtractData">
+            <j.3:isConcrete rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean"
+            >false</j.3:isConcrete>
+            <j.0:hasHardwareDependency>
+                  <j.0:HardwareDependency>
+                        <j.0:needs64bit rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean"
+                        >false</j.0:needs64bit>
+                        <j.0:requiresStorageGB rdf:datatype="http://www.w3.org/2001/XMLSchema#float"
+                        >0.0</j.0:requiresStorageGB>
+                        <j.0:requiresMemoryGB rdf:datatype="http://www.w3.org/2001/XMLSchema#float"
+                        >0.0</j.0:requiresMemoryGB>
+                  </j.0:HardwareDependency>
+            </j.0:hasHardwareDependency>
+      </j.1:ExtractDataClass>
+      <j.1:MODFLOW-ZIPClass rdf:about="library.owl#MODFLOW-ZIP">
+            <j.3:isConcrete rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean"
+            >false</j.3:isConcrete>
+            <j.3:hasOutput>
+                  <j.2:LIST rdf:about="library.owl#MODFLOW-ZIP_LIST">
+                        <j.3:hasDimensionality rdf:datatype="http://www.w3.org/2001/XMLSchema#integer"
+                        >0</j.3:hasDimensionality>
+                        <j.3:hasArgumentName rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+                        >-o2</j.3:hasArgumentName>
+                        <j.3:hasArgumentID rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+                        >LIST</j.3:hasArgumentID>
+                        <rdf:type rdf:resource="http://www.wings-workflows.org/ontology/component.owl#DataArgument"/>
+                  </j.2:LIST>
+            </j.3:hasOutput>
+            <j.3:hasOutput>
+                  <j.2:ZIP rdf:about="library.owl#MODFLOW-ZIP_zip_output">
+                        <j.3:hasDimensionality rdf:datatype="http://www.w3.org/2001/XMLSchema#integer"
+                        >0</j.3:hasDimensionality>
+                        <j.3:hasArgumentName rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+                        >-o1</j.3:hasArgumentName>
+                        <j.3:hasArgumentID rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+                        >zip_output</j.3:hasArgumentID>
+                        <rdf:type rdf:resource="http://www.wings-workflows.org/ontology/component.owl#DataArgument"/>
+                  </j.2:ZIP>
+            </j.3:hasOutput>
+            <j.3:hasInput>
+                  <j.2:ZIP rdf:about="library.owl#MODFLOW-ZIP_zip_input">
+                        <j.3:hasDimensionality rdf:datatype="http://www.w3.org/2001/XMLSchema#integer"
+                        >0</j.3:hasDimensionality>
+                        <j.3:hasArgumentName rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+                        >-i1</j.3:hasArgumentName>
+                        <j.3:hasArgumentID rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+                        >zip_input</j.3:hasArgumentID>
+                        <rdf:type rdf:resource="http://www.wings-workflows.org/ontology/component.owl#DataArgument"/>
+                  </j.2:ZIP>
+            </j.3:hasInput>
+      </j.1:MODFLOW-ZIPClass>
+</rdf:RDF>

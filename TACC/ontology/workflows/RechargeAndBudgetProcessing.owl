@@ -1,0 +1,1271 @@
+<?xml version="1.0"?>
+<rdf:RDF
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:j.0="http://www.wings-workflows.org/ontology/workflow.owl#"
+    xmlns:owl="http://www.w3.org/2002/07/owl#"
+    xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+    xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+      xml:base="http://localhost:8080/wings-portal/export/users/lucas/TACC/workflows/RechargeAndBudgetProcessing.owl">
+      <owl:Ontology rdf:about="">
+            <owl:imports rdf:resource="http://www.wings-workflows.org/ontology/workflow.owl"/>
+      </owl:Ontology>
+      <j.0:WorkflowTemplate rdf:ID="RechargeAndBudgetProcessing">
+            <j.0:hasNode>
+                  <j.0:Node rdf:ID="MODFLOW-USG_node">
+                        <j.0:hasInputPort>
+                              <j.0:Port rdf:ID="MODFLOW-USG_node_DRN">
+                                    <j.0:satisfiesRole>
+                                          <rdf:Description rdf:ID="MODFLOW-USG_node_DRN_role">
+                                                <j.0:hasDimensionality
+                                                 rdf:datatype=
+                                                "http://www.w3.org/2001/XMLSchema#integer"
+                                                >0</j.0:hasDimensionality>
+                                                <j.0:hasRoleID
+                                                 rdf:datatype=
+                                                "http://www.w3.org/2001/XMLSchema#string"
+                                                >DRN</j.0:hasRoleID>
+                                          </rdf:Description>
+                                    </j.0:satisfiesRole>
+                              </j.0:Port>
+                        </j.0:hasInputPort>
+                        <j.0:hasInputPort>
+                              <j.0:Port rdf:ID="MODFLOW-USG_node_MT3D">
+                                    <j.0:satisfiesRole>
+                                          <rdf:Description rdf:ID="MODFLOW-USG_node_MT3D_role">
+                                                <j.0:hasDimensionality
+                                                 rdf:datatype=
+                                                "http://www.w3.org/2001/XMLSchema#integer"
+                                                >0</j.0:hasDimensionality>
+                                                <j.0:hasRoleID
+                                                 rdf:datatype=
+                                                "http://www.w3.org/2001/XMLSchema#string"
+                                                >MT3D</j.0:hasRoleID>
+                                          </rdf:Description>
+                                    </j.0:satisfiesRole>
+                              </j.0:Port>
+                        </j.0:hasInputPort>
+                        <j.0:hasOutputPort>
+                              <j.0:Port rdf:ID="MODFLOW-USG_node_HEADS">
+                                    <j.0:satisfiesRole>
+                                          <rdf:Description rdf:ID="MODFLOW-USG_node_HEADS_role">
+                                                <j.0:hasDimensionality
+                                                 rdf:datatype=
+                                                "http://www.w3.org/2001/XMLSchema#integer"
+                                                >0</j.0:hasDimensionality>
+                                                <j.0:hasRoleID
+                                                 rdf:datatype=
+                                                "http://www.w3.org/2001/XMLSchema#string"
+                                                >HEADS</j.0:hasRoleID>
+                                          </rdf:Description>
+                                    </j.0:satisfiesRole>
+                              </j.0:Port>
+                        </j.0:hasOutputPort>
+                        <j.0:hasInputPort>
+                              <j.0:Port rdf:ID="MODFLOW-USG_node_NAM">
+                                    <j.0:satisfiesRole>
+                                          <rdf:Description rdf:ID="MODFLOW-USG_node_NAM_role">
+                                                <j.0:hasDimensionality
+                                                 rdf:datatype=
+                                                "http://www.w3.org/2001/XMLSchema#integer"
+                                                >0</j.0:hasDimensionality>
+                                                <j.0:hasRoleID
+                                                 rdf:datatype=
+                                                "http://www.w3.org/2001/XMLSchema#string"
+                                                >NAM</j.0:hasRoleID>
+                                          </rdf:Description>
+                                    </j.0:satisfiesRole>
+                              </j.0:Port>
+                        </j.0:hasInputPort>
+                        <j.0:hasInputPort>
+                              <j.0:Port rdf:ID="MODFLOW-USG_node_BCF">
+                                    <j.0:satisfiesRole>
+                                          <rdf:Description rdf:ID="MODFLOW-USG_node_BCF_role">
+                                                <j.0:hasDimensionality
+                                                 rdf:datatype=
+                                                "http://www.w3.org/2001/XMLSchema#integer"
+                                                >0</j.0:hasDimensionality>
+                                                <j.0:hasRoleID
+                                                 rdf:datatype=
+                                                "http://www.w3.org/2001/XMLSchema#string"
+                                                >BCF</j.0:hasRoleID>
+                                          </rdf:Description>
+                                    </j.0:satisfiesRole>
+                              </j.0:Port>
+                        </j.0:hasInputPort>
+                        <j.0:hasOutputPort>
+                              <j.0:Port rdf:ID="MODFLOW-USG_node_DDOWN">
+                                    <j.0:satisfiesRole>
+                                          <rdf:Description rdf:ID="MODFLOW-USG_node_DDOWN_role">
+                                                <j.0:hasDimensionality
+                                                 rdf:datatype=
+                                                "http://www.w3.org/2001/XMLSchema#integer"
+                                                >0</j.0:hasDimensionality>
+                                                <j.0:hasRoleID
+                                                 rdf:datatype=
+                                                "http://www.w3.org/2001/XMLSchema#string"
+                                                >DDOWN</j.0:hasRoleID>
+                                          </rdf:Description>
+                                    </j.0:satisfiesRole>
+                              </j.0:Port>
+                        </j.0:hasOutputPort>
+                        <j.0:hasInputPort>
+                              <j.0:Port rdf:ID="MODFLOW-USG_node_WELL">
+                                    <j.0:satisfiesRole>
+                                          <rdf:Description rdf:ID="MODFLOW-USG_node_WELL_role">
+                                                <j.0:hasDimensionality
+                                                 rdf:datatype=
+                                                "http://www.w3.org/2001/XMLSchema#integer"
+                                                >0</j.0:hasDimensionality>
+                                                <j.0:hasRoleID
+                                                 rdf:datatype=
+                                                "http://www.w3.org/2001/XMLSchema#string"
+                                                >WELL</j.0:hasRoleID>
+                                          </rdf:Description>
+                                    </j.0:satisfiesRole>
+                              </j.0:Port>
+                        </j.0:hasInputPort>
+                        <j.0:hasInputPort>
+                              <j.0:Port rdf:ID="MODFLOW-USG_node_BAS">
+                                    <j.0:satisfiesRole>
+                                          <rdf:Description rdf:ID="MODFLOW-USG_node_BAS_role">
+                                                <j.0:hasDimensionality
+                                                 rdf:datatype=
+                                                "http://www.w3.org/2001/XMLSchema#integer"
+                                                >0</j.0:hasDimensionality>
+                                                <j.0:hasRoleID
+                                                 rdf:datatype=
+                                                "http://www.w3.org/2001/XMLSchema#string"
+                                                >BAS</j.0:hasRoleID>
+                                          </rdf:Description>
+                                    </j.0:satisfiesRole>
+                              </j.0:Port>
+                        </j.0:hasInputPort>
+                        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+                        >center:x=411.4964668273926,y=543.3369398117065</rdfs:comment>
+                        <j.0:hasInputPort>
+                              <j.0:Port rdf:ID="MODFLOW-USG_node_OutputControl">
+                                    <j.0:satisfiesRole>
+                                          <rdf:Description rdf:ID="MODFLOW-USG_node_OutputControl_role">
+                                                <j.0:hasDimensionality
+                                                 rdf:datatype=
+                                                "http://www.w3.org/2001/XMLSchema#integer"
+                                                >0</j.0:hasDimensionality>
+                                                <j.0:hasRoleID
+                                                 rdf:datatype=
+                                                "http://www.w3.org/2001/XMLSchema#string"
+                                                >OutputControl</j.0:hasRoleID>
+                                          </rdf:Description>
+                                    </j.0:satisfiesRole>
+                              </j.0:Port>
+                        </j.0:hasInputPort>
+                        <j.0:hasOutputPort>
+                              <j.0:Port rdf:ID="MODFLOW-USG_node_BUDGET">
+                                    <j.0:satisfiesRole>
+                                          <rdf:Description rdf:ID="MODFLOW-USG_node_BUDGET_role">
+                                                <j.0:hasDimensionality
+                                                 rdf:datatype=
+                                                "http://www.w3.org/2001/XMLSchema#integer"
+                                                >0</j.0:hasDimensionality>
+                                                <j.0:hasRoleID
+                                                 rdf:datatype=
+                                                "http://www.w3.org/2001/XMLSchema#string"
+                                                >BUDGET</j.0:hasRoleID>
+                                          </rdf:Description>
+                                    </j.0:satisfiesRole>
+                              </j.0:Port>
+                        </j.0:hasOutputPort>
+                        <j.0:hasInputPort>
+                              <j.0:Port rdf:ID="MODFLOW-USG_node_HFB">
+                                    <j.0:satisfiesRole>
+                                          <rdf:Description rdf:ID="MODFLOW-USG_node_HFB_role">
+                                                <j.0:hasDimensionality
+                                                 rdf:datatype=
+                                                "http://www.w3.org/2001/XMLSchema#integer"
+                                                >0</j.0:hasDimensionality>
+                                                <j.0:hasRoleID
+                                                 rdf:datatype=
+                                                "http://www.w3.org/2001/XMLSchema#string"
+                                                >HFB</j.0:hasRoleID>
+                                          </rdf:Description>
+                                    </j.0:satisfiesRole>
+                              </j.0:Port>
+                        </j.0:hasInputPort>
+                        <j.0:hasComponentSetCreationRule>
+                              <j.0:ComponentSetRule rdf:ID="MODFLOW-USG_node_crule">
+                                    <j.0:createSetsOn>
+                                          <rdf:Description rdf:ID="MODFLOW-USG_node_comp">
+                                                <j.0:isConcrete
+                                                 rdf:datatype=
+                                                "http://www.w3.org/2001/XMLSchema#boolean"
+                                                >true</j.0:isConcrete>
+                                                <j.0:hasComponentBinding rdf:resource="../components/library.owl#MODFLOW-USG"/>
+                                          </rdf:Description>
+                                    </j.0:createSetsOn>
+                                    <j.0:createWorkflowSets rdf:datatype=
+                                    "http://www.w3.org/2001/XMLSchema#boolean"
+                                    >true</j.0:createWorkflowSets>
+                              </j.0:ComponentSetRule>
+                        </j.0:hasComponentSetCreationRule>
+                        <j.0:hasOutputPort>
+                              <j.0:Port rdf:ID="MODFLOW-USG_node_LIST">
+                                    <j.0:satisfiesRole>
+                                          <rdf:Description rdf:ID="MODFLOW-USG_node_LIST_role">
+                                                <j.0:hasDimensionality
+                                                 rdf:datatype=
+                                                "http://www.w3.org/2001/XMLSchema#integer"
+                                                >0</j.0:hasDimensionality>
+                                                <j.0:hasRoleID
+                                                 rdf:datatype=
+                                                "http://www.w3.org/2001/XMLSchema#string"
+                                                >LIST</j.0:hasRoleID>
+                                          </rdf:Description>
+                                    </j.0:satisfiesRole>
+                              </j.0:Port>
+                        </j.0:hasOutputPort>
+                        <j.0:hasComponent rdf:resource="#MODFLOW-USG_node_comp"/>
+                        <j.0:hasPortSetCreationRule>
+                              <j.0:PortSetRule rdf:ID="MODFLOW-USG_node_prule">
+                                    <j.0:createSetsOn>
+                                          <j.0:XProduct rdf:ID="_xprod-6bc0df44-d1b7-4eb0-9e2a-865d024a1580">
+                                                <j.0:hasExpressionArgument rdf:resource="#MODFLOW-USG_node_DRN"/>
+                                                <j.0:hasExpressionArgument rdf:resource="#MODFLOW-USG_node_BCF"/>
+                                                <j.0:hasExpressionArgument>
+                                                      <j.0:Port rdf:ID="MODFLOW-USG_node_SIP">
+                                                            <j.0:satisfiesRole>
+                                                            
+      <rdf:Description rdf:ID="MODFLOW-USG_node_SIP_role">
+            <j.0:hasDimensionality rdf:datatype="http://www.w3.org/2001/XMLSchema#integer"
+            >0</j.0:hasDimensionality>
+            <j.0:hasRoleID rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+            >SIP</j.0:hasRoleID>
+      </rdf:Description>                                    </j.0:satisfiesRole>
+                                                      </j.0:Port>
+                                                </j.0:hasExpressionArgument>
+                                                <j.0:hasExpressionArgument rdf:resource="#MODFLOW-USG_node_MT3D"/>
+                                                <j.0:hasExpressionArgument>
+                                                      <j.0:Port rdf:ID="MODFLOW-USG_node_PCG">
+                                                            <j.0:satisfiesRole>
+                                                            
+      <rdf:Description rdf:ID="MODFLOW-USG_node_PCG_role">
+            <j.0:hasDimensionality rdf:datatype="http://www.w3.org/2001/XMLSchema#integer"
+            >0</j.0:hasDimensionality>
+            <j.0:hasRoleID rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+            >PCG</j.0:hasRoleID>
+      </rdf:Description>                                    </j.0:satisfiesRole>
+                                                      </j.0:Port>
+                                                </j.0:hasExpressionArgument>
+                                                <j.0:hasExpressionArgument rdf:resource="#MODFLOW-USG_node_NAM"/>
+                                                <j.0:hasExpressionArgument rdf:resource="#MODFLOW-USG_node_HFB"/>
+                                                <j.0:hasExpressionArgument rdf:resource="#MODFLOW-USG_node_OutputControl"/>
+                                                <j.0:hasExpressionArgument rdf:resource="#MODFLOW-USG_node_WELL"/>
+                                                <j.0:hasExpressionArgument>
+                                                      <j.0:Port rdf:ID="MODFLOW-USG_node_RECHARGE">
+                                                            <j.0:satisfiesRole>
+                                                            
+      <rdf:Description rdf:ID="MODFLOW-USG_node_RECHARGE_role">
+            <j.0:hasDimensionality rdf:datatype="http://www.w3.org/2001/XMLSchema#integer"
+            >0</j.0:hasDimensionality>
+            <j.0:hasRoleID rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+            >RECHARGE</j.0:hasRoleID>
+      </rdf:Description>                                    </j.0:satisfiesRole>
+                                                      </j.0:Port>
+                                                </j.0:hasExpressionArgument>
+                                                <j.0:hasExpressionArgument rdf:resource="#MODFLOW-USG_node_BAS"/>
+                                          </j.0:XProduct>
+                                    </j.0:createSetsOn>
+                                    <j.0:createComponentSets rdf:datatype=
+                                    "http://www.w3.org/2001/XMLSchema#boolean"
+                                    >true</j.0:createComponentSets>
+                              </j.0:PortSetRule>
+                        </j.0:hasPortSetCreationRule>
+                        <j.0:hasInputPort rdf:resource="#MODFLOW-USG_node_RECHARGE"/>
+                        <j.0:hasInputPort rdf:resource="#MODFLOW-USG_node_PCG"/>
+                        <j.0:hasOutputPort>
+                              <j.0:Port rdf:ID="MODFLOW-USG_node_GLOBAL">
+                                    <j.0:satisfiesRole>
+                                          <rdf:Description rdf:ID="MODFLOW-USG_node_GLOBAL_role">
+                                                <j.0:hasDimensionality
+                                                 rdf:datatype=
+                                                "http://www.w3.org/2001/XMLSchema#integer"
+                                                >0</j.0:hasDimensionality>
+                                                <j.0:hasRoleID
+                                                 rdf:datatype=
+                                                "http://www.w3.org/2001/XMLSchema#string"
+                                                >GLOBAL</j.0:hasRoleID>
+                                          </rdf:Description>
+                                    </j.0:satisfiesRole>
+                              </j.0:Port>
+                        </j.0:hasOutputPort>
+                        <j.0:hasInputPort rdf:resource="#MODFLOW-USG_node_SIP"/>
+                  </j.0:Node>
+            </j.0:hasNode>
+            <j.0:hasLink>
+                  <j.0:InputLink rdf:ID="MODFLOW-USG_node_HFB_input">
+                        <j.0:hasVariable>
+                              <j.0:DataVariable rdf:ID="HFB">
+                                    <rdfs:comment rdf:datatype=
+                                    "http://www.w3.org/2001/XMLSchema#string"
+                                    >center:x=264.0973690032959,y=470.0073652267456</rdfs:comment>
+                              </j.0:DataVariable>
+                        </j.0:hasVariable>
+                        <j.0:hasDestinationNode rdf:resource="#MODFLOW-USG_node"/>
+                        <j.0:hasDestinationPort rdf:resource="#MODFLOW-USG_node_HFB"/>
+                  </j.0:InputLink>
+            </j.0:hasLink>
+            <j.0:hasLink>
+                  <j.0:InOutLink rdf:ID="FormatTransformation_node_recharge_package_to_MODFLOW-USG_node_RECHARGE">
+                        <j.0:hasDestinationNode rdf:resource="#MODFLOW-USG_node"/>
+                        <j.0:hasDestinationPort rdf:resource="#MODFLOW-USG_node_RECHARGE"/>
+                        <j.0:hasOriginNode>
+                              <j.0:Node rdf:ID="FormatTransformation_node">
+                                    <j.0:hasComponent>
+                                          <rdf:Description rdf:ID="FormatTransformation_node_comp">
+                                                <j.0:isConcrete
+                                                 rdf:datatype=
+                                                "http://www.w3.org/2001/XMLSchema#boolean"
+                                                >true</j.0:isConcrete>
+                                                <j.0:hasComponentBinding rdf:resource="../components/library.owl#FormatTransformation"/>
+                                          </rdf:Description>
+                                    </j.0:hasComponent>
+                                    <j.0:hasComponentSetCreationRule>
+                                          <j.0:ComponentSetRule rdf:ID="FormatTransformation_node_crule">
+                                                <j.0:createSetsOn rdf:resource="#FormatTransformation_node_comp"/>
+                                                <j.0:createWorkflowSets
+                                                 rdf:datatype=
+                                                "http://www.w3.org/2001/XMLSchema#boolean"
+                                                >true</j.0:createWorkflowSets>
+                                          </j.0:ComponentSetRule>
+                                    </j.0:hasComponentSetCreationRule>
+                                    <j.0:hasInputPort>
+                                          <j.0:Port rdf:ID="FormatTransformation_node_recharge_area">
+                                                <j.0:satisfiesRole>
+                                                      <rdf:Description rdf:ID="FormatTransformation_node_recharge_area_role">
+                                                            <j.0:hasDimensionality
+                                                             rdf:datatype=
+                                                            "http://www.w3.org/2001/XMLSchema#integer"
+                                                            >0</j.0:hasDimensionality>
+                                                            <j.0:hasRoleID
+                                                             rdf:datatype=
+                                                            "http://www.w3.org/2001/XMLSchema#string"
+                                                            >recharge_area</j.0:hasRoleID>
+                                                      </rdf:Description>
+                                                </j.0:satisfiesRole>
+                                          </j.0:Port>
+                                    </j.0:hasInputPort>
+                                    <j.0:hasOutputPort>
+                                          <j.0:Port rdf:ID="FormatTransformation_node_recharge_package">
+                                                <j.0:satisfiesRole>
+                                                      <rdf:Description rdf:ID="FormatTransformation_node_recharge_package_role">
+                                                            <j.0:hasDimensionality
+                                                             rdf:datatype=
+                                                            "http://www.w3.org/2001/XMLSchema#integer"
+                                                            >0</j.0:hasDimensionality>
+                                                            <j.0:hasRoleID
+                                                             rdf:datatype=
+                                                            "http://www.w3.org/2001/XMLSchema#string"
+                                                            >recharge_package</j.0:hasRoleID>
+                                                      </rdf:Description>
+                                                </j.0:satisfiesRole>
+                                          </j.0:Port>
+                                    </j.0:hasOutputPort>
+                                    <j.0:hasPortSetCreationRule>
+                                          <j.0:PortSetRule rdf:ID="FormatTransformation_node_prule">
+                                                <j.0:createSetsOn>
+                                                      <j.0:XProduct rdf:ID="_xprod-afca50f5-17ff-4296-bfba-ea44a9051a5e">
+                                                            <j.0:hasExpressionArgument rdf:resource="#FormatTransformation_node_recharge_area"/>
+                                                      </j.0:XProduct>
+                                                </j.0:createSetsOn>
+                                                <j.0:createComponentSets
+                                                 rdf:datatype=
+                                                "http://www.w3.org/2001/XMLSchema#boolean"
+                                                >true</j.0:createComponentSets>
+                                          </j.0:PortSetRule>
+                                    </j.0:hasPortSetCreationRule>
+                                    <rdfs:comment rdf:datatype=
+                                    "http://www.w3.org/2001/XMLSchema#string"
+                                    >center:x=698.5964668273926,y=396.6585645675659</rdfs:comment>
+                              </j.0:Node>
+                        </j.0:hasOriginNode>
+                        <j.0:hasOriginPort rdf:resource="#FormatTransformation_node_recharge_package"/>
+                        <j.0:hasVariable>
+                              <j.0:DataVariable rdf:ID="RECHARGE">
+                                    <rdfs:comment rdf:datatype=
+                                    "http://www.w3.org/2001/XMLSchema#string"
+                                    >center:x=698.5964668273926,y=470.0073652267456</rdfs:comment>
+                              </j.0:DataVariable>
+                        </j.0:hasVariable>
+                  </j.0:InOutLink>
+            </j.0:hasLink>
+            <j.0:hasInputRole>
+                  <j.0:Role rdf:ID="larger_area_irole">
+                        <j.0:hasDimensionality rdf:datatype="http://www.w3.org/2001/XMLSchema#integer"
+                        >0</j.0:hasDimensionality>
+                        <j.0:mapsToVariable>
+                              <j.0:DataVariable rdf:ID="larger_area">
+                                    <rdfs:comment rdf:datatype=
+                                    "http://www.w3.org/2001/XMLSchema#string"
+                                    >center:x=743.7008644104004,y=176.67455577850342</rdfs:comment>
+                              </j.0:DataVariable>
+                        </j.0:mapsToVariable>
+                        <j.0:hasRoleID rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+                        >MapIntersection_node_larger_area</j.0:hasRoleID>
+                  </j.0:Role>
+            </j.0:hasInputRole>
+            <j.0:hasNode rdf:resource="#FormatTransformation_node"/>
+            <j.0:hasInputRole>
+                  <j.0:Role rdf:ID="factor_irole">
+                        <j.0:hasDimensionality rdf:datatype="http://www.w3.org/2001/XMLSchema#integer"
+                        >0</j.0:hasDimensionality>
+                        <j.0:mapsToVariable>
+                              <j.0:ParameterVariable rdf:ID="factor">
+                                    <rdfs:comment rdf:datatype=
+                                    "http://www.w3.org/2001/XMLSchema#string"
+                                    >center:x=608.4035331726075,y=29.986567497253418</rdfs:comment>
+                              </j.0:ParameterVariable>
+                        </j.0:mapsToVariable>
+                        <j.0:hasRoleID rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+                        >CalculateRecharge_node_factor</j.0:hasRoleID>
+                  </j.0:Role>
+            </j.0:hasInputRole>
+            <j.0:hasLink>
+                  <j.0:OutputLink rdf:ID="VisualizeBudget_node_flux_x_time_for_storage_and_capture_output">
+                        <j.0:hasVariable>
+                              <j.0:DataVariable rdf:ID="flux_x_time_for_storage_and_capture">
+                                    <rdfs:comment rdf:datatype=
+                                    "http://www.w3.org/2001/XMLSchema#string"
+                                    >center:x=192.60351428985598,y=910.0051174163818</rdfs:comment>
+                              </j.0:DataVariable>
+                        </j.0:hasVariable>
+                        <j.0:hasOriginNode>
+                              <j.0:Node rdf:ID="VisualizeBudget_node">
+                                    <j.0:hasComponent>
+                                          <rdf:Description rdf:ID="VisualizeBudget_node_comp">
+                                                <j.0:isConcrete
+                                                 rdf:datatype=
+                                                "http://www.w3.org/2001/XMLSchema#boolean"
+                                                >true</j.0:isConcrete>
+                                                <j.0:hasComponentBinding rdf:resource="../components/library.owl#VisualizeBudget"/>
+                                          </rdf:Description>
+                                    </j.0:hasComponent>
+                                    <j.0:hasComponentSetCreationRule>
+                                          <j.0:ComponentSetRule rdf:ID="VisualizeBudget_node_crule">
+                                                <j.0:createSetsOn rdf:resource="#VisualizeBudget_node_comp"/>
+                                                <j.0:createWorkflowSets
+                                                 rdf:datatype=
+                                                "http://www.w3.org/2001/XMLSchema#boolean"
+                                                >true</j.0:createWorkflowSets>
+                                          </j.0:ComponentSetRule>
+                                    </j.0:hasComponentSetCreationRule>
+                                    <j.0:hasInputPort>
+                                          <j.0:Port rdf:ID="VisualizeBudget_node_processed_data">
+                                                <j.0:satisfiesRole>
+                                                      <rdf:Description rdf:ID="VisualizeBudget_node_processed_data_role">
+                                                            <j.0:hasDimensionality
+                                                             rdf:datatype=
+                                                            "http://www.w3.org/2001/XMLSchema#integer"
+                                                            >0</j.0:hasDimensionality>
+                                                            <j.0:hasRoleID
+                                                             rdf:datatype=
+                                                            "http://www.w3.org/2001/XMLSchema#string"
+                                                            >processed_data</j.0:hasRoleID>
+                                                      </rdf:Description>
+                                                </j.0:satisfiesRole>
+                                          </j.0:Port>
+                                    </j.0:hasInputPort>
+                                    <j.0:hasOutputPort>
+                                          <j.0:Port rdf:ID="VisualizeBudget_node_flux_x_time_for_storage_and_capture">
+                                                <j.0:satisfiesRole>
+                                                      <rdf:Description rdf:ID="VisualizeBudget_node_flux_x_time_for_storage_and_capture_role">
+                                                            <j.0:hasDimensionality
+                                                             rdf:datatype=
+                                                            "http://www.w3.org/2001/XMLSchema#integer"
+                                                            >0</j.0:hasDimensionality>
+                                                            <j.0:hasRoleID
+                                                             rdf:datatype=
+                                                            "http://www.w3.org/2001/XMLSchema#string"
+                                                            >flux_x_time_for_storage_and_capture</j.0:hasRoleID>
+                                                      </rdf:Description>
+                                                </j.0:satisfiesRole>
+                                          </j.0:Port>
+                                    </j.0:hasOutputPort>
+                                    <j.0:hasPortSetCreationRule>
+                                          <j.0:PortSetRule rdf:ID="VisualizeBudget_node_prule">
+                                                <j.0:createSetsOn>
+                                                      <j.0:XProduct rdf:ID="_xprod-4c990416-1440-46e9-b128-773b2216a4c9">
+                                                            <j.0:hasExpressionArgument rdf:resource="#VisualizeBudget_node_processed_data"/>
+                                                      </j.0:XProduct>
+                                                </j.0:createSetsOn>
+                                                <j.0:createComponentSets
+                                                 rdf:datatype=
+                                                "http://www.w3.org/2001/XMLSchema#boolean"
+                                                >true</j.0:createComponentSets>
+                                          </j.0:PortSetRule>
+                                    </j.0:hasPortSetCreationRule>
+                                    <rdfs:comment rdf:datatype=
+                                    "http://www.w3.org/2001/XMLSchema#string"
+                                    >center:x=192.60351428985598,y=836.6697549819946</rdfs:comment>
+                              </j.0:Node>
+                        </j.0:hasOriginNode>
+                        <j.0:hasOriginPort rdf:resource="#VisualizeBudget_node_flux_x_time_for_storage_and_capture"/>
+                  </j.0:OutputLink>
+            </j.0:hasLink>
+            <j.0:hasInputRole>
+                  <j.0:Role rdf:ID="WELL_irole">
+                        <j.0:hasDimensionality rdf:datatype="http://www.w3.org/2001/XMLSchema#integer"
+                        >0</j.0:hasDimensionality>
+                        <j.0:mapsToVariable>
+                              <j.0:DataVariable rdf:ID="WELL">
+                                    <rdfs:comment rdf:datatype=
+                                    "http://www.w3.org/2001/XMLSchema#string"
+                                    >center:x=861.4000000000001,y=470.0073652267456</rdfs:comment>
+                              </j.0:DataVariable>
+                        </j.0:mapsToVariable>
+                        <j.0:hasRoleID rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+                        >MODFLOW-USG_node_WELL</j.0:hasRoleID>
+                  </j.0:Role>
+            </j.0:hasInputRole>
+            <j.0:hasLink>
+                  <j.0:InputLink rdf:ID="ZoneBudget_node_zone_map_input">
+                        <j.0:hasVariable>
+                              <j.0:DataVariable rdf:ID="zone_map">
+                                    <rdfs:comment rdf:datatype=
+                                    "http://www.w3.org/2001/XMLSchema#string"
+                                    >center:x=238.80088329315188,y=616.6713666915894</rdfs:comment>
+                              </j.0:DataVariable>
+                        </j.0:hasVariable>
+                        <j.0:hasDestinationNode>
+                              <j.0:Node rdf:ID="ZoneBudget_node">
+                                    <j.0:hasComponentSetCreationRule>
+                                          <j.0:ComponentSetRule rdf:ID="ZoneBudget_node_crule">
+                                                <j.0:createSetsOn>
+                                                      <rdf:Description rdf:ID="ZoneBudget_node_comp">
+                                                            <j.0:isConcrete
+                                                             rdf:datatype=
+                                                            "http://www.w3.org/2001/XMLSchema#boolean"
+                                                            >true</j.0:isConcrete>
+                                                            <j.0:hasComponentBinding rdf:resource="../components/library.owl#ZoneBudget"/>
+                                                      </rdf:Description>
+                                                </j.0:createSetsOn>
+                                                <j.0:createWorkflowSets
+                                                 rdf:datatype=
+                                                "http://www.w3.org/2001/XMLSchema#boolean"
+                                                >true</j.0:createWorkflowSets>
+                                          </j.0:ComponentSetRule>
+                                    </j.0:hasComponentSetCreationRule>
+                                    <j.0:hasInputPort>
+                                          <j.0:Port rdf:ID="ZoneBudget_node_zone_map">
+                                                <j.0:satisfiesRole>
+                                                      <rdf:Description rdf:ID="ZoneBudget_node_zone_map_role">
+                                                            <j.0:hasDimensionality
+                                                             rdf:datatype=
+                                                            "http://www.w3.org/2001/XMLSchema#integer"
+                                                            >0</j.0:hasDimensionality>
+                                                            <j.0:hasRoleID
+                                                             rdf:datatype=
+                                                            "http://www.w3.org/2001/XMLSchema#string"
+                                                            >zone_map</j.0:hasRoleID>
+                                                      </rdf:Description>
+                                                </j.0:satisfiesRole>
+                                          </j.0:Port>
+                                    </j.0:hasInputPort>
+                                    <j.0:hasInputPort>
+                                          <j.0:Port rdf:ID="ZoneBudget_node_budget">
+                                                <j.0:satisfiesRole>
+                                                      <rdf:Description rdf:ID="ZoneBudget_node_budget_role">
+                                                            <j.0:hasDimensionality
+                                                             rdf:datatype=
+                                                            "http://www.w3.org/2001/XMLSchema#integer"
+                                                            >0</j.0:hasDimensionality>
+                                                            <j.0:hasRoleID
+                                                             rdf:datatype=
+                                                            "http://www.w3.org/2001/XMLSchema#string"
+                                                            >budget</j.0:hasRoleID>
+                                                      </rdf:Description>
+                                                </j.0:satisfiesRole>
+                                          </j.0:Port>
+                                    </j.0:hasInputPort>
+                                    <j.0:hasOutputPort>
+                                          <j.0:Port rdf:ID="ZoneBudget_node_processed_data">
+                                                <j.0:satisfiesRole>
+                                                      <rdf:Description rdf:ID="ZoneBudget_node_processed_data_role">
+                                                            <j.0:hasDimensionality
+                                                             rdf:datatype=
+                                                            "http://www.w3.org/2001/XMLSchema#integer"
+                                                            >0</j.0:hasDimensionality>
+                                                            <j.0:hasRoleID
+                                                             rdf:datatype=
+                                                            "http://www.w3.org/2001/XMLSchema#string"
+                                                            >processed_data</j.0:hasRoleID>
+                                                      </rdf:Description>
+                                                </j.0:satisfiesRole>
+                                          </j.0:Port>
+                                    </j.0:hasOutputPort>
+                                    <j.0:hasPortSetCreationRule>
+                                          <j.0:PortSetRule rdf:ID="ZoneBudget_node_prule">
+                                                <j.0:createSetsOn>
+                                                      <j.0:XProduct rdf:ID="_xprod-32335d2f-24c1-4b51-a36c-9ff22a22bfb6">
+                                                            <j.0:hasExpressionArgument rdf:resource="#ZoneBudget_node_zone_map"/>
+                                                            <j.0:hasExpressionArgument rdf:resource="#ZoneBudget_node_budget"/>
+                                                      </j.0:XProduct>
+                                                </j.0:createSetsOn>
+                                                <j.0:createComponentSets
+                                                 rdf:datatype=
+                                                "http://www.w3.org/2001/XMLSchema#boolean"
+                                                >true</j.0:createComponentSets>
+                                          </j.0:PortSetRule>
+                                    </j.0:hasPortSetCreationRule>
+                                    <rdfs:comment rdf:datatype=
+                                    "http://www.w3.org/2001/XMLSchema#string"
+                                    >center:x=192.60351428985598,y=690.005747795105</rdfs:comment>
+                                    <j.0:hasComponent rdf:resource="#ZoneBudget_node_comp"/>
+                              </j.0:Node>
+                        </j.0:hasDestinationNode>
+                        <j.0:hasDestinationPort rdf:resource="#ZoneBudget_node_zone_map"/>
+                  </j.0:InputLink>
+            </j.0:hasLink>
+            <j.0:hasOutputRole>
+                  <j.0:Role rdf:ID="DDOWN_orole">
+                        <j.0:hasDimensionality rdf:datatype="http://www.w3.org/2001/XMLSchema#integer"
+                        >0</j.0:hasDimensionality>
+                        <j.0:mapsToVariable>
+                              <j.0:DataVariable rdf:ID="DDOWN">
+                                    <rdfs:comment rdf:datatype=
+                                    "http://www.w3.org/2001/XMLSchema#string"
+                                    >center:x=329.00176658630375,y=616.6713666915894</rdfs:comment>
+                              </j.0:DataVariable>
+                        </j.0:mapsToVariable>
+                        <j.0:hasRoleID rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+                        >DDOWN</j.0:hasRoleID>
+                  </j.0:Role>
+            </j.0:hasOutputRole>
+            <j.0:hasLink>
+                  <j.0:OutputLink rdf:ID="ZoneBudget_node_processed_data_output">
+                        <j.0:hasVariable>
+                              <j.0:DataVariable rdf:ID="processed_data">
+                                    <rdfs:comment rdf:datatype=
+                                    "http://www.w3.org/2001/XMLSchema#string"
+                                    >center:x=192.60351428985598,y=763.3401517868042</rdfs:comment>
+                              </j.0:DataVariable>
+                        </j.0:hasVariable>
+                        <j.0:hasOriginNode rdf:resource="#ZoneBudget_node"/>
+                        <j.0:hasOriginPort rdf:resource="#ZoneBudget_node_processed_data"/>
+                  </j.0:OutputLink>
+            </j.0:hasLink>
+            <j.0:hasLink>
+                  <j.0:InOutLink rdf:ID="MapIntersection_node_recharge_area_to_FormatTransformation_node_recharge_area">
+                        <j.0:hasDestinationNode rdf:resource="#FormatTransformation_node"/>
+                        <j.0:hasDestinationPort rdf:resource="#FormatTransformation_node_recharge_area"/>
+                        <j.0:hasOriginNode>
+                              <j.0:Node rdf:ID="MapIntersection_node">
+                                    <j.0:hasComponentSetCreationRule>
+                                          <j.0:ComponentSetRule rdf:ID="MapIntersection_node_crule">
+                                                <j.0:createSetsOn>
+                                                      <rdf:Description rdf:ID="MapIntersection_node_comp">
+                                                            <j.0:isConcrete
+                                                             rdf:datatype=
+                                                            "http://www.w3.org/2001/XMLSchema#boolean"
+                                                            >true</j.0:isConcrete>
+                                                            <j.0:hasComponentBinding rdf:resource="../components/library.owl#MapIntersection"/>
+                                                      </rdf:Description>
+                                                </j.0:createSetsOn>
+                                                <j.0:createWorkflowSets
+                                                 rdf:datatype=
+                                                "http://www.w3.org/2001/XMLSchema#boolean"
+                                                >true</j.0:createWorkflowSets>
+                                          </j.0:ComponentSetRule>
+                                    </j.0:hasComponentSetCreationRule>
+                                    <j.0:hasInputPort>
+                                          <j.0:Port rdf:ID="MapIntersection_node_interpretation_area">
+                                                <j.0:satisfiesRole>
+                                                      <rdf:Description rdf:ID="MapIntersection_node_interpretation_area_role">
+                                                            <j.0:hasDimensionality
+                                                             rdf:datatype=
+                                                            "http://www.w3.org/2001/XMLSchema#integer"
+                                                            >0</j.0:hasDimensionality>
+                                                            <j.0:hasRoleID
+                                                             rdf:datatype=
+                                                            "http://www.w3.org/2001/XMLSchema#string"
+                                                            >interpretation_area</j.0:hasRoleID>
+                                                      </rdf:Description>
+                                                </j.0:satisfiesRole>
+                                          </j.0:Port>
+                                    </j.0:hasInputPort>
+                                    <j.0:hasInputPort>
+                                          <j.0:Port rdf:ID="MapIntersection_node_larger_area">
+                                                <j.0:satisfiesRole>
+                                                      <rdf:Description rdf:ID="MapIntersection_node_larger_area_role">
+                                                            <j.0:hasDimensionality
+                                                             rdf:datatype=
+                                                            "http://www.w3.org/2001/XMLSchema#integer"
+                                                            >0</j.0:hasDimensionality>
+                                                            <j.0:hasRoleID
+                                                             rdf:datatype=
+                                                            "http://www.w3.org/2001/XMLSchema#string"
+                                                            >larger_area</j.0:hasRoleID>
+                                                      </rdf:Description>
+                                                </j.0:satisfiesRole>
+                                          </j.0:Port>
+                                    </j.0:hasInputPort>
+                                    <j.0:hasOutputPort>
+                                          <j.0:Port rdf:ID="MapIntersection_node_recharge_area">
+                                                <j.0:satisfiesRole>
+                                                      <rdf:Description rdf:ID="MapIntersection_node_recharge_area_role">
+                                                            <j.0:hasDimensionality
+                                                             rdf:datatype=
+                                                            "http://www.w3.org/2001/XMLSchema#integer"
+                                                            >0</j.0:hasDimensionality>
+                                                            <j.0:hasRoleID
+                                                             rdf:datatype=
+                                                            "http://www.w3.org/2001/XMLSchema#string"
+                                                            >recharge_area</j.0:hasRoleID>
+                                                      </rdf:Description>
+                                                </j.0:satisfiesRole>
+                                          </j.0:Port>
+                                    </j.0:hasOutputPort>
+                                    <j.0:hasPortSetCreationRule>
+                                          <j.0:PortSetRule rdf:ID="MapIntersection_node_prule">
+                                                <j.0:createSetsOn>
+                                                      <j.0:XProduct rdf:ID="_xprod-a5038955-d341-46a2-8dc3-f28da808d007">
+                                                            <j.0:hasExpressionArgument rdf:resource="#MapIntersection_node_interpretation_area"/>
+                                                            <j.0:hasExpressionArgument rdf:resource="#MapIntersection_node_larger_area"/>
+                                                      </j.0:XProduct>
+                                                </j.0:createSetsOn>
+                                                <j.0:createComponentSets
+                                                 rdf:datatype=
+                                                "http://www.w3.org/2001/XMLSchema#boolean"
+                                                >true</j.0:createComponentSets>
+                                          </j.0:PortSetRule>
+                                    </j.0:hasPortSetCreationRule>
+                                    <rdfs:comment rdf:datatype=
+                                    "http://www.w3.org/2001/XMLSchema#string"
+                                    >center:x=698.5964668273926,y=250.01854991912842</rdfs:comment>
+                                    <j.0:hasComponent rdf:resource="#MapIntersection_node_comp"/>
+                              </j.0:Node>
+                        </j.0:hasOriginNode>
+                        <j.0:hasOriginPort rdf:resource="#MapIntersection_node_recharge_area"/>
+                        <j.0:hasVariable>
+                              <j.0:DataVariable rdf:ID="recharge_area">
+                                    <rdfs:comment rdf:datatype=
+                                    "http://www.w3.org/2001/XMLSchema#string"
+                                    >center:x=698.5964668273926,y=323.3145704269409</rdfs:comment>
+                              </j.0:DataVariable>
+                        </j.0:hasVariable>
+                  </j.0:InOutLink>
+            </j.0:hasLink>
+            <j.0:hasMetadata>
+                  <j.0:Metadata rdf:ID="RechargeAndBudgetProcessing_meta">
+                        <j.0:hasContributor rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+                        >lucas</j.0:hasContributor>
+                        <j.0:lastUpdateTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime"
+                        >2018-03-13T07:00:00Z</j.0:lastUpdateTime>
+                  </j.0:Metadata>
+            </j.0:hasMetadata>
+            <j.0:hasLink>
+                  <j.0:OutputLink rdf:ID="MODFLOW-USG_node_HEADS_output">
+                        <j.0:hasVariable>
+                              <j.0:DataVariable rdf:ID="HEADS">
+                                    <rdfs:comment rdf:datatype=
+                                    "http://www.w3.org/2001/XMLSchema#string"
+                                    >center:x=489.60353317260746,y=616.6713666915894</rdfs:comment>
+                              </j.0:DataVariable>
+                        </j.0:hasVariable>
+                        <j.0:hasOriginNode rdf:resource="#MODFLOW-USG_node"/>
+                        <j.0:hasOriginPort rdf:resource="#MODFLOW-USG_node_HEADS"/>
+                  </j.0:OutputLink>
+            </j.0:hasLink>
+            <j.0:hasVersion rdf:datatype="http://www.w3.org/2001/XMLSchema#integer"
+            >3</j.0:hasVersion>
+            <j.0:hasOutputRole>
+                  <j.0:Role rdf:ID="processed_data_orole">
+                        <j.0:hasDimensionality rdf:datatype="http://www.w3.org/2001/XMLSchema#integer"
+                        >0</j.0:hasDimensionality>
+                        <j.0:mapsToVariable rdf:resource="#processed_data"/>
+                        <j.0:hasRoleID rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+                        >processed_data</j.0:hasRoleID>
+                  </j.0:Role>
+            </j.0:hasOutputRole>
+            <j.0:hasLink>
+                  <j.0:InputLink rdf:ID="MODFLOW-USG_node_PCG_input">
+                        <j.0:hasVariable>
+                              <j.0:DataVariable rdf:ID="PCG">
+                                    <rdfs:comment rdf:datatype=
+                                    "http://www.w3.org/2001/XMLSchema#string"
+                                    >center:x=609.4964668273926,y=470.0073652267456</rdfs:comment>
+                              </j.0:DataVariable>
+                        </j.0:hasVariable>
+                        <j.0:hasDestinationNode rdf:resource="#MODFLOW-USG_node"/>
+                        <j.0:hasDestinationPort rdf:resource="#MODFLOW-USG_node_PCG"/>
+                  </j.0:InputLink>
+            </j.0:hasLink>
+            <j.0:hasInputRole>
+                  <j.0:Role rdf:ID="PCG_irole">
+                        <j.0:hasDimensionality rdf:datatype="http://www.w3.org/2001/XMLSchema#integer"
+                        >0</j.0:hasDimensionality>
+                        <j.0:mapsToVariable rdf:resource="#PCG"/>
+                        <j.0:hasRoleID rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+                        >MODFLOW-USG_node_PCG</j.0:hasRoleID>
+                  </j.0:Role>
+            </j.0:hasInputRole>
+            <j.0:hasOutputRole>
+                  <j.0:Role rdf:ID="HEADS_orole">
+                        <j.0:hasDimensionality rdf:datatype="http://www.w3.org/2001/XMLSchema#integer"
+                        >0</j.0:hasDimensionality>
+                        <j.0:mapsToVariable rdf:resource="#HEADS"/>
+                        <j.0:hasRoleID rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+                        >HEADS</j.0:hasRoleID>
+                  </j.0:Role>
+            </j.0:hasOutputRole>
+            <j.0:hasInputRole>
+                  <j.0:Role rdf:ID="precipitation_irole">
+                        <j.0:hasDimensionality rdf:datatype="http://www.w3.org/2001/XMLSchema#integer"
+                        >0</j.0:hasDimensionality>
+                        <j.0:mapsToVariable>
+                              <j.0:DataVariable rdf:ID="precipitation">
+                                    <rdfs:comment rdf:datatype=
+                                    "http://www.w3.org/2001/XMLSchema#string"
+                                    >center:x=701.8991355895996,y=29.986567497253418</rdfs:comment>
+                              </j.0:DataVariable>
+                        </j.0:mapsToVariable>
+                        <j.0:hasRoleID rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+                        >CalculateRecharge_node_precipitation</j.0:hasRoleID>
+                  </j.0:Role>
+            </j.0:hasInputRole>
+            <j.0:hasLink>
+                  <j.0:OutputLink rdf:ID="MODFLOW-USG_node_BUDGET_output">
+                        <j.0:hasVariable>
+                              <j.0:DataVariable rdf:ID="BUDGET">
+                                    <rdfs:comment rdf:datatype=
+                                    "http://www.w3.org/2001/XMLSchema#string"
+                                    >center:x=147.49911670684816,y=616.6713666915894</rdfs:comment>
+                              </j.0:DataVariable>
+                        </j.0:hasVariable>
+                        <j.0:hasOriginNode rdf:resource="#MODFLOW-USG_node"/>
+                        <j.0:hasOriginPort rdf:resource="#MODFLOW-USG_node_BUDGET"/>
+                  </j.0:OutputLink>
+            </j.0:hasLink>
+            <j.0:hasOutputRole>
+                  <j.0:Role rdf:ID="LIST_orole">
+                        <j.0:hasDimensionality rdf:datatype="http://www.w3.org/2001/XMLSchema#integer"
+                        >0</j.0:hasDimensionality>
+                        <j.0:mapsToVariable>
+                              <j.0:DataVariable rdf:ID="LIST">
+                                    <rdfs:comment rdf:datatype=
+                                    "http://www.w3.org/2001/XMLSchema#string"
+                                    >center:x=564.4000000000001,y=616.6713666915894</rdfs:comment>
+                              </j.0:DataVariable>
+                        </j.0:mapsToVariable>
+                        <j.0:hasRoleID rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+                        >LIST</j.0:hasRoleID>
+                  </j.0:Role>
+            </j.0:hasOutputRole>
+            <j.0:hasInputRole>
+                  <j.0:Role rdf:ID="HFB_irole">
+                        <j.0:hasDimensionality rdf:datatype="http://www.w3.org/2001/XMLSchema#integer"
+                        >0</j.0:hasDimensionality>
+                        <j.0:mapsToVariable rdf:resource="#HFB"/>
+                        <j.0:hasRoleID rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+                        >MODFLOW-USG_node_HFB</j.0:hasRoleID>
+                  </j.0:Role>
+            </j.0:hasInputRole>
+            <j.0:hasLink>
+                  <j.0:InputLink rdf:ID="MapIntersection_node_larger_area_input">
+                        <j.0:hasVariable rdf:resource="#larger_area"/>
+                        <j.0:hasDestinationNode rdf:resource="#MapIntersection_node"/>
+                        <j.0:hasDestinationPort rdf:resource="#MapIntersection_node_larger_area"/>
+                  </j.0:InputLink>
+            </j.0:hasLink>
+            <j.0:hasInputRole>
+                  <j.0:Role rdf:ID="zone_map_irole">
+                        <j.0:hasDimensionality rdf:datatype="http://www.w3.org/2001/XMLSchema#integer"
+                        >0</j.0:hasDimensionality>
+                        <j.0:mapsToVariable rdf:resource="#zone_map"/>
+                        <j.0:hasRoleID rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+                        >ZoneBudget_node_zone_map</j.0:hasRoleID>
+                  </j.0:Role>
+            </j.0:hasInputRole>
+            <j.0:hasNode rdf:resource="#VisualizeBudget_node"/>
+            <j.0:hasLink>
+                  <j.0:InputLink rdf:ID="MODFLOW-USG_node_RECHARGE_input">
+                        <j.0:hasVariable rdf:resource="#RECHARGE"/>
+                        <j.0:hasDestinationNode rdf:resource="#MODFLOW-USG_node"/>
+                        <j.0:hasDestinationPort rdf:resource="#MODFLOW-USG_node_RECHARGE"/>
+                  </j.0:InputLink>
+            </j.0:hasLink>
+            <j.0:hasLink>
+                  <j.0:InputLink rdf:ID="MODFLOW-USG_node_DRN_input">
+                        <j.0:hasVariable>
+                              <j.0:DataVariable rdf:ID="DRN">
+                                    <rdfs:comment rdf:datatype=
+                                    "http://www.w3.org/2001/XMLSchema#string"
+                                    >center:x=190.40176658630372,y=470.0073652267456</rdfs:comment>
+                              </j.0:DataVariable>
+                        </j.0:hasVariable>
+                        <j.0:hasDestinationNode rdf:resource="#MODFLOW-USG_node"/>
+                        <j.0:hasDestinationPort rdf:resource="#MODFLOW-USG_node_DRN"/>
+                  </j.0:InputLink>
+            </j.0:hasLink>
+            <j.0:hasInputRole>
+                  <j.0:Role rdf:ID="OutputControl_irole">
+                        <j.0:hasDimensionality rdf:datatype="http://www.w3.org/2001/XMLSchema#integer"
+                        >0</j.0:hasDimensionality>
+                        <j.0:mapsToVariable>
+                              <j.0:DataVariable rdf:ID="OutputControl">
+                                    <rdfs:comment rdf:datatype=
+                                    "http://www.w3.org/2001/XMLSchema#string"
+                                    >center:x=510.4964668273926,y=470.0073652267456</rdfs:comment>
+                              </j.0:DataVariable>
+                        </j.0:mapsToVariable>
+                        <j.0:hasRoleID rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+                        >MODFLOW-USG_node_OutputControl</j.0:hasRoleID>
+                  </j.0:Role>
+            </j.0:hasInputRole>
+            <j.0:hasOutputRole>
+                  <j.0:Role rdf:ID="output_orole">
+                        <j.0:hasDimensionality rdf:datatype="http://www.w3.org/2001/XMLSchema#integer"
+                        >0</j.0:hasDimensionality>
+                        <j.0:mapsToVariable>
+                              <j.0:DataVariable rdf:ID="output">
+                                    <rdfs:comment rdf:datatype=
+                                    "http://www.w3.org/2001/XMLSchema#string"
+                                    >center:x=654.6008644104004,y=176.67455577850342</rdfs:comment>
+                              </j.0:DataVariable>
+                        </j.0:mapsToVariable>
+                        <j.0:hasRoleID rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+                        >output</j.0:hasRoleID>
+                  </j.0:Role>
+            </j.0:hasOutputRole>
+            <j.0:hasOutputRole>
+                  <j.0:Role rdf:ID="GLOBAL_orole">
+                        <j.0:hasDimensionality rdf:datatype="http://www.w3.org/2001/XMLSchema#integer"
+                        >0</j.0:hasDimensionality>
+                        <j.0:mapsToVariable>
+                              <j.0:DataVariable rdf:ID="GLOBAL">
+                                    <rdfs:comment rdf:datatype=
+                                    "http://www.w3.org/2001/XMLSchema#string"
+                                    >center:x=411.4964668273926,y=616.6713666915894</rdfs:comment>
+                              </j.0:DataVariable>
+                        </j.0:mapsToVariable>
+                        <j.0:hasRoleID rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+                        >GLOBAL</j.0:hasRoleID>
+                  </j.0:Role>
+            </j.0:hasOutputRole>
+            <j.0:hasLink>
+                  <j.0:OutputLink rdf:ID="CalculateRecharge_node_output_output">
+                        <j.0:hasVariable rdf:resource="#output"/>
+                        <j.0:hasOriginNode>
+                              <j.0:Node rdf:ID="CalculateRecharge_node">
+                                    <j.0:hasComponentSetCreationRule>
+                                          <j.0:ComponentSetRule rdf:ID="CalculateRecharge_node_crule">
+                                                <j.0:createSetsOn>
+                                                      <rdf:Description rdf:ID="CalculateRecharge_node_comp">
+                                                            <j.0:isConcrete
+                                                             rdf:datatype=
+                                                            "http://www.w3.org/2001/XMLSchema#boolean"
+                                                            >true</j.0:isConcrete>
+                                                            <j.0:hasComponentBinding rdf:resource="../components/library.owl#CalculateRecharge"/>
+                                                      </rdf:Description>
+                                                </j.0:createSetsOn>
+                                                <j.0:createWorkflowSets
+                                                 rdf:datatype=
+                                                "http://www.w3.org/2001/XMLSchema#boolean"
+                                                >true</j.0:createWorkflowSets>
+                                          </j.0:ComponentSetRule>
+                                    </j.0:hasComponentSetCreationRule>
+                                    <j.0:hasInputPort>
+                                          <j.0:Port rdf:ID="CalculateRecharge_node_precipitation">
+                                                <j.0:satisfiesRole>
+                                                      <rdf:Description rdf:ID="CalculateRecharge_node_precipitation_role">
+                                                            <j.0:hasDimensionality
+                                                             rdf:datatype=
+                                                            "http://www.w3.org/2001/XMLSchema#integer"
+                                                            >0</j.0:hasDimensionality>
+                                                            <j.0:hasRoleID
+                                                             rdf:datatype=
+                                                            "http://www.w3.org/2001/XMLSchema#string"
+                                                            >precipitation</j.0:hasRoleID>
+                                                      </rdf:Description>
+                                                </j.0:satisfiesRole>
+                                          </j.0:Port>
+                                    </j.0:hasInputPort>
+                                    <j.0:hasInputPort>
+                                          <j.0:Port rdf:ID="CalculateRecharge_node_factor">
+                                                <j.0:satisfiesRole>
+                                                      <rdf:Description rdf:ID="CalculateRecharge_node_factor_role">
+                                                            <j.0:hasDimensionality
+                                                             rdf:datatype=
+                                                            "http://www.w3.org/2001/XMLSchema#integer"
+                                                            >0</j.0:hasDimensionality>
+                                                            <j.0:hasRoleID
+                                                             rdf:datatype=
+                                                            "http://www.w3.org/2001/XMLSchema#string"
+                                                            >factor</j.0:hasRoleID>
+                                                      </rdf:Description>
+                                                </j.0:satisfiesRole>
+                                          </j.0:Port>
+                                    </j.0:hasInputPort>
+                                    <j.0:hasOutputPort>
+                                          <j.0:Port rdf:ID="CalculateRecharge_node_output">
+                                                <j.0:satisfiesRole>
+                                                      <rdf:Description rdf:ID="CalculateRecharge_node_output_role">
+                                                            <j.0:hasDimensionality
+                                                             rdf:datatype=
+                                                            "http://www.w3.org/2001/XMLSchema#integer"
+                                                            >0</j.0:hasDimensionality>
+                                                            <j.0:hasRoleID
+                                                             rdf:datatype=
+                                                            "http://www.w3.org/2001/XMLSchema#string"
+                                                            >output</j.0:hasRoleID>
+                                                      </rdf:Description>
+                                                </j.0:satisfiesRole>
+                                          </j.0:Port>
+                                    </j.0:hasOutputPort>
+                                    <j.0:hasPortSetCreationRule>
+                                          <j.0:PortSetRule rdf:ID="CalculateRecharge_node_prule">
+                                                <j.0:createSetsOn>
+                                                      <j.0:XProduct rdf:ID="_xprod-ca1d3018-90f1-4b9e-a8d0-b23a4585dca5">
+                                                            <j.0:hasExpressionArgument rdf:resource="#CalculateRecharge_node_precipitation"/>
+                                                            <j.0:hasExpressionArgument rdf:resource="#CalculateRecharge_node_factor"/>
+                                                      </j.0:XProduct>
+                                                </j.0:createSetsOn>
+                                                <j.0:createComponentSets
+                                                 rdf:datatype=
+                                                "http://www.w3.org/2001/XMLSchema#boolean"
+                                                >true</j.0:createComponentSets>
+                                          </j.0:PortSetRule>
+                                    </j.0:hasPortSetCreationRule>
+                                    <rdfs:comment rdf:datatype=
+                                    "http://www.w3.org/2001/XMLSchema#string"
+                                    >center:x=654.6008644104004,y=103.33056163787842</rdfs:comment>
+                                    <j.0:hasComponent rdf:resource="#CalculateRecharge_node_comp"/>
+                              </j.0:Node>
+                        </j.0:hasOriginNode>
+                        <j.0:hasOriginPort rdf:resource="#CalculateRecharge_node_output"/>
+                  </j.0:OutputLink>
+            </j.0:hasLink>
+            <j.0:hasLink>
+                  <j.0:InputLink rdf:ID="MODFLOW-USG_node_BCF_input">
+                        <j.0:hasVariable>
+                              <j.0:DataVariable rdf:ID="BCF">
+                                    <rdfs:comment rdf:datatype=
+                                    "http://www.w3.org/2001/XMLSchema#string"
+                                    >center:x=116.69824285507202,y=470.0073652267456</rdfs:comment>
+                              </j.0:DataVariable>
+                        </j.0:hasVariable>
+                        <j.0:hasDestinationNode rdf:resource="#MODFLOW-USG_node"/>
+                        <j.0:hasDestinationPort rdf:resource="#MODFLOW-USG_node_BCF"/>
+                  </j.0:InputLink>
+            </j.0:hasLink>
+            <j.0:hasInputRole>
+                  <j.0:Role rdf:ID="SIP_irole">
+                        <j.0:hasDimensionality rdf:datatype="http://www.w3.org/2001/XMLSchema#integer"
+                        >0</j.0:hasDimensionality>
+                        <j.0:mapsToVariable>
+                              <j.0:DataVariable rdf:ID="SIP">
+                                    <rdfs:comment rdf:datatype=
+                                    "http://www.w3.org/2001/XMLSchema#string"
+                                    >center:x=787.6964668273927,y=470.0073652267456</rdfs:comment>
+                              </j.0:DataVariable>
+                        </j.0:mapsToVariable>
+                        <j.0:hasRoleID rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+                        >MODFLOW-USG_node_SIP</j.0:hasRoleID>
+                  </j.0:Role>
+            </j.0:hasInputRole>
+            <j.0:hasInputRole>
+                  <j.0:Role rdf:ID="MT3D_irole">
+                        <j.0:hasDimensionality rdf:datatype="http://www.w3.org/2001/XMLSchema#integer"
+                        >0</j.0:hasDimensionality>
+                        <j.0:mapsToVariable>
+                              <j.0:DataVariable rdf:ID="MT3D">
+                                    <rdfs:comment rdf:datatype=
+                                    "http://www.w3.org/2001/XMLSchema#string"
+                                    >center:x=337.80086441040044,y=470.0073652267456</rdfs:comment>
+                              </j.0:DataVariable>
+                        </j.0:mapsToVariable>
+                        <j.0:hasRoleID rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+                        >MODFLOW-USG_node_MT3D</j.0:hasRoleID>
+                  </j.0:Role>
+            </j.0:hasInputRole>
+            <j.0:hasInputRole>
+                  <j.0:Role rdf:ID="NAM_irole">
+                        <j.0:hasDimensionality rdf:datatype="http://www.w3.org/2001/XMLSchema#integer"
+                        >0</j.0:hasDimensionality>
+                        <j.0:mapsToVariable>
+                              <j.0:DataVariable rdf:ID="NAM">
+                                    <rdfs:comment rdf:datatype=
+                                    "http://www.w3.org/2001/XMLSchema#string"
+                                    >center:x=411.4964668273926,y=470.0073652267456</rdfs:comment>
+                              </j.0:DataVariable>
+                        </j.0:mapsToVariable>
+                        <j.0:hasRoleID rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+                        >MODFLOW-USG_node_NAM</j.0:hasRoleID>
+                  </j.0:Role>
+            </j.0:hasInputRole>
+            <j.0:hasLink>
+                  <j.0:InputLink rdf:ID="MODFLOW-USG_node_BAS_input">
+                        <j.0:hasVariable>
+                              <j.0:DataVariable rdf:ID="BAS">
+                                    <rdfs:comment rdf:datatype=
+                                    "http://www.w3.org/2001/XMLSchema#string"
+                                    >center:x=43.000263571739204,y=470.0073652267456</rdfs:comment>
+                              </j.0:DataVariable>
+                        </j.0:hasVariable>
+                        <j.0:hasDestinationNode rdf:resource="#MODFLOW-USG_node"/>
+                        <j.0:hasDestinationPort rdf:resource="#MODFLOW-USG_node_BAS"/>
+                  </j.0:InputLink>
+            </j.0:hasLink>
+            <j.0:hasInputRole>
+                  <j.0:Role rdf:ID="RECHARGE_irole">
+                        <j.0:hasDimensionality rdf:datatype="http://www.w3.org/2001/XMLSchema#integer"
+                        >0</j.0:hasDimensionality>
+                        <j.0:mapsToVariable rdf:resource="#RECHARGE"/>
+                        <j.0:hasRoleID rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+                        >MODFLOW-USG_node_RECHARGE</j.0:hasRoleID>
+                  </j.0:Role>
+            </j.0:hasInputRole>
+            <j.0:hasLink>
+                  <j.0:InputLink rdf:ID="MODFLOW-USG_node_MT3D_input">
+                        <j.0:hasVariable rdf:resource="#MT3D"/>
+                        <j.0:hasDestinationNode rdf:resource="#MODFLOW-USG_node"/>
+                        <j.0:hasDestinationPort rdf:resource="#MODFLOW-USG_node_MT3D"/>
+                  </j.0:InputLink>
+            </j.0:hasLink>
+            <j.0:hasLink>
+                  <j.0:InputLink rdf:ID="MODFLOW-USG_node_SIP_input">
+                        <j.0:hasVariable rdf:resource="#SIP"/>
+                        <j.0:hasDestinationNode rdf:resource="#MODFLOW-USG_node"/>
+                        <j.0:hasDestinationPort rdf:resource="#MODFLOW-USG_node_SIP"/>
+                  </j.0:InputLink>
+            </j.0:hasLink>
+            <j.0:hasLink>
+                  <j.0:InOutLink rdf:ID="MODFLOW-USG_node_BUDGET_to_ZoneBudget_node_budget">
+                        <j.0:hasDestinationNode rdf:resource="#ZoneBudget_node"/>
+                        <j.0:hasDestinationPort rdf:resource="#ZoneBudget_node_budget"/>
+                        <j.0:hasOriginNode rdf:resource="#MODFLOW-USG_node"/>
+                        <j.0:hasOriginPort rdf:resource="#MODFLOW-USG_node_BUDGET"/>
+                        <j.0:hasVariable rdf:resource="#BUDGET"/>
+                  </j.0:InOutLink>
+            </j.0:hasLink>
+            <j.0:hasLink>
+                  <j.0:InputLink rdf:ID="CalculateRecharge_node_factor_input">
+                        <j.0:hasVariable rdf:resource="#factor"/>
+                        <j.0:hasDestinationNode rdf:resource="#CalculateRecharge_node"/>
+                        <j.0:hasDestinationPort rdf:resource="#CalculateRecharge_node_factor"/>
+                  </j.0:InputLink>
+            </j.0:hasLink>
+            <j.0:hasLink>
+                  <j.0:InputLink rdf:ID="MODFLOW-USG_node_WELL_input">
+                        <j.0:hasVariable rdf:resource="#WELL"/>
+                        <j.0:hasDestinationNode rdf:resource="#MODFLOW-USG_node"/>
+                        <j.0:hasDestinationPort rdf:resource="#MODFLOW-USG_node_WELL"/>
+                  </j.0:InputLink>
+            </j.0:hasLink>
+            <j.0:hasInputRole>
+                  <j.0:Role rdf:ID="BCF_irole">
+                        <j.0:hasDimensionality rdf:datatype="http://www.w3.org/2001/XMLSchema#integer"
+                        >0</j.0:hasDimensionality>
+                        <j.0:mapsToVariable rdf:resource="#BCF"/>
+                        <j.0:hasRoleID rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+                        >MODFLOW-USG_node_BCF</j.0:hasRoleID>
+                  </j.0:Role>
+            </j.0:hasInputRole>
+            <j.0:hasLink>
+                  <j.0:InOutLink rdf:ID="CalculateRecharge_node_output_to_MapIntersection_node_interpretation_area">
+                        <j.0:hasDestinationNode rdf:resource="#MapIntersection_node"/>
+                        <j.0:hasDestinationPort rdf:resource="#MapIntersection_node_interpretation_area"/>
+                        <j.0:hasOriginNode rdf:resource="#CalculateRecharge_node"/>
+                        <j.0:hasOriginPort rdf:resource="#CalculateRecharge_node_output"/>
+                        <j.0:hasVariable rdf:resource="#output"/>
+                  </j.0:InOutLink>
+            </j.0:hasLink>
+            <j.0:hasOutputRole>
+                  <j.0:Role rdf:ID="flux_x_time_for_storage_and_capture_orole">
+                        <j.0:hasDimensionality rdf:datatype="http://www.w3.org/2001/XMLSchema#integer"
+                        >0</j.0:hasDimensionality>
+                        <j.0:mapsToVariable rdf:resource="#flux_x_time_for_storage_and_capture"/>
+                        <j.0:hasRoleID rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+                        >flux_x_time_for_storage_and_capture</j.0:hasRoleID>
+                  </j.0:Role>
+            </j.0:hasOutputRole>
+            <j.0:hasLink>
+                  <j.0:InputLink rdf:ID="MODFLOW-USG_node_NAM_input">
+                        <j.0:hasVariable rdf:resource="#NAM"/>
+                        <j.0:hasDestinationNode rdf:resource="#MODFLOW-USG_node"/>
+                        <j.0:hasDestinationPort rdf:resource="#MODFLOW-USG_node_NAM"/>
+                  </j.0:InputLink>
+            </j.0:hasLink>
+            <j.0:hasLink>
+                  <j.0:InputLink rdf:ID="MODFLOW-USG_node_OutputControl_input">
+                        <j.0:hasVariable rdf:resource="#OutputControl"/>
+                        <j.0:hasDestinationNode rdf:resource="#MODFLOW-USG_node"/>
+                        <j.0:hasDestinationPort rdf:resource="#MODFLOW-USG_node_OutputControl"/>
+                  </j.0:InputLink>
+            </j.0:hasLink>
+            <j.0:hasOutputRole>
+                  <j.0:Role rdf:ID="BUDGET_orole">
+                        <j.0:hasDimensionality rdf:datatype="http://www.w3.org/2001/XMLSchema#integer"
+                        >0</j.0:hasDimensionality>
+                        <j.0:mapsToVariable rdf:resource="#BUDGET"/>
+                        <j.0:hasRoleID rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+                        >BUDGET</j.0:hasRoleID>
+                  </j.0:Role>
+            </j.0:hasOutputRole>
+            <j.0:hasNode rdf:resource="#MapIntersection_node"/>
+            <j.0:hasNode rdf:resource="#ZoneBudget_node"/>
+            <j.0:hasLink>
+                  <j.0:InputLink rdf:ID="CalculateRecharge_node_precipitation_input">
+                        <j.0:hasVariable rdf:resource="#precipitation"/>
+                        <j.0:hasDestinationNode rdf:resource="#CalculateRecharge_node"/>
+                        <j.0:hasDestinationPort rdf:resource="#CalculateRecharge_node_precipitation"/>
+                  </j.0:InputLink>
+            </j.0:hasLink>
+            <j.0:hasLink>
+                  <j.0:OutputLink rdf:ID="MODFLOW-USG_node_DDOWN_output">
+                        <j.0:hasVariable rdf:resource="#DDOWN"/>
+                        <j.0:hasOriginNode rdf:resource="#MODFLOW-USG_node"/>
+                        <j.0:hasOriginPort rdf:resource="#MODFLOW-USG_node_DDOWN"/>
+                  </j.0:OutputLink>
+            </j.0:hasLink>
+            <j.0:hasLink>
+                  <j.0:OutputLink rdf:ID="MODFLOW-USG_node_GLOBAL_output">
+                        <j.0:hasVariable rdf:resource="#GLOBAL"/>
+                        <j.0:hasOriginNode rdf:resource="#MODFLOW-USG_node"/>
+                        <j.0:hasOriginPort rdf:resource="#MODFLOW-USG_node_GLOBAL"/>
+                  </j.0:OutputLink>
+            </j.0:hasLink>
+            <j.0:hasNode rdf:resource="#CalculateRecharge_node"/>
+            <j.0:hasInputRole>
+                  <j.0:Role rdf:ID="DRN_irole">
+                        <j.0:hasDimensionality rdf:datatype="http://www.w3.org/2001/XMLSchema#integer"
+                        >0</j.0:hasDimensionality>
+                        <j.0:mapsToVariable rdf:resource="#DRN"/>
+                        <j.0:hasRoleID rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+                        >MODFLOW-USG_node_DRN</j.0:hasRoleID>
+                  </j.0:Role>
+            </j.0:hasInputRole>
+            <j.0:hasLink>
+                  <j.0:OutputLink rdf:ID="MODFLOW-USG_node_LIST_output">
+                        <j.0:hasVariable rdf:resource="#LIST"/>
+                        <j.0:hasOriginNode rdf:resource="#MODFLOW-USG_node"/>
+                        <j.0:hasOriginPort rdf:resource="#MODFLOW-USG_node_LIST"/>
+                  </j.0:OutputLink>
+            </j.0:hasLink>
+            <j.0:hasInputRole>
+                  <j.0:Role rdf:ID="BAS_irole">
+                        <j.0:hasDimensionality rdf:datatype="http://www.w3.org/2001/XMLSchema#integer"
+                        >0</j.0:hasDimensionality>
+                        <j.0:mapsToVariable rdf:resource="#BAS"/>
+                        <j.0:hasRoleID rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+                        >MODFLOW-USG_node_BAS</j.0:hasRoleID>
+                  </j.0:Role>
+            </j.0:hasInputRole>
+            <j.0:hasLink>
+                  <j.0:InOutLink rdf:ID="ZoneBudget_node_processed_data_to_VisualizeBudget_node_processed_data">
+                        <j.0:hasDestinationNode rdf:resource="#VisualizeBudget_node"/>
+                        <j.0:hasDestinationPort rdf:resource="#VisualizeBudget_node_processed_data"/>
+                        <j.0:hasOriginNode rdf:resource="#ZoneBudget_node"/>
+                        <j.0:hasOriginPort rdf:resource="#ZoneBudget_node_processed_data"/>
+                        <j.0:hasVariable rdf:resource="#processed_data"/>
+                  </j.0:InOutLink>
+            </j.0:hasLink>
+      </j.0:WorkflowTemplate>
+</rdf:RDF>

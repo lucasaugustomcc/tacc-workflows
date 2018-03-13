@@ -1,0 +1,25 @@
+#!/bin/bash
+
+checkExitCode() {
+if [ $? -ne 0 ]; then
+    echo "Error"
+    exit 1;
+fi
+}
+
+BASEDIR=`dirname $0`
+
+. $BASEDIR/io.sh 11 0 5 "$@"
+
+DATA_FOLDER=$INPUTS3
+cd "${DATA_FOLDER%/*}"
+mf-usg $INPUTS3
+mv BUDGET.DAT $OUTPUTS2
+mv DDOWN.DAT $OUTPUTS3
+mv HEADS.DAT $OUTPUTS4
+mv OUTPUT.DAT $OUTPUTS1
+FILE=GLOBAL.DAT     
+if [ -f $FILE ]; then
+mv GLOBAL GLOBAL $OUTPUTS5
+fi
+checkExitCode
