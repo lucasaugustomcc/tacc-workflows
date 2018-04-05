@@ -226,9 +226,7 @@
                         <j.0:hasPortSetCreationRule>
                               <j.0:PortSetRule rdf:ID="MODFLOW-USG_node_prule">
                                     <j.0:createSetsOn>
-                                          <j.0:XProduct rdf:ID="_xprod-6bc0df44-d1b7-4eb0-9e2a-865d024a1580">
-                                                <j.0:hasExpressionArgument rdf:resource="#MODFLOW-USG_node_DRN"/>
-                                                <j.0:hasExpressionArgument rdf:resource="#MODFLOW-USG_node_BCF"/>
+                                          <j.0:XProduct rdf:ID="_xprod-9e5c4bf0-22bb-434d-88f7-62cc12ed3989">
                                                 <j.0:hasExpressionArgument>
                                                       <j.0:Port rdf:ID="MODFLOW-USG_node_SIP">
                                                             <j.0:satisfiesRole>
@@ -241,7 +239,8 @@
       </rdf:Description>                                    </j.0:satisfiesRole>
                                                       </j.0:Port>
                                                 </j.0:hasExpressionArgument>
-                                                <j.0:hasExpressionArgument rdf:resource="#MODFLOW-USG_node_MT3D"/>
+                                                <j.0:hasExpressionArgument rdf:resource="#MODFLOW-USG_node_HFB"/>
+                                                <j.0:hasExpressionArgument rdf:resource="#MODFLOW-USG_node_BAS"/>
                                                 <j.0:hasExpressionArgument>
                                                       <j.0:Port rdf:ID="MODFLOW-USG_node_PCG">
                                                             <j.0:satisfiesRole>
@@ -255,9 +254,9 @@
                                                       </j.0:Port>
                                                 </j.0:hasExpressionArgument>
                                                 <j.0:hasExpressionArgument rdf:resource="#MODFLOW-USG_node_NAM"/>
-                                                <j.0:hasExpressionArgument rdf:resource="#MODFLOW-USG_node_HFB"/>
                                                 <j.0:hasExpressionArgument rdf:resource="#MODFLOW-USG_node_OutputControl"/>
-                                                <j.0:hasExpressionArgument rdf:resource="#MODFLOW-USG_node_WELL"/>
+                                                <j.0:hasExpressionArgument rdf:resource="#MODFLOW-USG_node_BCF"/>
+                                                <j.0:hasExpressionArgument rdf:resource="#MODFLOW-USG_node_DRN"/>
                                                 <j.0:hasExpressionArgument>
                                                       <j.0:Port rdf:ID="MODFLOW-USG_node_RECHARGE">
                                                             <j.0:satisfiesRole>
@@ -270,7 +269,8 @@
       </rdf:Description>                                    </j.0:satisfiesRole>
                                                       </j.0:Port>
                                                 </j.0:hasExpressionArgument>
-                                                <j.0:hasExpressionArgument rdf:resource="#MODFLOW-USG_node_BAS"/>
+                                                <j.0:hasExpressionArgument rdf:resource="#MODFLOW-USG_node_WELL"/>
+                                                <j.0:hasExpressionArgument rdf:resource="#MODFLOW-USG_node_MT3D"/>
                                           </j.0:XProduct>
                                     </j.0:createSetsOn>
                                     <j.0:createComponentSets rdf:datatype=
@@ -371,7 +371,7 @@
                                     <j.0:hasPortSetCreationRule>
                                           <j.0:PortSetRule rdf:ID="FormatTransformation_node_prule">
                                                 <j.0:createSetsOn>
-                                                      <j.0:XProduct rdf:ID="_xprod-afca50f5-17ff-4296-bfba-ea44a9051a5e">
+                                                      <j.0:XProduct rdf:ID="_xprod-813ae308-4977-4a0b-82b4-9b9f6a6ab09c">
                                                             <j.0:hasExpressionArgument rdf:resource="#FormatTransformation_node_recharge_area"/>
                                                       </j.0:XProduct>
                                                 </j.0:createSetsOn>
@@ -491,7 +491,7 @@
                                     <j.0:hasPortSetCreationRule>
                                           <j.0:PortSetRule rdf:ID="VisualizeBudget_node_prule">
                                                 <j.0:createSetsOn>
-                                                      <j.0:XProduct rdf:ID="_xprod-4c990416-1440-46e9-b128-773b2216a4c9">
+                                                      <j.0:XProduct rdf:ID="_xprod-b452010e-3a89-4d3b-9b86-dd095c070f04">
                                                             <j.0:hasExpressionArgument rdf:resource="#VisualizeBudget_node_processed_data"/>
                                                       </j.0:XProduct>
                                                 </j.0:createSetsOn>
@@ -603,7 +603,7 @@
                                     <j.0:hasPortSetCreationRule>
                                           <j.0:PortSetRule rdf:ID="ZoneBudget_node_prule">
                                                 <j.0:createSetsOn>
-                                                      <j.0:XProduct rdf:ID="_xprod-32335d2f-24c1-4b51-a36c-9ff22a22bfb6">
+                                                      <j.0:XProduct rdf:ID="_xprod-98219f43-f17c-40eb-8525-13fad81d0f38">
                                                             <j.0:hasExpressionArgument rdf:resource="#ZoneBudget_node_zone_map"/>
                                                             <j.0:hasExpressionArgument rdf:resource="#ZoneBudget_node_budget"/>
                                                       </j.0:XProduct>
@@ -725,7 +725,7 @@
                                     <j.0:hasPortSetCreationRule>
                                           <j.0:PortSetRule rdf:ID="MapIntersection_node_prule">
                                                 <j.0:createSetsOn>
-                                                      <j.0:XProduct rdf:ID="_xprod-a5038955-d341-46a2-8dc3-f28da808d007">
+                                                      <j.0:XProduct rdf:ID="_xprod-197ad8f9-50e2-440f-a7af-bcd439fd8547">
                                                             <j.0:hasExpressionArgument rdf:resource="#MapIntersection_node_interpretation_area"/>
                                                             <j.0:hasExpressionArgument rdf:resource="#MapIntersection_node_larger_area"/>
                                                       </j.0:XProduct>
@@ -1022,7 +1022,7 @@
                                     <j.0:hasPortSetCreationRule>
                                           <j.0:PortSetRule rdf:ID="CalculateRecharge_node_prule">
                                                 <j.0:createSetsOn>
-                                                      <j.0:XProduct rdf:ID="_xprod-ca1d3018-90f1-4b9e-a8d0-b23a4585dca5">
+                                                      <j.0:XProduct rdf:ID="_xprod-0093f22a-4f55-483f-ac1e-d3ec7fb1cb4d">
                                                             <j.0:hasExpressionArgument rdf:resource="#CalculateRecharge_node_precipitation"/>
                                                             <j.0:hasExpressionArgument rdf:resource="#CalculateRecharge_node_factor"/>
                                                       </j.0:XProduct>

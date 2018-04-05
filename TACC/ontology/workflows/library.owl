@@ -16,4 +16,5 @@
       <j.0:WorkflowTemplate rdf:about="MODFLOW-2005-SingleComponent.owl#MODFLOW-2005-SingleComponent"/>
       <j.0:WorkflowTemplate rdf:about="MODFLOW-96-2005-Comparison.owl#MODFLOW-96-2005-Comparison"/>
       <j.0:WorkflowTemplate rdf:about="MODFLOW-2000-SingleComponent.owl#MODFLOW-2000-SingleComponent"/>
+      <j.0:WorkflowTemplate rdf:about="MODFLOW-2000-2005-Comparison.owl#MODFLOW-2000-2005-Comparison"/>
 </rdf:RDF>

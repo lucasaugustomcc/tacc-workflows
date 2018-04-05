@@ -48,28 +48,16 @@
                         <j.0:hasPortSetCreationRule>
                               <j.0:PortSetRule rdf:ID="MODFLOW_node1_prule">
                                     <j.0:createSetsOn>
-                                          <j.0:XProduct rdf:ID="_xprod-cd280774-de30-447c-8139-308b50120adc">
+                                          <j.0:XProduct rdf:ID="_xprod-2d7587a9-ca68-4f98-9015-71c273ac81b3">
                                                 <j.0:hasExpressionArgument>
-                                                      <j.0:Port rdf:ID="MODFLOW_node1_DIS">
+                                                      <j.0:Port rdf:ID="MODFLOW_node1_DRN">
                                                             <j.0:satisfiesRole>
                                                             
-      <rdf:Description rdf:ID="MODFLOW_node1_DIS_role">
+      <rdf:Description rdf:ID="MODFLOW_node1_DRN_role">
             <j.0:hasDimensionality rdf:datatype="http://www.w3.org/2001/XMLSchema#integer"
             >0</j.0:hasDimensionality>
             <j.0:hasRoleID rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
-            >DIS</j.0:hasRoleID>
-      </rdf:Description>                                    </j.0:satisfiesRole>
-                                                      </j.0:Port>
-                                                </j.0:hasExpressionArgument>
-                                                <j.0:hasExpressionArgument>
-                                                      <j.0:Port rdf:ID="MODFLOW_node1_PCG">
-                                                            <j.0:satisfiesRole>
-                                                            
-      <rdf:Description rdf:ID="MODFLOW_node1_PCG_role">
-            <j.0:hasDimensionality rdf:datatype="http://www.w3.org/2001/XMLSchema#integer"
-            >0</j.0:hasDimensionality>
-            <j.0:hasRoleID rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
-            >PCG</j.0:hasRoleID>
+            >DRN</j.0:hasRoleID>
       </rdf:Description>                                    </j.0:satisfiesRole>
                                                       </j.0:Port>
                                                 </j.0:hasExpressionArgument>
@@ -85,15 +73,16 @@
       </rdf:Description>                                    </j.0:satisfiesRole>
                                                       </j.0:Port>
                                                 </j.0:hasExpressionArgument>
+                                                <j.0:hasExpressionArgument rdf:resource="#MODFLOW_node1_HFB"/>
                                                 <j.0:hasExpressionArgument>
-                                                      <j.0:Port rdf:ID="MODFLOW_node1_RECHARGE">
+                                                      <j.0:Port rdf:ID="MODFLOW_node1_MT3D">
                                                             <j.0:satisfiesRole>
                                                             
-      <rdf:Description rdf:ID="MODFLOW_node1_RECHARGE_role">
+      <rdf:Description rdf:ID="MODFLOW_node1_MT3D_role">
             <j.0:hasDimensionality rdf:datatype="http://www.w3.org/2001/XMLSchema#integer"
             >0</j.0:hasDimensionality>
             <j.0:hasRoleID rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
-            >RECHARGE</j.0:hasRoleID>
+            >MT3D</j.0:hasRoleID>
       </rdf:Description>                                    </j.0:satisfiesRole>
                                                       </j.0:Port>
                                                 </j.0:hasExpressionArgument>
@@ -106,18 +95,6 @@
             >0</j.0:hasDimensionality>
             <j.0:hasRoleID rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
             >NAM</j.0:hasRoleID>
-      </rdf:Description>                                    </j.0:satisfiesRole>
-                                                      </j.0:Port>
-                                                </j.0:hasExpressionArgument>
-                                                <j.0:hasExpressionArgument>
-                                                      <j.0:Port rdf:ID="MODFLOW_node1_WELL">
-                                                            <j.0:satisfiesRole>
-                                                            
-      <rdf:Description rdf:ID="MODFLOW_node1_WELL_role">
-            <j.0:hasDimensionality rdf:datatype="http://www.w3.org/2001/XMLSchema#integer"
-            >0</j.0:hasDimensionality>
-            <j.0:hasRoleID rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
-            >WELL</j.0:hasRoleID>
       </rdf:Description>                                    </j.0:satisfiesRole>
                                                       </j.0:Port>
                                                 </j.0:hasExpressionArgument>
@@ -146,27 +123,50 @@
                                                       </j.0:Port>
                                                 </j.0:hasExpressionArgument>
                                                 <j.0:hasExpressionArgument>
-                                                      <j.0:Port rdf:ID="MODFLOW_node1_MT3D">
+                                                      <j.0:Port rdf:ID="MODFLOW_node1_DIS">
                                                             <j.0:satisfiesRole>
                                                             
-      <rdf:Description rdf:ID="MODFLOW_node1_MT3D_role">
+      <rdf:Description rdf:ID="MODFLOW_node1_DIS_role">
             <j.0:hasDimensionality rdf:datatype="http://www.w3.org/2001/XMLSchema#integer"
             >0</j.0:hasDimensionality>
             <j.0:hasRoleID rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
-            >MT3D</j.0:hasRoleID>
+            >DIS</j.0:hasRoleID>
       </rdf:Description>                                    </j.0:satisfiesRole>
                                                       </j.0:Port>
                                                 </j.0:hasExpressionArgument>
-                                                <j.0:hasExpressionArgument rdf:resource="#MODFLOW_node1_HFB"/>
                                                 <j.0:hasExpressionArgument>
-                                                      <j.0:Port rdf:ID="MODFLOW_node1_DRN">
+                                                      <j.0:Port rdf:ID="MODFLOW_node1_PCG">
                                                             <j.0:satisfiesRole>
                                                             
-      <rdf:Description rdf:ID="MODFLOW_node1_DRN_role">
+      <rdf:Description rdf:ID="MODFLOW_node1_PCG_role">
             <j.0:hasDimensionality rdf:datatype="http://www.w3.org/2001/XMLSchema#integer"
             >0</j.0:hasDimensionality>
             <j.0:hasRoleID rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
-            >DRN</j.0:hasRoleID>
+            >PCG</j.0:hasRoleID>
+      </rdf:Description>                                    </j.0:satisfiesRole>
+                                                      </j.0:Port>
+                                                </j.0:hasExpressionArgument>
+                                                <j.0:hasExpressionArgument>
+                                                      <j.0:Port rdf:ID="MODFLOW_node1_RECHARGE">
+                                                            <j.0:satisfiesRole>
+                                                            
+      <rdf:Description rdf:ID="MODFLOW_node1_RECHARGE_role">
+            <j.0:hasDimensionality rdf:datatype="http://www.w3.org/2001/XMLSchema#integer"
+            >0</j.0:hasDimensionality>
+            <j.0:hasRoleID rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+            >RECHARGE</j.0:hasRoleID>
+      </rdf:Description>                                    </j.0:satisfiesRole>
+                                                      </j.0:Port>
+                                                </j.0:hasExpressionArgument>
+                                                <j.0:hasExpressionArgument>
+                                                      <j.0:Port rdf:ID="MODFLOW_node1_WELL">
+                                                            <j.0:satisfiesRole>
+                                                            
+      <rdf:Description rdf:ID="MODFLOW_node1_WELL_role">
+            <j.0:hasDimensionality rdf:datatype="http://www.w3.org/2001/XMLSchema#integer"
+            >0</j.0:hasDimensionality>
+            <j.0:hasRoleID rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+            >WELL</j.0:hasRoleID>
       </rdf:Description>                                    </j.0:satisfiesRole>
                                                       </j.0:Port>
                                                 </j.0:hasExpressionArgument>
@@ -292,7 +292,7 @@
                               <j.1:BUDGET rdf:ID="BUDGET">
                                     <rdfs:comment rdf:datatype=
                                     "http://www.w3.org/2001/XMLSchema#string"
-                                    >center:x=128.27923583984375,y=254.14007568359375</rdfs:comment>
+                                    >center:x=108.70220947265625,y=242.17633056640625</rdfs:comment>
                                     <rdf:type rdf:resource="http://www.wings-workflows.org/ontology/workflow.owl#DataVariable"/>
                               </j.1:BUDGET>
                         </j.0:mapsToVariable>
@@ -353,7 +353,7 @@
                         <j.0:hasPortSetCreationRule>
                               <j.0:PortSetRule rdf:ID="ExtractDataResults_node_prule">
                                     <j.0:createSetsOn>
-                                          <j.0:XProduct rdf:ID="_xprod-df74b7d1-eec7-4ebb-bc09-bf8aa760a951">
+                                          <j.0:XProduct rdf:ID="_xprod-6a257e12-435e-4ac1-b8e1-5318296ac8ce">
                                                 <j.0:hasExpressionArgument rdf:resource="#ExtractDataResults_node_simulation_results"/>
                                           </j.0:XProduct>
                                     </j.0:createSetsOn>
@@ -374,7 +374,7 @@
                               <j.1:DDOWN rdf:ID="DDOWN">
                                     <rdfs:comment rdf:datatype=
                                     "http://www.w3.org/2001/XMLSchema#string"
-                                    >center:x=195.84255981445312,y=256.3631343841553</rdfs:comment>
+                                    >center:x=190.40447998046875,y=243.31180381774902</rdfs:comment>
                                     <rdf:type rdf:resource="http://www.wings-workflows.org/ontology/workflow.owl#DataVariable"/>
                               </j.1:DDOWN>
                         </j.0:mapsToVariable>
@@ -388,7 +388,7 @@
                               <j.1:BAS rdf:ID="BAS">
                                     <rdfs:comment rdf:datatype=
                                     "http://www.w3.org/2001/XMLSchema#string"
-                                    >center:x=47,y=51.5</rdfs:comment>
+                                    >center:x=39.386688232421875,y=92.82928466796875</rdfs:comment>
                                     <rdf:type rdf:resource="http://www.wings-workflows.org/ontology/workflow.owl#DataVariable"/>
                               </j.1:BAS>
                         </j.0:hasVariable>
@@ -538,21 +538,20 @@
                                     <j.0:hasPortSetCreationRule>
                                           <j.0:PortSetRule rdf:ID="MODFLOW_node_prule">
                                                 <j.0:createSetsOn>
-                                                      <j.0:XProduct rdf:ID="_xprod-4d6135f6-675c-485d-969f-244e6eaa5f2b">
+                                                      <j.0:XProduct rdf:ID="_xprod-7bf750a3-ae4e-42d2-a1e3-057b925c0e98">
                                                             <j.0:hasExpressionArgument rdf:resource="#MODFLOW_node_NAM"/>
                                                             <j.0:hasExpressionArgument>
                                                             
-      <j.0:Port rdf:ID="MODFLOW_node_DIS">
+      <j.0:Port rdf:ID="MODFLOW_node_OutputControl">
             <j.0:satisfiesRole>
-                  <rdf:Description rdf:ID="MODFLOW_node_DIS_role">
+                  <rdf:Description rdf:ID="MODFLOW_node_OutputControl_role">
                         <j.0:hasDimensionality rdf:datatype="http://www.w3.org/2001/XMLSchema#integer"
                         >0</j.0:hasDimensionality>
                         <j.0:hasRoleID rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
-                        >DIS</j.0:hasRoleID>
+                        >OutputControl</j.0:hasRoleID>
                   </rdf:Description>
             </j.0:satisfiesRole>
       </j.0:Port>                                           </j.0:hasExpressionArgument>
-                                                            <j.0:hasExpressionArgument rdf:resource="#MODFLOW_node_WELL"/>
                                                             <j.0:hasExpressionArgument>
                                                             
       <j.0:Port rdf:ID="MODFLOW_node_DRN">
@@ -567,6 +566,19 @@
       </j.0:Port>                                           </j.0:hasExpressionArgument>
                                                             <j.0:hasExpressionArgument>
                                                             
+      <j.0:Port rdf:ID="MODFLOW_node_DIS">
+            <j.0:satisfiesRole>
+                  <rdf:Description rdf:ID="MODFLOW_node_DIS_role">
+                        <j.0:hasDimensionality rdf:datatype="http://www.w3.org/2001/XMLSchema#integer"
+                        >0</j.0:hasDimensionality>
+                        <j.0:hasRoleID rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+                        >DIS</j.0:hasRoleID>
+                  </rdf:Description>
+            </j.0:satisfiesRole>
+      </j.0:Port>                                           </j.0:hasExpressionArgument>
+                                                            <j.0:hasExpressionArgument rdf:resource="#MODFLOW_node_BCF"/>
+                                                            <j.0:hasExpressionArgument>
+                                                            
       <j.0:Port rdf:ID="MODFLOW_node_BAS">
             <j.0:satisfiesRole>
                   <rdf:Description rdf:ID="MODFLOW_node_BAS_role">
@@ -577,6 +589,19 @@
                   </rdf:Description>
             </j.0:satisfiesRole>
       </j.0:Port>                                           </j.0:hasExpressionArgument>
+                                                            <j.0:hasExpressionArgument>
+                                                            
+      <j.0:Port rdf:ID="MODFLOW_node_PCG">
+            <j.0:satisfiesRole>
+                  <rdf:Description rdf:ID="MODFLOW_node_PCG_role">
+                        <j.0:hasDimensionality rdf:datatype="http://www.w3.org/2001/XMLSchema#integer"
+                        >0</j.0:hasDimensionality>
+                        <j.0:hasRoleID rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+                        >PCG</j.0:hasRoleID>
+                  </rdf:Description>
+            </j.0:satisfiesRole>
+      </j.0:Port>                                           </j.0:hasExpressionArgument>
+                                                            <j.0:hasExpressionArgument rdf:resource="#MODFLOW_node_WELL"/>
                                                             <j.0:hasExpressionArgument>
                                                             
       <j.0:Port rdf:ID="MODFLOW_node_MT3D">
@@ -602,31 +627,6 @@
             </j.0:satisfiesRole>
       </j.0:Port>                                           </j.0:hasExpressionArgument>
                                                             <j.0:hasExpressionArgument rdf:resource="#MODFLOW_node_RECHARGE"/>
-                                                            <j.0:hasExpressionArgument rdf:resource="#MODFLOW_node_BCF"/>
-                                                            <j.0:hasExpressionArgument>
-                                                            
-      <j.0:Port rdf:ID="MODFLOW_node_PCG">
-            <j.0:satisfiesRole>
-                  <rdf:Description rdf:ID="MODFLOW_node_PCG_role">
-                        <j.0:hasDimensionality rdf:datatype="http://www.w3.org/2001/XMLSchema#integer"
-                        >0</j.0:hasDimensionality>
-                        <j.0:hasRoleID rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
-                        >PCG</j.0:hasRoleID>
-                  </rdf:Description>
-            </j.0:satisfiesRole>
-      </j.0:Port>                                           </j.0:hasExpressionArgument>
-                                                            <j.0:hasExpressionArgument>
-                                                            
-      <j.0:Port rdf:ID="MODFLOW_node_OutputControl">
-            <j.0:satisfiesRole>
-                  <rdf:Description rdf:ID="MODFLOW_node_OutputControl_role">
-                        <j.0:hasDimensionality rdf:datatype="http://www.w3.org/2001/XMLSchema#integer"
-                        >0</j.0:hasDimensionality>
-                        <j.0:hasRoleID rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
-                        >OutputControl</j.0:hasRoleID>
-                  </rdf:Description>
-            </j.0:satisfiesRole>
-      </j.0:Port>                                           </j.0:hasExpressionArgument>
                                                       </j.0:XProduct>
                                                 </j.0:createSetsOn>
                                                 <j.0:createComponentSets
@@ -675,7 +675,7 @@
                               <j.1:DRN rdf:ID="DRN1">
                                     <rdfs:comment rdf:datatype=
                                     "http://www.w3.org/2001/XMLSchema#string"
-                                    >center:x=727.2086791992188,y=61.80078411102295</rdfs:comment>
+                                    >center:x=703.2811889648438,y=46.574191093444824</rdfs:comment>
                                     <rdf:type rdf:resource="http://www.wings-workflows.org/ontology/workflow.owl#DataVariable"/>
                               </j.1:DRN>
                         </j.0:mapsToVariable>
@@ -691,7 +691,7 @@
                               <j.1:PCG rdf:ID="PCG">
                                     <rdfs:comment rdf:datatype=
                                     "http://www.w3.org/2001/XMLSchema#string"
-                                    >center:x=446,y=35.5</rdfs:comment>
+                                    >center:x=456.8760986328125,y=36.587615966796875</rdfs:comment>
                                     <rdf:type rdf:resource="http://www.wings-workflows.org/ontology/workflow.owl#DataVariable"/>
                               </j.1:PCG>
                         </j.0:mapsToVariable>
@@ -778,7 +778,7 @@
                                     <j.0:hasPortSetCreationRule>
                                           <j.0:PortSetRule rdf:ID="CompareDataResults_node_prule">
                                                 <j.0:createSetsOn>
-                                                      <j.0:XProduct rdf:ID="_xprod-e55fe25b-acbf-4783-a681-0c98d4b009e7">
+                                                      <j.0:XProduct rdf:ID="_xprod-95e923fe-6c24-443a-8219-b665c50ebec0">
                                                             <j.0:hasExpressionArgument rdf:resource="#CompareDataResults_node_extracted_data_1"/>
                                                             <j.0:hasExpressionArgument rdf:resource="#CompareDataResults_node_extracted_data_2"/>
                                                       </j.0:XProduct>
@@ -851,7 +851,7 @@
                                     <j.0:hasPortSetCreationRule>
                                           <j.0:PortSetRule rdf:ID="ExtractDataResults_node1_prule">
                                                 <j.0:createSetsOn>
-                                                      <j.0:XProduct rdf:ID="_xprod-889b66d8-db8c-46dd-8405-45c859b88fdd">
+                                                      <j.0:XProduct rdf:ID="_xprod-08e39aeb-6090-4cc0-a3ca-cca1dbff69b4">
                                                             <j.0:hasExpressionArgument rdf:resource="#ExtractDataResults_node1_simulation_results"/>
                                                       </j.0:XProduct>
                                                 </j.0:createSetsOn>
@@ -883,7 +883,7 @@
                               <j.1:DIS rdf:ID="DIS">
                                     <rdfs:comment rdf:datatype=
                                     "http://www.w3.org/2001/XMLSchema#string"
-                                    >center:x=130,y=41.5</rdfs:comment>
+                                    >center:x=97.37164306640625,y=42.587615966796875</rdfs:comment>
                                     <rdf:type rdf:resource="http://www.wings-workflows.org/ontology/workflow.owl#DataVariable"/>
                               </j.1:DIS>
                         </j.0:hasVariable>
@@ -931,7 +931,7 @@
                               <j.1:OC rdf:ID="OutputControl">
                                     <rdfs:comment rdf:datatype=
                                     "http://www.w3.org/2001/XMLSchema#string"
-                                    >center:x=374,y=35.5</rdfs:comment>
+                                    >center:x=379.43804931640625,y=38.762847900390625</rdfs:comment>
                                     <rdf:type rdf:resource="http://www.wings-workflows.org/ontology/workflow.owl#DataVariable"/>
                               </j.1:OC>
                         </j.0:mapsToVariable>
@@ -947,7 +947,7 @@
                               <j.1:HFB rdf:ID="HFB1">
                                     <rdfs:comment rdf:datatype=
                                     "http://www.w3.org/2001/XMLSchema#string"
-                                    >center:x=747.3689575195312,y=24.360323905944824</rdfs:comment>
+                                    >center:x=752.8070678710938,y=17.8346586227417</rdfs:comment>
                                     <rdf:type rdf:resource="http://www.wings-workflows.org/ontology/workflow.owl#DataVariable"/>
                               </j.1:HFB>
                         </j.0:mapsToVariable>
@@ -958,9 +958,9 @@
             <j.0:hasMetadata>
                   <j.0:Metadata rdf:ID="MODFLOW-Comparison_meta">
                         <j.0:hasContributor rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
-                        >admin</j.0:hasContributor>
+                        >lucas</j.0:hasContributor>
                         <j.0:lastUpdateTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime"
-                        >2018-03-07T06:00:00Z</j.0:lastUpdateTime>
+                        >2018-04-05T07:00:00Z</j.0:lastUpdateTime>
                   </j.0:Metadata>
             </j.0:hasMetadata>
             <j.0:hasLink>
@@ -969,7 +969,7 @@
                               <j.1:BAS rdf:ID="BAS1">
                                     <rdfs:comment rdf:datatype=
                                     "http://www.w3.org/2001/XMLSchema#string"
-                                    >center:x=612.0072631835938,y=102.12124919891357</rdfs:comment>
+                                    >center:x=596.7807006835938,y=108.64694499969482</rdfs:comment>
                                     <rdf:type rdf:resource="http://www.wings-workflows.org/ontology/workflow.owl#DataVariable"/>
                               </j.1:BAS>
                         </j.0:hasVariable>
@@ -1027,7 +1027,7 @@
                               <j.1:DRN rdf:ID="DRN">
                                     <rdfs:comment rdf:datatype=
                                     "http://www.w3.org/2001/XMLSchema#string"
-                                    >center:x=168,y=44.5</rdfs:comment>
+                                    >center:x=148.4229736328125,y=45.587615966796875</rdfs:comment>
                                     <rdf:type rdf:resource="http://www.wings-workflows.org/ontology/workflow.owl#DataVariable"/>
                               </j.1:DRN>
                         </j.0:mapsToVariable>
@@ -1057,7 +1057,7 @@
                               <j.1:MT3D rdf:ID="MT3D">
                                     <rdfs:comment rdf:datatype=
                                     "http://www.w3.org/2001/XMLSchema#string"
-                                    >center:x=254,y=37.5</rdfs:comment>
+                                    >center:x=247.47430419921875,y=45.113311767578125</rdfs:comment>
                                     <rdf:type rdf:resource="http://www.wings-workflows.org/ontology/workflow.owl#DataVariable"/>
                               </j.1:MT3D>
                         </j.0:hasVariable>
@@ -1078,7 +1078,7 @@
                               <j.1:DIS rdf:ID="DIS1">
                                     <rdfs:comment rdf:datatype=
                                     "http://www.w3.org/2001/XMLSchema#string"
-                                    >center:x=679.6881713867188,y=28.6803617477417</rdfs:comment>
+                                    >center:x=655.7606811523438,y=23.242281913757324</rdfs:comment>
                                     <rdf:type rdf:resource="http://www.wings-workflows.org/ontology/workflow.owl#DataVariable"/>
                               </j.1:DIS>
                         </j.0:hasVariable>
@@ -1103,7 +1103,7 @@
                               <j.1:NAM rdf:ID="NAM">
                                     <rdfs:comment rdf:datatype=
                                     "http://www.w3.org/2001/XMLSchema#string"
-                                    >center:x=303,y=36.5</rdfs:comment>
+                                    >center:x=297.56195068359375,y=36.5</rdfs:comment>
                                     <rdf:type rdf:resource="http://www.wings-workflows.org/ontology/workflow.owl#DataVariable"/>
                               </j.1:NAM>
                         </j.0:mapsToVariable>
@@ -1119,7 +1119,7 @@
                               <j.1:RCH rdf:ID="RECHARGE">
                                     <rdfs:comment rdf:datatype=
                                     "http://www.w3.org/2001/XMLSchema#string"
-                                    >center:x=506,y=35.5</rdfs:comment>
+                                    >center:x=527.7522583007812,y=43.113311767578125</rdfs:comment>
                                     <rdf:type rdf:resource="http://www.wings-workflows.org/ontology/workflow.owl#DataVariable"/>
                               </j.1:RCH>
                         </j.0:mapsToVariable>
@@ -1140,7 +1140,7 @@
                               <j.1:BCF rdf:ID="BCF">
                                     <rdfs:comment rdf:datatype=
                                     "http://www.w3.org/2001/XMLSchema#string"
-                                    >center:x=90,y=39.5</rdfs:comment>
+                                    >center:x=47.583099365234375,y=42.762847900390625</rdfs:comment>
                                     <rdf:type rdf:resource="http://www.wings-workflows.org/ontology/workflow.owl#DataVariable"/>
                               </j.1:BCF>
                         </j.0:hasVariable>
@@ -1156,7 +1156,7 @@
                               <j.1:OC rdf:ID="OutputControl1">
                                     <rdfs:comment rdf:datatype=
                                     "http://www.w3.org/2001/XMLSchema#string"
-                                    >center:x=900.96923828125,y=13.5</rdfs:comment>
+                                    >center:x=920.546142578125,y=13.5</rdfs:comment>
                                     <rdf:type rdf:resource="http://www.wings-workflows.org/ontology/workflow.owl#DataVariable"/>
                               </j.1:OC>
                         </j.0:mapsToVariable>
@@ -1188,7 +1188,7 @@
                               <j.1:HFB rdf:ID="HFB">
                                     <rdfs:comment rdf:datatype=
                                     "http://www.w3.org/2001/XMLSchema#string"
-                                    >center:x=210,y=40.5</rdfs:comment>
+                                    >center:x=195.86102294921875,y=47.025665283203125</rdfs:comment>
                                     <rdf:type rdf:resource="http://www.wings-workflows.org/ontology/workflow.owl#DataVariable"/>
                               </j.1:HFB>
                         </j.0:hasVariable>
@@ -1220,7 +1220,7 @@
                               <j.1:GLOBAL rdf:ID="GLOBAL">
                                     <rdfs:comment rdf:datatype=
                                     "http://www.w3.org/2001/XMLSchema#string"
-                                    >center:x=263.5234680175781,y=253.48309898376465</rdfs:comment>
+                                    >center:x=265.6986999511719,y=242.60700035095215</rdfs:comment>
                                     <rdf:type rdf:resource="http://www.wings-workflows.org/ontology/workflow.owl#DataVariable"/>
                               </j.1:GLOBAL>
                         </j.0:mapsToVariable>
@@ -1234,7 +1234,7 @@
                               <j.1:PCG rdf:ID="PCG1">
                                     <rdfs:comment rdf:datatype=
                                     "http://www.w3.org/2001/XMLSchema#string"
-                                    >center:x=864.0104370117188,y=57.48071575164795</rdfs:comment>
+                                    >center:x=919.4788208007812,y=59.6559476852417</rdfs:comment>
                                     <rdf:type rdf:resource="http://www.wings-workflows.org/ontology/workflow.owl#DataVariable"/>
                               </j.1:PCG>
                         </j.0:hasVariable>
@@ -1258,7 +1258,7 @@
                               <j.1:WEL rdf:ID="WELL1">
                                     <rdfs:comment rdf:datatype=
                                     "http://www.w3.org/2001/XMLSchema#string"
-                                    >center:x=1006.5720825195312,y=63.2407865524292</rdfs:comment>
+                                    >center:x=1008.7477416992188,y=130.67285442352295</rdfs:comment>
                                     <rdf:type rdf:resource="http://www.wings-workflows.org/ontology/workflow.owl#DataVariable"/>
                               </j.1:WEL>
                         </j.0:hasVariable>
@@ -1299,7 +1299,7 @@
                               <j.1:BCF rdf:ID="BCF1">
                                     <rdfs:comment rdf:datatype=
                                     "http://www.w3.org/2001/XMLSchema#string"
-                                    >center:x=656.6478881835938,y=74.7609281539917</rdfs:comment>
+                                    >center:x=633.8080444335938,y=70.4104642868042</rdfs:comment>
                                     <rdf:type rdf:resource="http://www.wings-workflows.org/ontology/workflow.owl#DataVariable"/>
                               </j.1:BCF>
                         </j.0:mapsToVariable>
@@ -1315,7 +1315,7 @@
                               <j.1:WEL rdf:ID="WELL">
                                     <rdfs:comment rdf:datatype=
                                     "http://www.w3.org/2001/XMLSchema#string"
-                                    >center:x=575,y=35.5</rdfs:comment>
+                                    >center:x=485.81573486328125,y=96.40631103515625</rdfs:comment>
                                     <rdf:type rdf:resource="http://www.wings-workflows.org/ontology/workflow.owl#DataVariable"/>
                               </j.1:WEL>
                         </j.0:mapsToVariable>
@@ -1329,7 +1329,7 @@
                               <j.1:LIST rdf:ID="LIST">
                                     <rdfs:comment rdf:datatype=
                                     "http://www.w3.org/2001/XMLSchema#string"
-                                    >center:x=417.6054382324219,y=231.8828182220459</rdfs:comment>
+                                    >center:x=404.5541076660156,y=239.4960994720459</rdfs:comment>
                                     <rdf:type rdf:resource="http://www.wings-workflows.org/ontology/workflow.owl#DataVariable"/>
                               </j.1:LIST>
                         </j.0:hasVariable>
@@ -1466,7 +1466,7 @@
                               <j.1:RCH rdf:ID="RECHARGE1">
                                     <rdfs:comment rdf:datatype=
                                     "http://www.w3.org/2001/XMLSchema#string"
-                                    >center:x=933.1310424804688,y=57.48071575164795</rdfs:comment>
+                                    >center:x=991.8622436523438,y=65.09399700164795</rdfs:comment>
                                     <rdf:type rdf:resource="http://www.wings-workflows.org/ontology/workflow.owl#DataVariable"/>
                               </j.1:RCH>
                         </j.0:hasVariable>

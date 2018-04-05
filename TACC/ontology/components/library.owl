@@ -147,8 +147,6 @@
             </j.0:hasHardwareDependency>
       </j.1:ZoneBudgetClass>
       <j.1:MODFLOW-2000Class rdf:ID="MODFLOW-2000">
-            <j.3:hasLocation rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
-            >/home/lucas/programas/tomcat7/temp/domain-2437881833179385973-temp/TACC/code/library/MODFLOW-2000</j.3:hasLocation>
             <j.3:hasInput>
                   <j.2:DRN rdf:ID="MODFLOW-2000_DRN">
                         <j.3:hasDimensionality rdf:datatype="http://www.w3.org/2001/XMLSchema#integer"
@@ -226,6 +224,8 @@
                         <rdf:type rdf:resource="http://www.wings-workflows.org/ontology/component.owl#DataArgument"/>
                   </j.2:DDOWN>
             </j.3:hasOutput>
+            <j.3:hasLocation rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+            >/home/lucas/programas/tomcat7/temp/domain-2032948191583999421-temp/TACC/code/library/MODFLOW-2000</j.3:hasLocation>
             <j.3:hasInput>
                   <j.2:MT3D rdf:ID="MODFLOW-2000_MT3D">
                         <j.3:hasDimensionality rdf:datatype="http://www.w3.org/2001/XMLSchema#integer"
@@ -411,8 +411,6 @@
       <j.1:MODFLOW-NWTClass rdf:ID="MODFLOW-NWT">
             <j.3:hasRule rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
             >[ sameAquiferID: (?c rdf:type acdom:MODFLOWClass) (?c ac:hasInput ?in1) (?c ac:hasInput ?in2) (?in1 dcdom:aquifer_name ?val1) (?in2 dcdom:aquifer_name ?val2) notEqual(?val1 ?val2) -&gt; (?c ac:isInvalid 'true'^^http://www.w3.org/2001/XMLSchema#boolean) print('Cannot run workflow if two inputs do not belong to the same aquifer') ]</j.3:hasRule>
-            <j.3:hasLocation rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
-            >/home/lucas/programas/tomcat7/temp/domain-2437881833179385973-temp/TACC/code/library/MODFLOW-NWT</j.3:hasLocation>
             <j.0:hasHardwareDependency>
                   <j.0:HardwareDependency>
                         <j.0:needs64bit rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean"
@@ -480,6 +478,8 @@
                         <rdf:type rdf:resource="http://www.wings-workflows.org/ontology/component.owl#DataArgument"/>
                   </j.2:HEADS>
             </j.3:hasOutput>
+            <j.3:hasLocation rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+            >/home/lucas/programas/tomcat7/temp/domain-2032948191583999421-temp/TACC/code/library/MODFLOW-NWT</j.3:hasLocation>
             <j.3:hasInput>
                   <j.2:MT3D rdf:ID="MODFLOW-NWT_MT3D">
                         <j.3:hasDimensionality rdf:datatype="http://www.w3.org/2001/XMLSchema#integer"
@@ -670,6 +670,8 @@
                         >0.0</j.0:requiresMemoryGB>
                   </j.0:HardwareDependency>
             </j.0:hasHardwareDependency>
+            <j.3:hasLocation rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+            >/home/lucas/programas/tomcat7/temp/domain-2032948191583999421-temp/TACC/code/library/MODFLOW-USG</j.3:hasLocation>
             <j.3:hasOutput>
                   <j.2:GLOBAL rdf:ID="MODFLOW-USG_GLOBAL">
                         <j.3:hasDimensionality rdf:datatype="http://www.w3.org/2001/XMLSchema#integer"
@@ -793,8 +795,6 @@
                         <rdf:type rdf:resource="http://www.wings-workflows.org/ontology/component.owl#DataArgument"/>
                   </j.2:DDOWN>
             </j.3:hasOutput>
-            <j.3:hasLocation rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
-            >/home/lucas/programas/tomcat7/temp/domain-2437881833179385973-temp/TACC/code/library/MODFLOW-USG</j.3:hasLocation>
       </j.1:MODFLOW-USGClass>
       <j.1:CompareDataResultsClass rdf:ID="CompareDataResults">
             <j.0:hasHardwareDependency>
@@ -841,7 +841,7 @@
                   </j.2:TXT>
             </j.3:hasInput>
             <j.3:hasLocation rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
-            >/home/lucas/programas/tomcat7/temp/domain-2437881833179385973-temp/TACC/code/library/CompareDataResults</j.3:hasLocation>
+            >/home/lucas/programas/tomcat7/temp/domain-2032948191583999421-temp/TACC/code/library/CompareDataResults</j.3:hasLocation>
             <j.3:isConcrete rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean"
             >true</j.3:isConcrete>
       </j.1:CompareDataResultsClass>
@@ -890,7 +890,7 @@
                   </j.2:ZIP>
             </j.3:hasInput>
             <j.3:hasLocation rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
-            >/home/lucas/programas/tomcat7/temp/domain-2437881833179385973-temp/TACC/code/library/MODFLOW-2000-ZIP</j.3:hasLocation>
+            >/home/lucas/programas/tomcat7/temp/domain-2032948191583999421-temp/TACC/code/library/MODFLOW-2000-ZIP</j.3:hasLocation>
             <j.3:isConcrete rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean"
             >true</j.3:isConcrete>
       </j.1:MODFLOW-2000-ZIPClass>
@@ -917,6 +917,8 @@
                         <rdf:type rdf:resource="http://www.wings-workflows.org/ontology/component.owl#DataArgument"/>
                   </j.2:PCG>
             </j.3:hasInput>
+            <j.3:hasLocation rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+            >/home/lucas/programas/tomcat7/temp/domain-2032948191583999421-temp/TACC/code/library/MODFLOW-2005</j.3:hasLocation>
             <j.3:hasInput>
                   <j.2:MT3D rdf:ID="MODFLOW-2005_MT3D">
                         <j.3:hasDimensionality rdf:datatype="http://www.w3.org/2001/XMLSchema#integer"
@@ -1027,8 +1029,6 @@
                         <rdf:type rdf:resource="http://www.wings-workflows.org/ontology/component.owl#DataArgument"/>
                   </j.2:RCH>
             </j.3:hasInput>
-            <j.3:hasLocation rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
-            >/home/lucas/programas/tomcat7/temp/domain-2437881833179385973-temp/TACC/code/library/MODFLOW-2005</j.3:hasLocation>
             <j.0:hasHardwareDependency>
                   <j.0:HardwareDependency>
                         <j.0:needs64bit rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean"
@@ -1153,6 +1153,8 @@
                         <rdf:type rdf:resource="http://www.wings-workflows.org/ontology/component.owl#DataArgument"/>
                   </j.2:BUDGET>
             </j.3:hasOutput>
+            <j.3:hasLocation rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+            >/home/lucas/programas/tomcat7/temp/domain-2032948191583999421-temp/TACC/code/library/MODFLOW-96</j.3:hasLocation>
             <j.3:hasInput>
                   <j.2:WEL rdf:ID="MODFLOW-96_WELL">
                         <j.3:hasDimensionality rdf:datatype="http://www.w3.org/2001/XMLSchema#integer"
@@ -1210,8 +1212,6 @@
             </j.3:hasOutput>
             <j.3:isConcrete rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean"
             >true</j.3:isConcrete>
-            <j.3:hasLocation rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
-            >/home/lucas/programas/tomcat7/temp/domain-2437881833179385973-temp/TACC/code/library/MODFLOW-96</j.3:hasLocation>
             <j.3:hasInput>
                   <j.2:BAS rdf:ID="MODFLOW-96_BAS">
                         <j.3:hasDimensionality rdf:datatype="http://www.w3.org/2001/XMLSchema#integer"
