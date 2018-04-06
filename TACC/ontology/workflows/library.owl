@@ -7,6 +7,7 @@
     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
       xml:base="http://localhost:8080/wings-portal/export/users/lucas/TACC/workflows/library.owl">
       <j.0:WorkflowTemplate rdf:about="RechargeAndBudgetProcessing.owl#RechargeAndBudgetProcessing"/>
+      <j.0:WorkflowTemplate rdf:about="MOFLOW-2005-Docker-SingleComponent.owl#MOFLOW-2005-Docker-SingleComponent"/>
       <j.0:WorkflowTemplate rdf:about="VisualizeBudgetPostProcessing.owl#VisualizeBudgetPostProcessing"/>
       <j.0:WorkflowTemplate rdf:about="MODFLOW-Comparison.owl#MODFLOW-Comparison"/>
       <j.0:WorkflowTemplate rdf:about="MODFLOW-96-SingleComponent.owl#MODFLOW-96-SingleComponent"/>

@@ -1,0 +1,26 @@
+#!/bin/bash
+
+checkExitCode() {
+if [ $? -ne 0 ]; then
+    echo "Error"
+    exit 1;
+fi
+}
+
+BASEDIR=`dirname $0`
+
+. $BASEDIR/io.sh 12 0 5 "$@"
+
+docker build -t lucasaugustomcc/modflow-2005:latest $BASEDIR
+checkExitCode
+
+FILENAME=${INPUTS3%.nam}
+cd "${INPUTS3%/*}"
+
+docker run -v "${INPUTS3%/*}":/out -w /out lucasaugustomcc/modflow-2005:latest mf2005 `basename $FILENAME`
+
+mv $FILENAME.cbb $OUTPUTS2
+mv $FILENAME.ddn $OUTPUTS3
+mv $FILENAME.hds $OUTPUTS4
+mv $FILENAME.lst $OUTPUTS1
+checkExitCode
