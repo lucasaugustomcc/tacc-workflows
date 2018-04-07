@@ -142,7 +142,7 @@
                                     <j.0:hasPortSetCreationRule>
                                           <j.0:PortSetRule rdf:ID="CompareDataResults_node_prule">
                                                 <j.0:createSetsOn>
-                                                      <j.0:XProduct rdf:ID="_xprod-e6ca1254-7b93-4a26-bfeb-f3854724aab5">
+                                                      <j.0:XProduct rdf:ID="_xprod-bfa0344d-73d7-48e8-949f-2fb55819f201">
                                                             <j.0:hasExpressionArgument rdf:resource="#CompareDataResults_node_extracted_data_1"/>
                                                             <j.0:hasExpressionArgument rdf:resource="#CompareDataResults_node_extracted_data_2"/>
                                                       </j.0:XProduct>
@@ -215,7 +215,7 @@
                                     <j.0:hasPortSetCreationRule>
                                           <j.0:PortSetRule rdf:ID="ExtractDataResults_node_prule">
                                                 <j.0:createSetsOn>
-                                                      <j.0:XProduct rdf:ID="_xprod-4348318c-9fcf-4fb1-8682-b167a0370ef7">
+                                                      <j.0:XProduct rdf:ID="_xprod-a289e385-ed58-4e1c-a3b8-de42b4ec1a55">
                                                             <j.0:hasExpressionArgument rdf:resource="#ExtractDataResults_node_simulation_results"/>
                                                       </j.0:XProduct>
                                                 </j.0:createSetsOn>
@@ -546,19 +546,19 @@
                                     <j.0:hasPortSetCreationRule>
                                           <j.0:PortSetRule rdf:ID="MODFLOW-2000_node_prule">
                                                 <j.0:createSetsOn>
-                                                      <j.0:XProduct rdf:ID="_xprod-7f1485a0-5f92-482d-971b-b2ed60442c1f">
-                                                            <j.0:hasExpressionArgument rdf:resource="#MODFLOW-2000_node_BCF"/>
+                                                      <j.0:XProduct rdf:ID="_xprod-299a8da7-0ed3-44d5-a126-0a8e91877cdb">
+                                                            <j.0:hasExpressionArgument rdf:resource="#MODFLOW-2000_node_DRN"/>
+                                                            <j.0:hasExpressionArgument rdf:resource="#MODFLOW-2000_node_WELL"/>
+                                                            <j.0:hasExpressionArgument rdf:resource="#MODFLOW-2000_node_BAS"/>
+                                                            <j.0:hasExpressionArgument rdf:resource="#MODFLOW-2000_node_NAM"/>
                                                             <j.0:hasExpressionArgument rdf:resource="#MODFLOW-2000_node_PCG"/>
                                                             <j.0:hasExpressionArgument rdf:resource="#MODFLOW-2000_node_HFB"/>
-                                                            <j.0:hasExpressionArgument rdf:resource="#MODFLOW-2000_node_RECHARGE"/>
-                                                            <j.0:hasExpressionArgument rdf:resource="#MODFLOW-2000_node_BAS"/>
-                                                            <j.0:hasExpressionArgument rdf:resource="#MODFLOW-2000_node_DIS"/>
-                                                            <j.0:hasExpressionArgument rdf:resource="#MODFLOW-2000_node_NAM"/>
                                                             <j.0:hasExpressionArgument rdf:resource="#MODFLOW-2000_node_SIP"/>
-                                                            <j.0:hasExpressionArgument rdf:resource="#MODFLOW-2000_node_OutputControl"/>
-                                                            <j.0:hasExpressionArgument rdf:resource="#MODFLOW-2000_node_DRN"/>
+                                                            <j.0:hasExpressionArgument rdf:resource="#MODFLOW-2000_node_BCF"/>
                                                             <j.0:hasExpressionArgument rdf:resource="#MODFLOW-2000_node_MT3D"/>
-                                                            <j.0:hasExpressionArgument rdf:resource="#MODFLOW-2000_node_WELL"/>
+                                                            <j.0:hasExpressionArgument rdf:resource="#MODFLOW-2000_node_OutputControl"/>
+                                                            <j.0:hasExpressionArgument rdf:resource="#MODFLOW-2000_node_DIS"/>
+                                                            <j.0:hasExpressionArgument rdf:resource="#MODFLOW-2000_node_RECHARGE"/>
                                                       </j.0:XProduct>
                                                 </j.0:createSetsOn>
                                                 <j.0:createComponentSets
@@ -731,19 +731,9 @@
                                     <j.0:hasPortSetCreationRule>
                                           <j.0:PortSetRule rdf:ID="MODFLOW-2005_node_prule">
                                                 <j.0:createSetsOn>
-                                                      <j.0:XProduct rdf:ID="_xprod-b9e0b6b1-ac80-44e0-bd4d-980598ef33a2">
-                                                            <j.0:hasExpressionArgument>
-                                                            
-      <j.0:Port rdf:ID="MODFLOW-2005_node_MT3D">
-            <j.0:satisfiesRole>
-                  <rdf:Description rdf:ID="MODFLOW-2005_node_MT3D_role">
-                        <j.0:hasDimensionality rdf:datatype="http://www.w3.org/2001/XMLSchema#integer"
-                        >0</j.0:hasDimensionality>
-                        <j.0:hasRoleID rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
-                        >MT3D</j.0:hasRoleID>
-                  </rdf:Description>
-            </j.0:satisfiesRole>
-      </j.0:Port>                                           </j.0:hasExpressionArgument>
+                                                      <j.0:XProduct rdf:ID="_xprod-70582805-d62d-477c-a0f6-878a37f720a8">
+                                                            <j.0:hasExpressionArgument rdf:resource="#MODFLOW-2005_node_OutputControl"/>
+                                                            <j.0:hasExpressionArgument rdf:resource="#MODFLOW-2005_node_WELL"/>
                                                             <j.0:hasExpressionArgument>
                                                             
       <j.0:Port rdf:ID="MODFLOW-2005_node_PCG">
@@ -753,6 +743,31 @@
                         >0</j.0:hasDimensionality>
                         <j.0:hasRoleID rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
                         >PCG</j.0:hasRoleID>
+                  </rdf:Description>
+            </j.0:satisfiesRole>
+      </j.0:Port>                                           </j.0:hasExpressionArgument>
+                                                            <j.0:hasExpressionArgument rdf:resource="#MODFLOW-2005_node_BCF"/>
+                                                            <j.0:hasExpressionArgument>
+                                                            
+      <j.0:Port rdf:ID="MODFLOW-2005_node_NAM">
+            <j.0:satisfiesRole>
+                  <rdf:Description rdf:ID="MODFLOW-2005_node_NAM_role">
+                        <j.0:hasDimensionality rdf:datatype="http://www.w3.org/2001/XMLSchema#integer"
+                        >0</j.0:hasDimensionality>
+                        <j.0:hasRoleID rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+                        >NAM</j.0:hasRoleID>
+                  </rdf:Description>
+            </j.0:satisfiesRole>
+      </j.0:Port>                                           </j.0:hasExpressionArgument>
+                                                            <j.0:hasExpressionArgument>
+                                                            
+      <j.0:Port rdf:ID="MODFLOW-2005_node_DRN">
+            <j.0:satisfiesRole>
+                  <rdf:Description rdf:ID="MODFLOW-2005_node_DRN_role">
+                        <j.0:hasDimensionality rdf:datatype="http://www.w3.org/2001/XMLSchema#integer"
+                        >0</j.0:hasDimensionality>
+                        <j.0:hasRoleID rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+                        >DRN</j.0:hasRoleID>
                   </rdf:Description>
             </j.0:satisfiesRole>
       </j.0:Port>                                           </j.0:hasExpressionArgument>
@@ -770,6 +785,30 @@
       </j.0:Port>                                           </j.0:hasExpressionArgument>
                                                             <j.0:hasExpressionArgument>
                                                             
+      <j.0:Port rdf:ID="MODFLOW-2005_node_SIP">
+            <j.0:satisfiesRole>
+                  <rdf:Description rdf:ID="MODFLOW-2005_node_SIP_role">
+                        <j.0:hasDimensionality rdf:datatype="http://www.w3.org/2001/XMLSchema#integer"
+                        >0</j.0:hasDimensionality>
+                        <j.0:hasRoleID rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+                        >SIP</j.0:hasRoleID>
+                  </rdf:Description>
+            </j.0:satisfiesRole>
+      </j.0:Port>                                           </j.0:hasExpressionArgument>
+                                                            <j.0:hasExpressionArgument>
+                                                            
+      <j.0:Port rdf:ID="MODFLOW-2005_node_MT3D">
+            <j.0:satisfiesRole>
+                  <rdf:Description rdf:ID="MODFLOW-2005_node_MT3D_role">
+                        <j.0:hasDimensionality rdf:datatype="http://www.w3.org/2001/XMLSchema#integer"
+                        >0</j.0:hasDimensionality>
+                        <j.0:hasRoleID rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+                        >MT3D</j.0:hasRoleID>
+                  </rdf:Description>
+            </j.0:satisfiesRole>
+      </j.0:Port>                                           </j.0:hasExpressionArgument>
+                                                            <j.0:hasExpressionArgument>
+                                                            
       <j.0:Port rdf:ID="MODFLOW-2005_node_BAS">
             <j.0:satisfiesRole>
                   <rdf:Description rdf:ID="MODFLOW-2005_node_BAS_role">
@@ -777,20 +816,6 @@
                         >0</j.0:hasDimensionality>
                         <j.0:hasRoleID rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
                         >BAS</j.0:hasRoleID>
-                  </rdf:Description>
-            </j.0:satisfiesRole>
-      </j.0:Port>                                           </j.0:hasExpressionArgument>
-                                                            <j.0:hasExpressionArgument rdf:resource="#MODFLOW-2005_node_BCF"/>
-                                                            <j.0:hasExpressionArgument rdf:resource="#MODFLOW-2005_node_OutputControl"/>
-                                                            <j.0:hasExpressionArgument>
-                                                            
-      <j.0:Port rdf:ID="MODFLOW-2005_node_NAM">
-            <j.0:satisfiesRole>
-                  <rdf:Description rdf:ID="MODFLOW-2005_node_NAM_role">
-                        <j.0:hasDimensionality rdf:datatype="http://www.w3.org/2001/XMLSchema#integer"
-                        >0</j.0:hasDimensionality>
-                        <j.0:hasRoleID rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
-                        >NAM</j.0:hasRoleID>
                   </rdf:Description>
             </j.0:satisfiesRole>
       </j.0:Port>                                           </j.0:hasExpressionArgument>
@@ -807,31 +832,6 @@
             </j.0:satisfiesRole>
       </j.0:Port>                                           </j.0:hasExpressionArgument>
                                                             <j.0:hasExpressionArgument rdf:resource="#MODFLOW-2005_node_HFB"/>
-                                                            <j.0:hasExpressionArgument>
-                                                            
-      <j.0:Port rdf:ID="MODFLOW-2005_node_DRN">
-            <j.0:satisfiesRole>
-                  <rdf:Description rdf:ID="MODFLOW-2005_node_DRN_role">
-                        <j.0:hasDimensionality rdf:datatype="http://www.w3.org/2001/XMLSchema#integer"
-                        >0</j.0:hasDimensionality>
-                        <j.0:hasRoleID rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
-                        >DRN</j.0:hasRoleID>
-                  </rdf:Description>
-            </j.0:satisfiesRole>
-      </j.0:Port>                                           </j.0:hasExpressionArgument>
-                                                            <j.0:hasExpressionArgument rdf:resource="#MODFLOW-2005_node_WELL"/>
-                                                            <j.0:hasExpressionArgument>
-                                                            
-      <j.0:Port rdf:ID="MODFLOW-2005_node_SIP">
-            <j.0:satisfiesRole>
-                  <rdf:Description rdf:ID="MODFLOW-2005_node_SIP_role">
-                        <j.0:hasDimensionality rdf:datatype="http://www.w3.org/2001/XMLSchema#integer"
-                        >0</j.0:hasDimensionality>
-                        <j.0:hasRoleID rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
-                        >SIP</j.0:hasRoleID>
-                  </rdf:Description>
-            </j.0:satisfiesRole>
-      </j.0:Port>                                           </j.0:hasExpressionArgument>
                                                       </j.0:XProduct>
                                                 </j.0:createSetsOn>
                                                 <j.0:createComponentSets
@@ -985,7 +985,7 @@
                         <j.0:hasPortSetCreationRule>
                               <j.0:PortSetRule rdf:ID="ExtractDataResults_node1_prule">
                                     <j.0:createSetsOn>
-                                          <j.0:XProduct rdf:ID="_xprod-69f3bd1b-b855-4d30-9724-4e4fdd8ea0f1">
+                                          <j.0:XProduct rdf:ID="_xprod-f4aef650-130e-43a3-9426-021d6625bfd8">
                                                 <j.0:hasExpressionArgument rdf:resource="#ExtractDataResults_node1_simulation_results"/>
                                           </j.0:XProduct>
                                     </j.0:createSetsOn>

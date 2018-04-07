@@ -9,9 +9,14 @@ fi
 
 BASEDIR=`dirname $0`
 
-. $BASEDIR/io.sh 3 0 1 "$@"
+. $BASEDIR/io.sh 13 0 5 "$@"
 
-cd $BASEDIR
-sh mfnwt $INPUTS1 $INPUTS2 $INPUTS3 $OUTPUTS1
+FILENAME=${INPUTS3%.nam}
+cd "${INPUTS3%/*}"
+mfnwt $INPUTS3 >> output.log
+mv $FILENAME.cbc $OUTPUTS2
+mv $FILENAME.ddn $OUTPUTS3
+mv $FILENAME.hds $OUTPUTS4
+mv $FILENAME.list $OUTPUTS1
 
 checkExitCode

@@ -15,7 +15,6 @@ docker build -t lucasaugustomcc/modflow-2005:latest $BASEDIR
 checkExitCode
 
 FILENAME=${INPUTS3%.nam}
-cd "${INPUTS3%/*}"
 
 docker run -v "${INPUTS3%/*}":/out -w /out lucasaugustomcc/modflow-2005:latest mf2005 `basename $FILENAME`
 

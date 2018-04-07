@@ -14,7 +14,7 @@ BASEDIR=`dirname $0`
 FILENAME=${INPUTS3%.nam}
 cd "${INPUTS3%/*}"
 mf2005 $INPUTS3 >> output.log
-mv $FILENAME.cbb $OUTPUTS2
+mv $FILENAME.cbc $OUTPUTS2
 mv $FILENAME.ddn $OUTPUTS3
 mv $FILENAME.hds $OUTPUTS4
 mv $FILENAME.lst $OUTPUTS1

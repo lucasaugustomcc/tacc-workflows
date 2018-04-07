@@ -5,9 +5,19 @@
     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
       xml:base="http://localhost:8080/wings-portal/export/users/lucas/TACC/data/ontology.owl">
-      <owl:Class rdf:ID="MT3D">
+      <owl:Class rdf:ID="LPF">
             <rdfs:subClassOf>
                   <owl:Class rdf:ID="Modflow"/>
+            </rdfs:subClassOf>
+      </owl:Class>
+      <owl:Class rdf:ID="MT3D">
+            <rdfs:subClassOf>
+                  <owl:Class rdf:about="#Modflow"/>
+            </rdfs:subClassOf>
+      </owl:Class>
+      <owl:Class rdf:ID="NWT">
+            <rdfs:subClassOf>
+                  <owl:Class rdf:about="#Modflow"/>
             </rdfs:subClassOf>
       </owl:Class>
       <owl:Class rdf:ID="BCF">
@@ -103,6 +113,9 @@
             <rdfs:subClassOf rdf:resource="http://www.wings-workflows.org/ontology/data.owl#DataObject"/>
       </owl:Class>
       <owl:Class rdf:ID="RCH">
+            <rdfs:subClassOf rdf:resource="#Modflow"/>
+      </owl:Class>
+      <owl:Class rdf:ID="UPW">
             <rdfs:subClassOf rdf:resource="#Modflow"/>
       </owl:Class>
       <owl:DatatypeProperty rdf:ID="aquifer_name">

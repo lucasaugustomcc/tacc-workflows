@@ -6,16 +6,18 @@
     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
       xml:base="http://localhost:8080/wings-portal/export/users/lucas/TACC/workflows/library.owl">
-      <j.0:WorkflowTemplate rdf:about="RechargeAndBudgetProcessing.owl#RechargeAndBudgetProcessing"/>
       <j.0:WorkflowTemplate rdf:about="MOFLOW-2005-Docker-SingleComponent.owl#MOFLOW-2005-Docker-SingleComponent"/>
-      <j.0:WorkflowTemplate rdf:about="VisualizeBudgetPostProcessing.owl#VisualizeBudgetPostProcessing"/>
+      <j.0:WorkflowTemplate rdf:about="WaterBudgetAnalysis.owl#WaterBudgetAnalysis"/>
       <j.0:WorkflowTemplate rdf:about="MODFLOW-Comparison.owl#MODFLOW-Comparison"/>
       <j.0:WorkflowTemplate rdf:about="MODFLOW-96-SingleComponent.owl#MODFLOW-96-SingleComponent"/>
       <j.0:WorkflowTemplate rdf:about="CalculateRecharge.owl#CalculateRecharge"/>
       <j.0:WorkflowTemplate rdf:about="MODFLOW-SingleComponent.owl#MODFLOW-SingleComponent"/>
-      <j.0:WorkflowTemplate rdf:about="MODFLOW-96-2000-Comparison.owl#MODFLOW-96-2000-Comparison"/>
       <j.0:WorkflowTemplate rdf:about="MODFLOW-2005-SingleComponent.owl#MODFLOW-2005-SingleComponent"/>
       <j.0:WorkflowTemplate rdf:about="MODFLOW-96-2005-Comparison.owl#MODFLOW-96-2005-Comparison"/>
+      <j.0:WorkflowTemplate rdf:about="RechargeAndBudgetProcessing.owl#RechargeAndBudgetProcessing"/>
+      <j.0:WorkflowTemplate rdf:about="VisualizeBudgetPostProcessing.owl#VisualizeBudgetPostProcessing"/>
+      <j.0:WorkflowTemplate rdf:about="MODFLOW-96-2000-Comparison.owl#MODFLOW-96-2000-Comparison"/>
+      <j.0:WorkflowTemplate rdf:about="MODFLOW-NWT-SingleComponent.owl#MODFLOW-NWT-SingleComponent"/>
       <j.0:WorkflowTemplate rdf:about="MODFLOW-2000-SingleComponent.owl#MODFLOW-2000-SingleComponent"/>
       <j.0:WorkflowTemplate rdf:about="MODFLOW-2000-2005-Comparison.owl#MODFLOW-2000-2005-Comparison"/>
 </rdf:RDF>
